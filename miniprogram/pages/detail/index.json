@@ -1,7 +1,1 @@
-{
-  "navigationBarTitleText": "申请详情",
-  "usingComponents": {
-    "skeleton": "/components/skeleton/index",
-    "error-tip": "/components/error-tip/index"
-  }
-}
+ewogICJuYXZpZ2F0aW9uQmFyVGl0bGVUZXh0IjogIueUs+ivt+ivpuaDhSIsCiAgInVzaW5nQ29tcG9uZW50cyI6IHsKICAgICJza2VsZXRvbiI6ICIvY29tcG9uZW50cy9za2VsZXRvbi9pbmRleCIsCiAgICAiZXJyb3ItdGlwIjogIi9jb21wb25lbnRzL2Vycm9yLXRpcC9pbmRleCIKICB9Cn0K

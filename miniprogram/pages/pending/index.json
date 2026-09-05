@@ -1,9 +1,1 @@
-{
-  "navigationBarTitleText": "待我审批",
-  "enablePullDownRefresh": true,
-  "usingComponents": {
-    "empty-state": "/components/empty-state/index",
-    "skeleton": "/components/skeleton/index",
-    "error-tip": "/components/error-tip/index"
-  }
-}
+ewogICJuYXZpZ2F0aW9uQmFyVGl0bGVUZXh0IjogIuW+heaIkeWuoeaJuSIsCiAgImVuYWJsZVB1bGxEb3duUmVmcmVzaCI6IHRydWUsCiAgInVzaW5nQ29tcG9uZW50cyI6IHsKICAgICJlbXB0eS1zdGF0ZSI6ICIvY29tcG9uZW50cy9lbXB0eS1zdGF0ZS9pbmRleCIsCiAgICAic2tlbGV0b24iOiAiL2NvbXBvbmVudHMvc2tlbGV0b24vaW5kZXgiLAogICAgImVycm9yLXRpcCI6ICIvY29tcG9uZW50cy9lcnJvci10aXAvaW5kZXgiCiAgfQp9Cg==

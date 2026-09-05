@@ -1,9 +1,1 @@
-{
-  "name": "getMyApplications",
-  "version": "1.0.0",
-  "description": "好友采购审批 - getMyApplications 云函数",
-  "main": "index.js",
-  "dependencies": {
-    "wx-server-sdk": "~2.6.3"
-  }
-}
+ewogICJuYW1lIjogImdldE15QXBwbGljYXRpb25zIiwKICAidmVyc2lvbiI6ICIxLjAuMCIsCiAgImRlc2NyaXB0aW9uIjogIuWlveWPi+mHh+i0reWuoeaJuSAtIGdldE15QXBwbGljYXRpb25zIOS6keWHveaVsCIsCiAgIm1haW4iOiAiaW5kZXguanMiLAogICJkZXBlbmRlbmNpZXMiOiB7CiAgICAid3gtc2VydmVyLXNkayI6ICJ+Mi42LjMiCiAgfQp9Cg==

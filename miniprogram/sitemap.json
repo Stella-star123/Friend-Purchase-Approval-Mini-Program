@@ -1,9 +1,1 @@
-{
-  "desc": "内部审批工具，不需要被微信索引",
-  "rules": [
-    {
-      "action": "disallow",
-      "page": "*"
-    }
-  ]
-}
+ewogICJkZXNjIjogIuWGhemDqOWuoeaJueW3peWFt++8jOS4jemcgOimgeiiq+W+ruS/oee0ouW8lSIsCiAgInJ1bGVzIjogWwogICAgewogICAgICAiYWN0aW9uIjogImRpc2FsbG93IiwKICAgICAgInBhZ2UiOiAiKiIKICAgIH0KICBdCn0K

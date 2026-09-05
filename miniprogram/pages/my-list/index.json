@@ -1,10 +1,1 @@
-{
-  "navigationBarTitleText": "我的申请",
-  "enablePullDownRefresh": true,
-  "usingComponents": {
-    "status-tag": "/components/status-tag/index",
-    "empty-state": "/components/empty-state/index",
-    "skeleton": "/components/skeleton/index",
-    "error-tip": "/components/error-tip/index"
-  }
-}
+ewogICJuYXZpZ2F0aW9uQmFyVGl0bGVUZXh0IjogIuaIkeeahOeUs+ivtyIsCiAgImVuYWJsZVB1bGxEb3duUmVmcmVzaCI6IHRydWUsCiAgInVzaW5nQ29tcG9uZW50cyI6IHsKICAgICJzdGF0dXMtdGFnIjogIi9jb21wb25lbnRzL3N0YXR1cy10YWcvaW5kZXgiLAogICAgImVtcHR5LXN0YXRlIjogIi9jb21wb25lbnRzL2VtcHR5LXN0YXRlL2luZGV4IiwKICAgICJza2VsZXRvbiI6ICIvY29tcG9uZW50cy9za2VsZXRvbi9pbmRleCIsCiAgICAiZXJyb3ItdGlwIjogIi9jb21wb25lbnRzL2Vycm9yLXRpcC9pbmRleCIKICB9Cn0K

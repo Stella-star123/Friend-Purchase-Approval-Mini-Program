@@ -1,17 +1,1 @@
-Component({
-  properties: {
-    // 骨架卡片数量
-    count: { type: Number, value: 3 },
-    // 是否显示底部「加载中…」
-    showTip: { type: Boolean, value: true },
-  },
-  data: {
-    blocks: [1, 2, 3],
-  },
-  lifetimes: {
-    attached() {
-      const n = Math.max(1, this.data.count);
-      this.setData({ blocks: Array.from({ length: n }, (_, i) => i) });
-    },
-  },
-});
+Q29tcG9uZW50KHsKICBwcm9wZXJ0aWVzOiB7CiAgICAvLyDpqqjmnrbljaHniYfmlbDph48KICAgIGNvdW50OiB7IHR5cGU6IE51bWJlciwgdmFsdWU6IDMgfSwKICAgIC8vIOaYr+WQpuaYvuekuuW6lemDqOOAjOWKoOi9veS4reKApuOAjQogICAgc2hvd1RpcDogeyB0eXBlOiBCb29sZWFuLCB2YWx1ZTogdHJ1ZSB9LAogIH0sCiAgZGF0YTogewogICAgYmxvY2tzOiBbMSwgMiwgM10sCiAgfSwKICBsaWZldGltZXM6IHsKICAgIGF0dGFjaGVkKCkgewogICAgICBjb25zdCBuID0gTWF0aC5tYXgoMSwgdGhpcy5kYXRhLmNvdW50KTsKICAgICAgdGhpcy5zZXREYXRhKHsgYmxvY2tzOiBBcnJheS5mcm9tKHsgbGVuZ3RoOiBuIH0sIChfLCBpKSA9PiBpKSB9KTsKICAgIH0sCiAgfSwKfSk7Cg==

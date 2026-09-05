@@ -1,8 +1,1 @@
-<view class="skeleton">
-  <view class="skeleton__card" wx:for="{{blocks}}" wx:key="*this">
-    <view class="skeleton__bar skeleton__bar--md"></view>
-    <view class="skeleton__bar skeleton__bar--lg"></view>
-    <view class="skeleton__bar skeleton__bar--sm"></view>
-  </view>
-  <view wx:if="{{showTip}}" class="skeleton__tip">加载中…</view>
-</view>
+PHZpZXcgY2xhc3M9InNrZWxldG9uIj4KICA8dmlldyBjbGFzcz0ic2tlbGV0b25fX2NhcmQiIHd4OmZvcj0ie3tibG9ja3N9fSIgd3g6a2V5PSIqdGhpcyI+CiAgICA8dmlldyBjbGFzcz0ic2tlbGV0b25fX2JhciBza2VsZXRvbl9fYmFyLS1tZCI+PC92aWV3PgogICAgPHZpZXcgY2xhc3M9InNrZWxldG9uX19iYXIgc2tlbGV0b25fX2Jhci0tbGciPjwvdmlldz4KICAgIDx2aWV3IGNsYXNzPSJza2VsZXRvbl9fYmFyIHNrZWxldG9uX19iYXItLXNtIj48L3ZpZXc+CiAgPC92aWV3PgogIDx2aWV3IHd4OmlmPSJ7e3Nob3dUaXB9fSIgY2xhc3M9InNrZWxldG9uX190aXAiPuWKoOi9veS4reKApjwvdmlldz4KPC92aWV3Pgo=

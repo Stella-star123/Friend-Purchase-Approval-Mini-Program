@@ -1,9 +1,1 @@
-{
-  "name": "approveApplication",
-  "version": "1.0.0",
-  "description": "好友采购审批 - approveApplication 云函数",
-  "main": "index.js",
-  "dependencies": {
-    "wx-server-sdk": "~2.6.3"
-  }
-}
+ewogICJuYW1lIjogImFwcHJvdmVBcHBsaWNhdGlvbiIsCiAgInZlcnNpb24iOiAiMS4wLjAiLAogICJkZXNjcmlwdGlvbiI6ICLlpb3lj4vph4fotK3lrqHmibkgLSBhcHByb3ZlQXBwbGljYXRpb24g5LqR5Ye95pWwIiwKICAibWFpbiI6ICJpbmRleC5qcyIsCiAgImRlcGVuZGVuY2llcyI6IHsKICAgICJ3eC1zZXJ2ZXItc2RrIjogIn4yLjYuMyIKICB9Cn0K

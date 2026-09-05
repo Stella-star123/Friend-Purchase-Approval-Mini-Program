@@ -1,13 +1,1 @@
-Component({
-  properties: {
-    // 空状态文案
-    text: { type: String, value: '暂无申请记录' },
-    // 引导按钮文案，为空则不渲染按钮
-    actionText: { type: String, value: '' },
-  },
-  methods: {
-    onAction() {
-      this.triggerEvent('action');
-    },
-  },
-});
+Q29tcG9uZW50KHsKICBwcm9wZXJ0aWVzOiB7CiAgICAvLyDnqbrnirbmgIHmlofmoYgKICAgIHRleHQ6IHsgdHlwZTogU3RyaW5nLCB2YWx1ZTogJ+aaguaXoOeUs+ivt+iusOW9lScgfSwKICAgIC8vIOW8leWvvOaMiemSruaWh+ahiO+8jOS4uuepuuWImeS4jea4suafk+aMiemSrgogICAgYWN0aW9uVGV4dDogeyB0eXBlOiBTdHJpbmcsIHZhbHVlOiAnJyB9LAogIH0sCiAgbWV0aG9kczogewogICAgb25BY3Rpb24oKSB7CiAgICAgIHRoaXMudHJpZ2dlckV2ZW50KCdhY3Rpb24nKTsKICAgIH0sCiAgfSwKfSk7Cg==
