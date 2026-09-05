@@ -1,0 +1,50 @@
+/* 卡片 96 高 圆角12 底色 #F7F8FA */
+.apply-card {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  min-height: 192rpx;
+  padding: 28rpx 32rpx;
+  margin-bottom: 24rpx;
+  background-color: var(--color-bg-surface);
+  border-radius: var(--radius-card);
+  box-sizing: border-box;
+}
+
+.apply-card--hover {
+  background-color: #eff1f5;
+}
+
+.apply-card__main {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+}
+
+.apply-card__name {
+  font-size: 30rpx;
+  font-weight: 500;
+  color: var(--color-text-primary);
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.apply-card__meta {
+  margin-top: 10rpx;
+  font-size: 24rpx;
+  color: var(--color-text-secondary);
+}
+
+.apply-card__price {
+  margin-top: 16rpx;
+  font-size: 28rpx;
+  font-weight: 700;
+  color: var(--color-text-primary);
+}
+
+.apply-card__side {
+  flex: none;
+  padding-left: 20rpx;
+}

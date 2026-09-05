@@ -1,0 +1,35 @@
+{
+  "pages": [
+    "pages/my-list/index",
+    "pages/apply/index",
+    "pages/detail/index",
+    "pages/pending/index",
+    "pages/approve/index"
+  ],
+  "window": {
+    "backgroundTextStyle": "dark",
+    "navigationBarBackgroundColor": "#FFFFFF",
+    "navigationBarTitleText": "好友采购审批",
+    "navigationBarTextStyle": "black",
+    "backgroundColor": "#FFFFFF"
+  },
+  "tabBar": {
+    "color": "#9AA0A6",
+    "selectedColor": "#3B6FF5",
+    "backgroundColor": "#FFFFFF",
+    "borderStyle": "black",
+    "list": [
+      {
+        "pagePath": "pages/my-list/index",
+        "text": "我的申请"
+      },
+      {
+        "pagePath": "pages/pending/index",
+        "text": "待我审批"
+      }
+    ]
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json",
+  "lazyCodeLoading": "requiredComponents"
+}

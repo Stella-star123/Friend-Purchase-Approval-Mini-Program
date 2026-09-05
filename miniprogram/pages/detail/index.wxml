@@ -1,0 +1,69 @@
+<view class="page page--gap-bottom">
+  <view class="page-header">
+    <view class="back" bindtap="onBack">‹</view>
+    <text class="page-title">申请详情</text>
+    <view class="back back--ghost"></view>
+  </view>
+
+  <skeleton wx:if="{{state === 'loading'}}" count="2" />
+
+  <error-tip wx:elif="{{state === 'error'}}" text="{{errorText}}" bind:retry="onRetry" />
+
+  <block wx:else>
+    <!-- 状态横幅 -->
+    <view class="status-banner {{banner.cls}}">
+      <text class="status-banner__icon">{{banner.icon}}</text>
+      <view class="status-banner__body">
+        <text class="status-banner__title">{{banner.title}}</text>
+        <text class="status-banner__sub" wx:if="{{record.status !== 'pending'}}">
+          {{record.approverMask ? '审批人 ' + record.approverMask + ' · ' : ''}}{{record.updatedAtText}}
+        </text>
+        <text class="status-banner__sub" wx:else>提交于 {{record.createdAtText}}</text>
+      </view>
+    </view>
+
+    <!-- 信息卡 -->
+    <view class="card detail-card">
+      <view class="info-row">
+        <text class="info-row__label">物品名称</text>
+        <text class="info-row__value info-row__value--strong">{{record.itemName}}</text>
+      </view>
+      <view class="info-row">
+        <text class="info-row__label">价格</text>
+        <text class="info-row__value info-row__value--strong">¥{{record.priceText}}</text>
+      </view>
+      <view class="info-row" wx:if="{{record.productUrl}}">
+        <text class="info-row__label">商品链接</text>
+        <text class="info-row__value info-row__value--link" bindtap="copyUrl">点击复制链接</text>
+      </view>
+      <view class="info-row info-row--stack">
+        <text class="info-row__label">申请理由</text>
+        <view class="info-row__value info-row__value--multiline">{{record.reason}}</view>
+      </view>
+      <view class="info-row">
+        <text class="info-row__label">提交时间</text>
+        <text class="info-row__value">{{record.createdAtText}}</text>
+      </view>
+    </view>
+
+    <!-- 商品截图 -->
+    <view class="thumb-wrap" wx:if="{{imageUrl}}">
+      <text class="field__label">商品截图</text>
+      <image class="thumb" src="{{imageUrl}}" mode="aspectFill" bindtap="previewImage" />
+    </view>
+
+    <!-- 审批备注 -->
+    <view
+      wx:if="{{hasNote}}"
+      class="note {{record.status === 'rejected' ? 'note--rejected' : 'note--approved'}}"
+    >
+      <text class="note__label">审批备注</text>
+      <text class="note__text">{{record.approveNote}}</text>
+    </view>
+  </block>
+
+  <!-- 被拒后重新提交 -->
+  <view class="footer-bar" wx:if="{{showResubmit}}">
+    <button class="btn btn--primary" bindtap="onResubmit">修改并重新提交</button>
+  </view>
+</view>

@@ -1,0 +1,12 @@
+{
+  "name": "friend-approval",
+  "version": "1.0.0",
+  "private": true,
+  "description": "好友采购审批小程序（微信原生 + 腾讯云开发 CloudBase）",
+  "scripts": {
+    "sync": "node scripts/sync-shared.js",
+    "verify": "node scripts/verify.js",
+    "test": "node scripts/test-cloudfunctions.js",
+    "check": "node scripts/sync-shared.js && node scripts/verify.js && node scripts/test-cloudfunctions.js"
+  }
+}

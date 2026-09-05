@@ -1,0 +1,83 @@
+<view class="page page--gap-bottom">
+  <view class="page-header">
+    <view class="back" bindtap="onBack">‹</view>
+    <text class="page-title">审批</text>
+    <view class="back back--ghost"></view>
+  </view>
+
+  <skeleton wx:if="{{state === 'loading'}}" count="2" />
+
+  <error-tip wx:elif="{{state === 'error'}}" text="{{errorText}}" bind:retry="onRetry" />
+
+  <block wx:else>
+    <!-- 申请人条 -->
+    <view class="applicant">
+      <view class="applicant__avatar">{{record.applicantChar}}</view>
+      <view class="applicant__body">
+        <text class="applicant__name">申请人</text>
+        <text class="applicant__openid">{{record.applicantMask}}</text>
+      </view>
+      <status-tag status="{{record.status}}" />
+    </view>
+
+    <!-- 信息卡 -->
+    <view class="card approve-card">
+      <view class="info-row">
+        <text class="info-row__label">物品名称</text>
+        <text class="info-row__value info-row__value--strong">{{record.itemName}}</text>
+      </view>
+      <view class="info-row">
+        <text class="info-row__label">价格</text>
+        <text class="info-row__value info-row__value--strong">¥{{record.priceText}}</text>
+      </view>
+      <view class="info-row info-row--stack">
+        <text class="info-row__label">申请理由</text>
+        <view class="info-row__value info-row__value--multiline">{{record.reason}}</view>
+      </view>
+      <view class="info-row">
+        <text class="info-row__label">提交时间</text>
+        <text class="info-row__value">{{record.createdAtText}}</text>
+      </view>
+    </view>
+
+    <!-- 商品截图 -->
+    <view class="thumb-wrap" wx:if="{{record.imageUrl}}">
+      <text class="field__label">商品截图</text>
+      <image class="thumb" src="{{record.imageUrl}}" mode="aspectFill" />
+    </view>
+
+    <!-- 审批备注 -->
+    <view class="field note-field" wx:if="{{canApprove}}">
+      <text class="field__label">审批备注（选填）</text>
+      <textarea
+        class="field__control field__control--note"
+        placeholder="填写理由，申请人可见"
+        placeholder-class="placeholder"
+        maxlength="200"
+        value="{{approveNote}}"
+        bindinput="onNoteInput"
+      />
+    </view>
+
+    <!-- 已处理提示 -->
+    <view class="handled" wx:if="{{!canApprove}}">
+      该申请已处理（{{record.statusText}}），无需重复审批。
+    </view>
+  </block>
+
+  <!-- 底部双按钮 -->
+  <view class="footer-bar footer-bar--dual" wx:if="{{canApprove}}">
+    <button
+      class="btn btn--danger"
+      loading="{{submitting && decision === 'rejected'}}"
+      disabled="{{submitting}}"
+      bindtap="onReject"
+    >拒绝</button>
+    <button
+      class="btn btn--success"
+      loading="{{submitting && decision === 'approved'}}"
+      disabled="{{submitting}}"
+      bindtap="onApprove"
+    >通过</button>
+  </view>
+</view>

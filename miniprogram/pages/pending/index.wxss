@@ -1,0 +1,73 @@
+.summary {
+  margin-bottom: 32rpx;
+  font-weight: 500;
+}
+
+.pending-card {
+  padding: 28rpx 32rpx;
+  margin-bottom: 24rpx;
+  background-color: var(--color-bg-surface);
+  border-radius: var(--radius-card);
+}
+
+.pending-card--hover {
+  background-color: #eff1f5;
+}
+
+.pending-card__row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.pending-card__row--sub {
+  margin-top: 16rpx;
+}
+
+.pending-card__name {
+  flex: 1;
+  font-size: 30rpx;
+  font-weight: 500;
+  color: var(--color-text-primary);
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  padding-right: 20rpx;
+}
+
+.pending-card__price {
+  flex: none;
+  font-size: 30rpx;
+  font-weight: 700;
+  color: var(--color-text-primary);
+}
+
+.pending-card__meta {
+  font-size: 24rpx;
+  color: var(--color-text-secondary);
+}
+
+.pending-card__link {
+  font-size: 24rpx;
+  color: var(--color-primary);
+}
+
+.reminder {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 16rpx 0 48rpx;
+  padding: 26rpx 32rpx;
+  background-color: var(--color-bg-input);
+  border-radius: var(--radius-card);
+}
+
+.reminder__text {
+  font-size: 26rpx;
+  color: var(--color-text-secondary);
+}
+
+.reminder__arrow {
+  font-size: 32rpx;
+  color: var(--color-text-placeholder);
+}

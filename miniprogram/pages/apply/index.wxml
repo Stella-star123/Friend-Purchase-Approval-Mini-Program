@@ -1,0 +1,92 @@
+<view class="page page--gap-bottom">
+  <!-- 自动通过提示条 -->
+  <view class="banner tip-banner">¥{{threshold}} 以下系统自动通过，无需审批</view>
+
+  <!-- 1. 物品名称 -->
+  <view class="field">
+    <text class="field__label">物品名称<text class="field__required">*</text></text>
+    <input
+      class="field__control"
+      placeholder="如：A4 打印纸"
+      placeholder-class="placeholder"
+      maxlength="50"
+      value="{{form.itemName}}"
+      data-field="itemName"
+      bindinput="onInput"
+    />
+    <view wx:if="{{errors.itemName}}" class="field__error">{{errors.itemName}}</view>
+  </view>
+
+  <!-- 2. 价格 -->
+  <view class="field">
+    <text class="field__label">价格（元）<text class="field__required">*</text></text>
+    <view class="price-control">
+      <text class="price-control__prefix">¥</text>
+      <input
+        class="price-control__input"
+        type="digit"
+        placeholder="0.00"
+        placeholder-class="placeholder"
+        value="{{form.price}}"
+        data-field="price"
+        bindinput="onInput"
+      />
+    </view>
+    <view wx:if="{{errors.price}}" class="field__error">{{errors.price}}</view>
+  </view>
+
+  <!-- 3. 商品链接 -->
+  <view class="field">
+    <text class="field__label">商品链接（选填）</text>
+    <input
+      class="field__control"
+      placeholder="粘贴商品页面链接"
+      placeholder-class="placeholder"
+      value="{{form.productUrl}}"
+      data-field="productUrl"
+      bindinput="onInput"
+    />
+    <view wx:if="{{errors.productUrl}}" class="field__error">{{errors.productUrl}}</view>
+  </view>
+
+  <!-- 4. 商品截图 -->
+  <view class="field">
+    <text class="field__label">商品截图（选填）</text>
+    <view wx:if="{{!localImage}}" class="upload" bindtap="chooseImage">
+      <text class="upload__plus">+</text>
+      <text class="upload__text">点击上传商品截图</text>
+    </view>
+    <view wx:else class="upload-preview">
+      <image class="upload-preview__img" src="{{localImage}}" mode="aspectFill" bindtap="previewImage" />
+      <view class="upload-preview__info">
+        <text class="upload-preview__status">{{uploading ? '上传中…' : '已上传'}}</text>
+        <text class="upload-preview__remove" bindtap="removeImage">移除</text>
+      </view>
+    </view>
+  </view>
+
+  <!-- 5. 申请理由 -->
+  <view class="field">
+    <text class="field__label">申请理由<text class="field__required">*</text></text>
+    <textarea
+      class="field__control field__control--textarea"
+      placeholder="说明用途，方便快速审批"
+      placeholder-class="placeholder"
+      maxlength="500"
+      value="{{form.reason}}"
+      data-field="reason"
+      bindinput="onInput"
+    />
+    <view wx:if="{{errors.reason}}" class="field__error">{{errors.reason}}</view>
+  </view>
+
+  <!-- 提交 -->
+  <view class="footer-bar">
+    <button
+      class="btn btn--primary"
+      loading="{{submitting}}"
+      disabled="{{submitting || uploading}}"
+      bindtap="onSubmit"
+    >{{submitting ? '提交中…' : (isResubmit ? '重新提交' : '提交申请')}}</button>
+  </view>
+</view>

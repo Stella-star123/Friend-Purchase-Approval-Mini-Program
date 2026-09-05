@@ -1,0 +1,5 @@
+<view class="error">
+  <view class="error__icon">!</view>
+  <view class="error__text">{{text}}</view>
+  <view wx:if="{{showRetry}}" class="error__retry" bindtap="onRetry">{{retryText}}</view>
+</view>

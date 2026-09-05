@@ -1,0 +1,54 @@
+.skeleton {
+  padding-top: 8rpx;
+}
+
+.skeleton__card {
+  background-color: #f7f8fa;
+  border-radius: 24rpx;
+  padding: 32rpx;
+  margin-bottom: 24rpx;
+}
+
+/* 圆角 8 的灰条，高 16，宽度错落 200/260/160 */
+.skeleton__bar {
+  height: 32rpx;
+  border-radius: 16rpx;
+  background-color: #e3e6ea;
+  margin-bottom: 20rpx;
+  animation: skeleton-pulse 1.4s ease-in-out infinite;
+}
+
+.skeleton__bar:last-child {
+  margin-bottom: 0;
+}
+
+.skeleton__bar--md {
+  width: 400rpx;
+}
+
+.skeleton__bar--lg {
+  width: 520rpx;
+}
+
+.skeleton__bar--sm {
+  width: 320rpx;
+}
+
+.skeleton__tip {
+  padding: 16rpx 0;
+  text-align: center;
+  font-size: 24rpx;
+  color: #9aa0a6;
+}
+
+@keyframes skeleton-pulse {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.55;
+  }
+  100% {
+    opacity: 1;
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "navigationBarTitleText": "我的申请",
+  "enablePullDownRefresh": true,
+  "usingComponents": {
+    "status-tag": "/components/status-tag/index",
+    "empty-state": "/components/empty-state/index",
+    "skeleton": "/components/skeleton/index",
+    "error-tip": "/components/error-tip/index"
+  }
+}

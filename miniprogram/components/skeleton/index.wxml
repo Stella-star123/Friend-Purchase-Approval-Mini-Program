@@ -1,0 +1,8 @@
+<view class="skeleton">
+  <view class="skeleton__card" wx:for="{{blocks}}" wx:key="*this">
+    <view class="skeleton__bar skeleton__bar--md"></view>
+    <view class="skeleton__bar skeleton__bar--lg"></view>
+    <view class="skeleton__bar skeleton__bar--sm"></view>
+  </view>
+  <view wx:if="{{showTip}}" class="skeleton__tip">加载中…</view>
+</view>
