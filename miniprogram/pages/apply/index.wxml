@@ -1,1 +1,92 @@
-PHZpZXcgY2xhc3M9InBhZ2UgcGFnZS0tZ2FwLWJvdHRvbSI+CiAgPCEtLSDoh6rliqjpgJrov4fmj5DnpLrmnaEgLS0+CiAgPHZpZXcgY2xhc3M9ImJhbm5lciB0aXAtYmFubmVyIj7CpXt7dGhyZXNob2xkfX0g5Lul5LiL57O757uf6Ieq5Yqo6YCa6L+H77yM5peg6ZyA5a6h5om5PC92aWV3PgoKICA8IS0tIDEuIOeJqeWTgeWQjeensCAtLT4KICA8dmlldyBjbGFzcz0iZmllbGQiPgogICAgPHRleHQgY2xhc3M9ImZpZWxkX19sYWJlbCI+54mp5ZOB5ZCN56ewPHRleHQgY2xhc3M9ImZpZWxkX19yZXF1aXJlZCI+KjwvdGV4dD48L3RleHQ+CiAgICA8aW5wdXQKICAgICAgY2xhc3M9ImZpZWxkX19jb250cm9sIgogICAgICBwbGFjZWhvbGRlcj0i5aaC77yaQTQg5omT5Y2w57q4IgogICAgICBwbGFjZWhvbGRlci1jbGFzcz0icGxhY2Vob2xkZXIiCiAgICAgIG1heGxlbmd0aD0iNTAiCiAgICAgIHZhbHVlPSJ7e2Zvcm0uaXRlbU5hbWV9fSIKICAgICAgZGF0YS1maWVsZD0iaXRlbU5hbWUiCiAgICAgIGJpbmRpbnB1dD0ib25JbnB1dCIKICAgIC8+CiAgICA8dmlldyB3eDppZj0ie3tlcnJvcnMuaXRlbU5hbWV9fSIgY2xhc3M9ImZpZWxkX19lcnJvciI+e3tlcnJvcnMuaXRlbU5hbWV9fTwvdmlldz4KICA8L3ZpZXc+CgogIDwhLS0gMi4g5Lu35qC8IC0tPgogIDx2aWV3IGNsYXNzPSJmaWVsZCI+CiAgICA8dGV4dCBjbGFzcz0iZmllbGRfX2xhYmVsIj7ku7fmoLzvvIjlhYPvvIk8dGV4dCBjbGFzcz0iZmllbGRfX3JlcXVpcmVkIj4qPC90ZXh0PjwvdGV4dD4KICAgIDx2aWV3IGNsYXNzPSJwcmljZS1jb250cm9sIj4KICAgICAgPHRleHQgY2xhc3M9InByaWNlLWNvbnRyb2xfX3ByZWZpeCI+wqU8L3RleHQ+CiAgICAgIDxpbnB1dAogICAgICAgIGNsYXNzPSJwcmljZS1jb250cm9sX19pbnB1dCIKICAgICAgICB0eXBlPSJkaWdpdCIKICAgICAgICBwbGFjZWhvbGRlcj0iMC4wMCIKICAgICAgICBwbGFjZWhvbGRlci1jbGFzcz0icGxhY2Vob2xkZXIiCiAgICAgICAgdmFsdWU9Int7Zm9ybS5wcmljZX19IgogICAgICAgIGRhdGEtZmllbGQ9InByaWNlIgogICAgICAgIGJpbmRpbnB1dD0ib25JbnB1dCIKICAgICAgLz4KICAgIDwvdmlldz4KICAgIDx2aWV3IHd4OmlmPSJ7e2Vycm9ycy5wcmljZX19IiBjbGFzcz0iZmllbGRfX2Vycm9yIj57e2Vycm9ycy5wcmljZX19PC92aWV3PgogIDwvdmlldz4KCiAgPCEtLSAzLiDllYblk4Hpk77mjqUgLS0+CiAgPHZpZXcgY2xhc3M9ImZpZWxkIj4KICAgIDx0ZXh0IGNsYXNzPSJmaWVsZF9fbGFiZWwiPuWVhuWTgemTvuaOpe+8iOmAieWhq++8iTwvdGV4dD4KICAgIDxpbnB1dAogICAgICBjbGFzcz0iZmllbGRfX2NvbnRyb2wiCiAgICAgIHBsYWNlaG9sZGVyPSLnspjotLTllYblk4HpobXpnaLpk77mjqUiCiAgICAgIHBsYWNlaG9sZGVyLWNsYXNzPSJwbGFjZWhvbGRlciIKICAgICAgdmFsdWU9Int7Zm9ybS5wcm9kdWN0VXJsfX0iCiAgICAgIGRhdGEtZmllbGQ9InByb2R1Y3RVcmwiCiAgICAgIGJpbmRpbnB1dD0ib25JbnB1dCIKICAgIC8+CiAgICA8dmlldyB3eDppZj0ie3tlcnJvcnMucHJvZHVjdFVybH19IiBjbGFzcz0iZmllbGRfX2Vycm9yIj57e2Vycm9ycy5wcm9kdWN0VXJsfX08L3ZpZXc+CiAgPC92aWV3PgoKICA8IS0tIDQuIOWVhuWTgeaIquWbviAtLT4KICA8dmlldyBjbGFzcz0iZmllbGQiPgogICAgPHRleHQgY2xhc3M9ImZpZWxkX19sYWJlbCI+5ZWG5ZOB5oiq5Zu+77yI6YCJ5aGr77yJPC90ZXh0PgogICAgPHZpZXcgd3g6aWY9Int7IWxvY2FsSW1hZ2V9fSIgY2xhc3M9InVwbG9hZCIgYmluZHRhcD0iY2hvb3NlSW1hZ2UiPgogICAgICA8dGV4dCBjbGFzcz0idXBsb2FkX19wbHVzIj4rPC90ZXh0PgogICAgICA8dGV4dCBjbGFzcz0idXBsb2FkX190ZXh0Ij7ngrnlh7vkuIrkvKDllYblk4HmiKrlm748L3RleHQ+CiAgICA8L3ZpZXc+CiAgICA8dmlldyB3eDplbHNlIGNsYXNzPSJ1cGxvYWQtcHJldmlldyI+CiAgICAgIDxpbWFnZSBjbGFzcz0idXBsb2FkLXByZXZpZXdfX2ltZyIgc3JjPSJ7e2xvY2FsSW1hZ2V9fSIgbW9kZT0iYXNwZWN0RmlsbCIgYmluZHRhcD0icHJldmlld0ltYWdlIiAvPgogICAgICA8dmlldyBjbGFzcz0idXBsb2FkLXByZXZpZXdfX2luZm8iPgogICAgICAgIDx0ZXh0IGNsYXNzPSJ1cGxvYWQtcHJldmlld19fc3RhdHVzIj57e3VwbG9hZGluZyA/ICfkuIrkvKDkuK3igKYnIDogJ+W3suS4iuS8oCd9fTwvdGV4dD4KICAgICAgICA8dGV4dCBjbGFzcz0idXBsb2FkLXByZXZpZXdfX3JlbW92ZSIgYmluZHRhcD0icmVtb3ZlSW1hZ2UiPuenu+mZpDwvdGV4dD4KICAgICAgPC92aWV3PgogICAgPC92aWV3PgogIDwvdmlldz4KCiAgPCEtLSA1LiDnlLPor7fnkIbnlLEgLS0+CiAgPHZpZXcgY2xhc3M9ImZpZWxkIj4KICAgIDx0ZXh0IGNsYXNzPSJmaWVsZF9fbGFiZWwiPueUs+ivt+eQhueUsTx0ZXh0IGNsYXNzPSJmaWVsZF9fcmVxdWlyZWQiPio8L3RleHQ+PC90ZXh0PgogICAgPHRleHRhcmVhCiAgICAgIGNsYXNzPSJmaWVsZF9fY29udHJvbCBmaWVsZF9fY29udHJvbC0tdGV4dGFyZWEiCiAgICAgIHBsYWNlaG9sZGVyPSLor7TmmI7nlKjpgJTvvIzmlrnkvr/lv6vpgJ/lrqHmibkiCiAgICAgIHBsYWNlaG9sZGVyLWNsYXNzPSJwbGFjZWhvbGRlciIKICAgICAgbWF4bGVuZ3RoPSI1MDAiCiAgICAgIHZhbHVlPSJ7e2Zvcm0ucmVhc29ufX0iCiAgICAgIGRhdGEtZmllbGQ9InJlYXNvbiIKICAgICAgYmluZGlucHV0PSJvbklucHV0IgogICAgLz4KICAgIDx2aWV3IHd4OmlmPSJ7e2Vycm9ycy5yZWFzb259fSIgY2xhc3M9ImZpZWxkX19lcnJvciI+e3tlcnJvcnMucmVhc29ufX08L3ZpZXc+CiAgPC92aWV3PgoKICA8IS0tIOaPkOS6pCAtLT4KICA8dmlldyBjbGFzcz0iZm9vdGVyLWJhciI+CiAgICA8YnV0dG9uCiAgICAgIGNsYXNzPSJidG4gYnRuLS1wcmltYXJ5IgogICAgICBsb2FkaW5nPSJ7e3N1Ym1pdHRpbmd9fSIKICAgICAgZGlzYWJsZWQ9Int7c3VibWl0dGluZyB8fCB1cGxvYWRpbmd9fSIKICAgICAgYmluZHRhcD0ib25TdWJtaXQiCiAgICA+e3tzdWJtaXR0aW5nID8gJ+aPkOS6pOS4reKApicgOiAoaXNSZXN1Ym1pdCA/ICfph43mlrDmj5DkuqQnIDogJ+aPkOS6pOeUs+ivtycpfX08L2J1dHRvbj4KICA8L3ZpZXc+Cjwvdmlldz4K
+<view class="page page--gap-bottom">
+  <!-- 自动通过提示条 -->
+  <view class="banner tip-banner">¥{{threshold}} 以下系统自动通过，无需审批</view>
+
+  <!-- 1. 物品名称 -->
+  <view class="field">
+    <text class="field__label">物品名称<text class="field__required">*</text></text>
+    <input
+      class="field__control"
+      placeholder="如：A4 打印纸"
+      placeholder-class="placeholder"
+      maxlength="50"
+      value="{{form.itemName}}"
+      data-field="itemName"
+      bindinput="onInput"
+    />
+    <view wx:if="{{errors.itemName}}" class="field__error">{{errors.itemName}}</view>
+  </view>
+
+  <!-- 2. 价格 -->
+  <view class="field">
+    <text class="field__label">价格（元）<text class="field__required">*</text></text>
+    <view class="price-control">
+      <text class="price-control__prefix">¥</text>
+      <input
+        class="price-control__input"
+        type="digit"
+        placeholder="0.00"
+        placeholder-class="placeholder"
+        value="{{form.price}}"
+        data-field="price"
+        bindinput="onInput"
+      />
+    </view>
+    <view wx:if="{{errors.price}}" class="field__error">{{errors.price}}</view>
+  </view>
+
+  <!-- 3. 商品链接 -->
+  <view class="field">
+    <text class="field__label">商品链接（选填）</text>
+    <input
+      class="field__control"
+      placeholder="粘贴商品页面链接"
+      placeholder-class="placeholder"
+      value="{{form.productUrl}}"
+      data-field="productUrl"
+      bindinput="onInput"
+    />
+    <view wx:if="{{errors.productUrl}}" class="field__error">{{errors.productUrl}}</view>
+  </view>
+
+  <!-- 4. 商品截图 -->
+  <view class="field">
+    <text class="field__label">商品截图（选填）</text>
+    <view wx:if="{{!localImage}}" class="upload" bindtap="chooseImage">
+      <text class="upload__plus">+</text>
+      <text class="upload__text">点击上传商品截图</text>
+    </view>
+    <view wx:else class="upload-preview">
+      <image class="upload-preview__img" src="{{localImage}}" mode="aspectFill" bindtap="previewImage" />
+      <view class="upload-preview__info">
+        <text class="upload-preview__status">{{uploading ? '上传中…' : '已上传'}}</text>
+        <text class="upload-preview__remove" bindtap="removeImage">移除</text>
+      </view>
+    </view>
+  </view>
+
+  <!-- 5. 申请理由 -->
+  <view class="field">
+    <text class="field__label">申请理由<text class="field__required">*</text></text>
+    <textarea
+      class="field__control field__control--textarea"
+      placeholder="说明用途，方便快速审批"
+      placeholder-class="placeholder"
+      maxlength="500"
+      value="{{form.reason}}"
+      data-field="reason"
+      bindinput="onInput"
+    />
+    <view wx:if="{{errors.reason}}" class="field__error">{{errors.reason}}</view>
+  </view>
+
+  <!-- 提交 -->
+  <view class="footer-bar">
+    <button
+      class="btn btn--primary"
+      loading="{{submitting}}"
+      disabled="{{submitting || uploading}}"
+      bindtap="onSubmit"
+    >{{submitting ? '提交中…' : (isResubmit ? '重新提交' : '提交申请')}}</button>
+  </view>
+</view>

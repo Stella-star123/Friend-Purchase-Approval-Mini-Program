@@ -1,1 +1,24 @@
-Y29uc3QgeyBDTE9VRF9FTlYgfSA9IHJlcXVpcmUoJy4vY29uZmlnL2luZGV4Jyk7CgpBcHAoewogIGdsb2JhbERhdGE6IHsKICAgIC8vIOaYr+WQpuWuoeaJueS6uui6q+S7ve+8jOeUsSBnZXRNeUFwcGxpY2F0aW9ucyAvIGdldFBlbmRpbmdMaXN0IOi/lOWbnuWQjue8k+WtmAogICAgaXNBcHByb3ZlcjogZmFsc2UsCiAgICAvLyDjgIzkv67mlLnlubbph43mlrDmj5DkuqTjgI3ml7bmmoLlrZjnmoTooajljZXojYnnqL8KICAgIHJlc3VibWl0RHJhZnQ6IG51bGwsCiAgfSwKCiAgb25MYXVuY2goKSB7CiAgICBpZiAoIXd4LmNsb3VkKSB7CiAgICAgIGNvbnNvbGUuZXJyb3IoJ1thcHBdIOWfuuehgOW6k+eJiOacrOi/h+S9ju+8jOivt+S9v+eUqCAyLjIuMyDlj4rku6XkuIrniYjmnKzku6XlkK/nlKjkupHog73lipsnKTsKICAgICAgcmV0dXJuOwogICAgfQogICAgaWYgKENMT1VEX0VOVi5pbmRleE9mKCdSRVBMQUNFXycpID09PSAwKSB7CiAgICAgIGNvbnNvbGUud2FybignW2FwcF0g5bCa5pyq6YWN572u5LqR546v5aKDIElE77yM6K+35L+u5pS5IG1pbmlwcm9ncmFtL2NvbmZpZy9pbmRleC5qcycpOwogICAgfQogICAgd3guY2xvdWQuaW5pdCh7CiAgICAgIGVudjogQ0xPVURfRU5WLAogICAgICB0cmFjZVVzZXI6IHRydWUsCiAgICB9KTsKICB9LAp9KTsK
+const { CLOUD_ENV } = require('./config/index');
+
+App({
+  globalData: {
+    // 是否审批人身份，由 getMyApplications / getPendingList 返回后缓存
+    isApprover: false,
+    // 「修改并重新提交」时暂存的表单草稿
+    resubmitDraft: null,
+  },
+
+  onLaunch() {
+    if (!wx.cloud) {
+      console.error('[app] 基础库版本过低，请使用 2.2.3 及以上版本以启用云能力');
+      return;
+    }
+    if (CLOUD_ENV.indexOf('REPLACE_') === 0) {
+      console.warn('[app] 尚未配置云环境 ID，请修改 miniprogram/config/index.js');
+    }
+    wx.cloud.init({
+      env: CLOUD_ENV,
+      traceUser: true,
+    });
+  },
+});

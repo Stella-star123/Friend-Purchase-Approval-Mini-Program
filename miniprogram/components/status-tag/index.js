@@ -1,1 +1,19 @@
-Y29uc3QgeyBTVEFUVVNfTUFQIH0gPSByZXF1aXJlKCcuLi8uLi91dGlscy9mb3JtYXQnKTsKCkNvbXBvbmVudCh7CiAgcHJvcGVydGllczogewogICAgc3RhdHVzOiB7CiAgICAgIHR5cGU6IFN0cmluZywKICAgICAgdmFsdWU6ICdwZW5kaW5nJywKICAgICAgb2JzZXJ2ZXIodmFsKSB7CiAgICAgICAgY29uc3QgY29uZiA9IFNUQVRVU19NQVBbdmFsXSB8fCBTVEFUVVNfTUFQLnBlbmRpbmc7CiAgICAgICAgdGhpcy5zZXREYXRhKHsgdGV4dDogY29uZi50ZXh0LCBjb2xvcjogY29uZi5jb2xvciwgYmc6IGNvbmYuYmcgfSk7CiAgICAgIH0sCiAgICB9LAogIH0sCiAgZGF0YTogewogICAgdGV4dDogJ+W+heWuoeaJuScsCiAgICBjb2xvcjogJyNGNTlFMEInLAogICAgYmc6ICcjRkZGNEU1JywKICB9LAp9KTsK
+const { STATUS_MAP } = require('../../utils/format');
+
+Component({
+  properties: {
+    status: {
+      type: String,
+      value: 'pending',
+      observer(val) {
+        const conf = STATUS_MAP[val] || STATUS_MAP.pending;
+        this.setData({ text: conf.text, color: conf.color, bg: conf.bg });
+      },
+    },
+  },
+  data: {
+    text: '待审批',
+    color: '#F59E0B',
+    bg: '#FFF4E5',
+  },
+});

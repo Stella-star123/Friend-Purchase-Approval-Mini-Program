@@ -1,1 +1,197 @@
-Y29uc3QgeyBjYWxsRnVuY3Rpb24gfSA9IHJlcXVpcmUoJy4uLy4uL3V0aWxzL2Nsb3VkJyk7CmNvbnN0IHsKICBTVUJTQ1JJQkVfVEVNUExBVEVTLAogIEFVVE9fQVBQUk9WRV9USFJFU0hPTEQsCn0gPSByZXF1aXJlKCcuLi8uLi9jb25maWcvaW5kZXgnKTsKCmNvbnN0IGFwcCA9IGdldEFwcCgpOwoKUGFnZSh7CiAgZGF0YTogewogICAgdGhyZXNob2xkOiBBVVRPX0FQUFJPVkVfVEhSRVNIT0xELAogICAgZm9ybTogewogICAgICBpdGVtTmFtZTogJycsCiAgICAgIHByaWNlOiAnJywKICAgICAgcHJvZHVjdFVybDogJycsCiAgICAgIGltYWdlVXJsOiAnJywgLy8g5LqR5a2Y5YKoIGZpbGVJRAogICAgICByZWFzb246ICcnLAogICAgfSwKICAgIGxvY2FsSW1hZ2U6ICcnLCAvLyDmnKzlnLDkuLTml7bot6/lvoTvvIzku4XnlKjkuo7pooTop4gKICAgIHVwbG9hZGluZzogZmFsc2UsCiAgICBzdWJtaXR0aW5nOiBmYWxzZSwKICAgIGVycm9yczoge30sCiAgICBpc1Jlc3VibWl0OiBmYWxzZSwKICB9LAoKICBvbkxvYWQoKSB7CiAgICAvLyDjgIzkv67mlLnlubbph43mlrDmj5DkuqTjgI3vvJror7vlj5bor6bmg4XpobXmmoLlrZjnmoTojYnnqL8KICAgIGNvbnN0IGRyYWZ0ID0gYXBwLmdsb2JhbERhdGEucmVzdWJtaXREcmFmdDsKICAgIGlmIChkcmFmdCkgewogICAgICBhcHAuZ2xvYmFsRGF0YS5yZXN1Ym1pdERyYWZ0ID0gbnVsbDsKICAgICAgdGhpcy5zZXREYXRhKHsKICAgICAgICBpc1Jlc3VibWl0OiB0cnVlLAogICAgICAgICdmb3JtLml0ZW1OYW1lJzogZHJhZnQuaXRlbU5hbWUgfHwgJycsCiAgICAgICAgJ2Zvcm0ucHJpY2UnOiBkcmFmdC5wcmljZSAhPSBudWxsID8gU3RyaW5nKGRyYWZ0LnByaWNlKSA6ICcnLAogICAgICAgICdmb3JtLnByb2R1Y3RVcmwnOiBkcmFmdC5wcm9kdWN0VXJsIHx8ICcnLAogICAgICAgICdmb3JtLmltYWdlVXJsJzogZHJhZnQuaW1hZ2VVcmwgfHwgJycsCiAgICAgICAgJ2Zvcm0ucmVhc29uJzogZHJhZnQucmVhc29uIHx8ICcnLAogICAgICAgIGxvY2FsSW1hZ2U6IGRyYWZ0LmltYWdlVXJsIHx8ICcnLAogICAgICB9KTsKICAgICAgd3guc2V0TmF2aWdhdGlvbkJhclRpdGxlKHsgdGl0bGU6ICfkv67mlLnlubbph43mlrDmj5DkuqQnIH0pOwogICAgfQogIH0sCgogIC8vIC0tLS0tLS0tLS0tLS0tLS0g6KGo5Y2V6L6T5YWlIC0tLS0tLS0tLS0tLS0tLS0KICBvbklucHV0KGUpIHsKICAgIGNvbnN0IHsgZmllbGQgfSA9IGUuY3VycmVudFRhcmdldC5kYXRhc2V0OwogICAgY29uc3QgdmFsdWUgPSBlLmRldGFpbC52YWx1ZTsKICAgIGNvbnN0IGVycm9ycyA9IE9iamVjdC5hc3NpZ24oe30sIHRoaXMuZGF0YS5lcnJvcnMpOwogICAgZGVsZXRlIGVycm9yc1tmaWVsZF07CiAgICB0aGlzLnNldERhdGEoeyBbYGZvcm0uJHtmaWVsZH1gXTogdmFsdWUsIGVycm9ycyB9KTsKICB9LAoKICAvLyAtLS0tLS0tLS0tLS0tLS0tIOWVhuWTgeaIquWbvuS4iuS8oCAtLS0tLS0tLS0tLS0tLS0tCiAgY2hvb3NlSW1hZ2UoKSB7CiAgICBpZiAodGhpcy5kYXRhLnVwbG9hZGluZykgcmV0dXJuOwogICAgd3guY2hvb3NlTWVkaWEoewogICAgICBjb3VudDogMSwKICAgICAgbWVkaWFUeXBlOiBbJ2ltYWdlJ10sCiAgICAgIHNpemVUeXBlOiBbJ2NvbXByZXNzZWQnXSwKICAgICAgc291cmNlVHlwZTogWydhbGJ1bScsICdjYW1lcmEnXSwKICAgICAgc3VjY2VzczogKHJlcykgPT4gewogICAgICAgIGNvbnN0IGZpbGUgPSByZXMudGVtcEZpbGVzICYmIHJlcy50ZW1wRmlsZXNbMF07CiAgICAgICAgaWYgKCFmaWxlKSByZXR1cm47CiAgICAgICAgdGhpcy51cGxvYWRJbWFnZShmaWxlLnRlbXBGaWxlUGF0aCk7CiAgICAgIH0sCiAgICAgIGZhaWw6IChlcnIpID0+IHsKICAgICAgICBpZiAoZXJyICYmIGVyci5lcnJNc2cgJiYgZXJyLmVyck1zZy5pbmRleE9mKCdjYW5jZWwnKSA+IC0xKSByZXR1cm47CiAgICAgICAgd3guc2hvd1RvYXN0KHsgdGl0bGU6ICfpgInmi6nlm77niYflpLHotKUnLCBpY29uOiAnbm9uZScgfSk7CiAgICAgIH0sCiAgICB9KTsKICB9LAoKICB1cGxvYWRJbWFnZSh0ZW1wRmlsZVBhdGgpIHsKICAgIHRoaXMuc2V0RGF0YSh7IHVwbG9hZGluZzogdHJ1ZSwgbG9jYWxJbWFnZTogdGVtcEZpbGVQYXRoIH0pOwogICAgY29uc3QgZXh0ID0gKHRlbXBGaWxlUGF0aC5tYXRjaCgvXC4oXHcrKSQvKSB8fCBbLCAncG5nJ10pWzFdOwogICAgY29uc3QgY2xvdWRQYXRoID0gYGFwcHJvdmFscy8ke0RhdGUubm93KCl9LSR7TWF0aC5mbG9vcihNYXRoLnJhbmRvbSgpICogMWU2KX0uJHtleHR9YDsKCiAgICB3eC5jbG91ZAogICAgICAudXBsb2FkRmlsZSh7IGNsb3VkUGF0aCwgZmlsZVBhdGg6IHRlbXBGaWxlUGF0aCB9KQogICAgICAudGhlbigocmVzKSA9PiB7CiAgICAgICAgdGhpcy5zZXREYXRhKHsgJ2Zvcm0uaW1hZ2VVcmwnOiByZXMuZmlsZUlELCB1cGxvYWRpbmc6IGZhbHNlIH0pOwogICAgICB9KQogICAgICAuY2F0Y2goKGVycikgPT4gewogICAgICAgIGNvbnNvbGUuZXJyb3IoJ1thcHBseV0g5LiK5Lyg5aSx6LSlJywgZXJyKTsKICAgICAgICB0aGlzLnNldERhdGEoeyB1cGxvYWRpbmc6IGZhbHNlLCBsb2NhbEltYWdlOiAnJywgJ2Zvcm0uaW1hZ2VVcmwnOiAnJyB9KTsKICAgICAgICB3eC5zaG93VG9hc3QoeyB0aXRsZTogJ+WbvueJh+S4iuS8oOWksei0pe+8jOWPr+eojeWQjumHjeivlScsIGljb246ICdub25lJyB9KTsKICAgICAgfSk7CiAgfSwKCiAgcmVtb3ZlSW1hZ2UoKSB7CiAgICB0aGlzLnNldERhdGEoeyBsb2NhbEltYWdlOiAnJywgJ2Zvcm0uaW1hZ2VVcmwnOiAnJyB9KTsKICB9LAoKICBwcmV2aWV3SW1hZ2UoKSB7CiAgICBjb25zdCB1cmwgPSB0aGlzLmRhdGEubG9jYWxJbWFnZTsKICAgIGlmICh1cmwpIHd4LnByZXZpZXdJbWFnZSh7IHVybHM6IFt1cmxdIH0pOwogIH0sCgogIC8vIC0tLS0tLS0tLS0tLS0tLS0g5qCh6aqMIC0tLS0tLS0tLS0tLS0tLS0KICB2YWxpZGF0ZSgpIHsKICAgIGNvbnN0IHsgZm9ybSB9ID0gdGhpcy5kYXRhOwogICAgY29uc3QgZXJyb3JzID0ge307CgogICAgaWYgKCFmb3JtLml0ZW1OYW1lLnRyaW0oKSkgZXJyb3JzLml0ZW1OYW1lID0gJ+ivt+Whq+WGmeeJqeWTgeWQjeensCc7CgogICAgY29uc3QgcHJpY2UgPSBOdW1iZXIoZm9ybS5wcmljZSk7CiAgICBpZiAoZm9ybS5wcmljZSA9PT0gJycgfHwgTnVtYmVyLmlzTmFOKHByaWNlKSkgewogICAgICBlcnJvcnMucHJpY2UgPSAn6K+35aGr5YaZ5Lu35qC8JzsKICAgIH0gZWxzZSBpZiAocHJpY2UgPCAwKSB7CiAgICAgIGVycm9ycy5wcmljZSA9ICfku7fmoLzkuI3og73kuLrotJ/mlbAnOwogICAgfQoKICAgIGlmIChmb3JtLnByb2R1Y3RVcmwudHJpbSgpICYmICEvXmh0dHBzPzpcL1wvL2kudGVzdChmb3JtLnByb2R1Y3RVcmwudHJpbSgpKSkgewogICAgICBlcnJvcnMucHJvZHVjdFVybCA9ICfpk77mjqXpnIDku6UgaHR0cDovLyDmiJYgaHR0cHM6Ly8g5byA5aS0JzsKICAgIH0KCiAgICBpZiAoIWZvcm0ucmVhc29uLnRyaW0oKSkgZXJyb3JzLnJlYXNvbiA9ICfor7floavlhpnnlLPor7fnkIbnlLEnOwoKICAgIHRoaXMuc2V0RGF0YSh7IGVycm9ycyB9KTsKICAgIHJldHVybiBPYmplY3Qua2V5cyhlcnJvcnMpLmxlbmd0aCA9PT0gMDsKICB9LAoKICAvLyAtLS0tLS0tLS0tLS0tLS0tIOaPkOS6pCAtLS0tLS0tLS0tLS0tLS0tCiAgYXN5bmMgb25TdWJtaXQoKSB7CiAgICAvLyDpmLLph43lpI3mj5DkuqTvvJrngrnlh7vlkI7nq4vliLvnva7ngbAgKyBsb2FkaW5n77yM5LiN5L6d6LWW5LqM5qyh54K55Ye75oum5oiqCiAgICBpZiAodGhpcy5kYXRhLnN1Ym1pdHRpbmcgfHwgdGhpcy5kYXRhLnVwbG9hZGluZykgewogICAgICBpZiAodGhpcy5kYXRhLnVwbG9hZGluZykgd3guc2hvd1RvYXN0KHsgdGl0bGU6ICflm77niYfkuIrkvKDkuK3vvIzor7fnqI3lgJknLCBpY29uOiAnbm9uZScgfSk7CiAgICAgIHJldHVybjsKICAgIH0KICAgIGlmICghdGhpcy52YWxpZGF0ZSgpKSB7CiAgICAgIHd4LnNob3dUb2FzdCh7IHRpdGxlOiAn6K+35qOA5p+l6KGo5Y2V5aGr5YaZJywgaWNvbjogJ25vbmUnIH0pOwogICAgICByZXR1cm47CiAgICB9CgogICAgdGhpcy5zZXREYXRhKHsgc3VibWl0dGluZzogdHJ1ZSB9KTsKCiAgICAvLyDorqLpmIXmtojmga/mjojmnYPvvIjnlLPor7fkurrpnIDmjqXmlLbjgIzlrqHmibnnu5PmnpzpgJrnn6XjgI3vvIkKICAgIGF3YWl0IHRoaXMucmVxdWVzdFN1YnNjcmliZSgpOwoKICAgIGNvbnN0IHsgZm9ybSB9ID0gdGhpcy5kYXRhOwogICAgY29uc3QgcGF5bG9hZCA9IHsKICAgICAgaXRlbU5hbWU6IGZvcm0uaXRlbU5hbWUudHJpbSgpLAogICAgICBwcmljZTogTnVtYmVyKGZvcm0ucHJpY2UpLAogICAgICBwcm9kdWN0VXJsOiBmb3JtLnByb2R1Y3RVcmwudHJpbSgpLAogICAgICBpbWFnZVVybDogZm9ybS5pbWFnZVVybCwKICAgICAgcmVhc29uOiBmb3JtLnJlYXNvbi50cmltKCksCiAgICB9OwoKICAgIHRyeSB7CiAgICAgIGNvbnN0IHJlcyA9IGF3YWl0IGNhbGxGdW5jdGlvbignc3VibWl0QXBwbHknLCBwYXlsb2FkKTsKICAgICAgY29uc3QgYXV0b0FwcHJvdmVkID0gcmVzLmRhdGEgJiYgcmVzLmRhdGEuc3RhdHVzID09PSAnYXBwcm92ZWQnOwogICAgICB3eC5zaG93VG9hc3QoewogICAgICAgIHRpdGxlOiBhdXRvQXBwcm92ZWQgPyAn5bey6Ieq5Yqo6YCa6L+HJyA6ICfmj5DkuqTmiJDlip/vvIznrYnlvoXlrqHmibknLAogICAgICAgIGljb246ICdzdWNjZXNzJywKICAgICAgICBkdXJhdGlvbjogMTUwMCwKICAgICAgfSk7CiAgICAgIHNldFRpbWVvdXQoKCkgPT4gewogICAgICAgIHd4Lm5hdmlnYXRlQmFjayh7CiAgICAgICAgICBmYWlsOiAoKSA9PiB3eC5zd2l0Y2hUYWIoeyB1cmw6ICcvcGFnZXMvbXktbGlzdC9pbmRleCcgfSksCiAgICAgICAgfSk7CiAgICAgIH0sIDEyMDApOwogICAgfSBjYXRjaCAoZXJyKSB7CiAgICAgIHRoaXMuc2V0RGF0YSh7IHN1Ym1pdHRpbmc6IGZhbHNlIH0pOwogICAgICB3eC5zaG93TW9kYWwoewogICAgICAgIHRpdGxlOiAn5o+Q5Lqk5aSx6LSlJywKICAgICAgICBjb250ZW50OiBlcnIuZnJpZW5kbHlNZXNzYWdlIHx8IGVyci5tZXNzYWdlIHx8ICfor7fnqI3lkI7ph43or5UnLAogICAgICAgIHNob3dDYW5jZWw6IGZhbHNlLAogICAgICB9KTsKICAgIH0KICB9LAoKICAvKiog6K+35rGC6K6i6ZiF5raI5oGv5o6I5p2D77yM5aSx6LSl5LiN6Zi75pat5o+Q5LqkICovCiAgcmVxdWVzdFN1YnNjcmliZSgpIHsKICAgIGNvbnN0IHRtcGxJZHMgPSBbU1VCU0NSSUJFX1RFTVBMQVRFUy5SRVNVTFRdLmZpbHRlcigKICAgICAgKGlkKSA9PiBpZCAmJiBpZC5pbmRleE9mKCdSRVBMQUNFXycpICE9PSAwCiAgICApOwogICAgaWYgKCF0bXBsSWRzLmxlbmd0aCkgcmV0dXJuIFByb21pc2UucmVzb2x2ZSgpOwoKICAgIHJldHVybiBuZXcgUHJvbWlzZSgocmVzb2x2ZSkgPT4gewogICAgICB3eC5yZXF1ZXN0U3Vic2NyaWJlTWVzc2FnZSh7CiAgICAgICAgdG1wbElkcywKICAgICAgICBzdWNjZXNzOiAocmVzKSA9PiB7CiAgICAgICAgICBjb25zdCBhY2NlcHRlZCA9IHRtcGxJZHMuZmlsdGVyKChpZCkgPT4gcmVzW2lkXSA9PT0gJ2FjY2VwdCcpOwogICAgICAgICAgaWYgKCFhY2NlcHRlZC5sZW5ndGgpIHJldHVybiByZXNvbHZlKCk7CiAgICAgICAgICAvLyDorrDlvZXkuIDmrKHmgKforqLpmIXphY3pop3vvIzkvpvkupHlh73mlbDkuIvlj5Hml7bmtojogJcKICAgICAgICAgIGNhbGxGdW5jdGlvbignc2VuZFN1YnNjcmliZU1zZycsIHsgYWN0aW9uOiAnZ3JhbnQnLCB0ZW1wbGF0ZUlkczogYWNjZXB0ZWQgfSkKICAgICAgICAgICAgLmNhdGNoKChlKSA9PiBjb25zb2xlLndhcm4oJ1thcHBseV0g6K6i6ZiF6YWN6aKd6K6w5b2V5aSx6LSlJywgZSkpCiAgICAgICAgICAgIC50aGVuKHJlc29sdmUpOwogICAgICAgIH0sCiAgICAgICAgZmFpbDogKGVycikgPT4gewogICAgICAgICAgY29uc29sZS53YXJuKCdbYXBwbHldIOiuoumYheaOiOadg+Wksei0pScsIGVycik7CiAgICAgICAgICByZXNvbHZlKCk7CiAgICAgICAgfSwKICAgICAgfSk7CiAgICB9KTsKICB9LAp9KTsK
+const { callFunction } = require('../../utils/cloud');
+const {
+  SUBSCRIBE_TEMPLATES,
+  AUTO_APPROVE_THRESHOLD,
+} = require('../../config/index');
+
+const app = getApp();
+
+Page({
+  data: {
+    threshold: AUTO_APPROVE_THRESHOLD,
+    form: {
+      itemName: '',
+      price: '',
+      productUrl: '',
+      imageUrl: '', // 云存储 fileID
+      reason: '',
+    },
+    localImage: '', // 本地临时路径，仅用于预览
+    uploading: false,
+    submitting: false,
+    errors: {},
+    isResubmit: false,
+  },
+
+  onLoad() {
+    // 「修改并重新提交」：读取详情页暂存的草稿
+    const draft = app.globalData.resubmitDraft;
+    if (draft) {
+      app.globalData.resubmitDraft = null;
+      this.setData({
+        isResubmit: true,
+        'form.itemName': draft.itemName || '',
+        'form.price': draft.price != null ? String(draft.price) : '',
+        'form.productUrl': draft.productUrl || '',
+        'form.imageUrl': draft.imageUrl || '',
+        'form.reason': draft.reason || '',
+        localImage: draft.imageUrl || '',
+      });
+      wx.setNavigationBarTitle({ title: '修改并重新提交' });
+    }
+  },
+
+  // ---------------- 表单输入 ----------------
+  onInput(e) {
+    const { field } = e.currentTarget.dataset;
+    const value = e.detail.value;
+    const errors = Object.assign({}, this.data.errors);
+    delete errors[field];
+    this.setData({ [`form.${field}`]: value, errors });
+  },
+
+  // ---------------- 商品截图上传 ----------------
+  chooseImage() {
+    if (this.data.uploading) return;
+    wx.chooseMedia({
+      count: 1,
+      mediaType: ['image'],
+      sizeType: ['compressed'],
+      sourceType: ['album', 'camera'],
+      success: (res) => {
+        const file = res.tempFiles && res.tempFiles[0];
+        if (!file) return;
+        this.uploadImage(file.tempFilePath);
+      },
+      fail: (err) => {
+        if (err && err.errMsg && err.errMsg.indexOf('cancel') > -1) return;
+        wx.showToast({ title: '选择图片失败', icon: 'none' });
+      },
+    });
+  },
+
+  uploadImage(tempFilePath) {
+    this.setData({ uploading: true, localImage: tempFilePath });
+    const ext = (tempFilePath.match(/\.(\w+)$/) || [, 'png'])[1];
+    const cloudPath = `approvals/${Date.now()}-${Math.floor(Math.random() * 1e6)}.${ext}`;
+
+    wx.cloud
+      .uploadFile({ cloudPath, filePath: tempFilePath })
+      .then((res) => {
+        this.setData({ 'form.imageUrl': res.fileID, uploading: false });
+      })
+      .catch((err) => {
+        console.error('[apply] 上传失败', err);
+        this.setData({ uploading: false, localImage: '', 'form.imageUrl': '' });
+        wx.showToast({ title: '图片上传失败，可稍后重试', icon: 'none' });
+      });
+  },
+
+  removeImage() {
+    this.setData({ localImage: '', 'form.imageUrl': '' });
+  },
+
+  previewImage() {
+    const url = this.data.localImage;
+    if (url) wx.previewImage({ urls: [url] });
+  },
+
+  // ---------------- 校验 ----------------
+  validate() {
+    const { form } = this.data;
+    const errors = {};
+
+    if (!form.itemName.trim()) errors.itemName = '请填写物品名称';
+
+    const price = Number(form.price);
+    if (form.price === '' || Number.isNaN(price)) {
+      errors.price = '请填写价格';
+    } else if (price < 0) {
+      errors.price = '价格不能为负数';
+    }
+
+    if (form.productUrl.trim() && !/^https?:\/\//i.test(form.productUrl.trim())) {
+      errors.productUrl = '链接需以 http:// 或 https:// 开头';
+    }
+
+    if (!form.reason.trim()) errors.reason = '请填写申请理由';
+
+    this.setData({ errors });
+    return Object.keys(errors).length === 0;
+  },
+
+  // ---------------- 提交 ----------------
+  async onSubmit() {
+    // 防重复提交：点击后立刻置灰 + loading，不依赖二次点击拦截
+    if (this.data.submitting || this.data.uploading) {
+      if (this.data.uploading) wx.showToast({ title: '图片上传中，请稍候', icon: 'none' });
+      return;
+    }
+    if (!this.validate()) {
+      wx.showToast({ title: '请检查表单填写', icon: 'none' });
+      return;
+    }
+
+    this.setData({ submitting: true });
+
+    // 订阅消息授权（申请人需接收「审批结果通知」）
+    await this.requestSubscribe();
+
+    const { form } = this.data;
+    const payload = {
+      itemName: form.itemName.trim(),
+      price: Number(form.price),
+      productUrl: form.productUrl.trim(),
+      imageUrl: form.imageUrl,
+      reason: form.reason.trim(),
+    };
+
+    try {
+      const res = await callFunction('submitApply', payload);
+      const autoApproved = res.data && res.data.status === 'approved';
+      wx.showToast({
+        title: autoApproved ? '已自动通过' : '提交成功，等待审批',
+        icon: 'success',
+        duration: 1500,
+      });
+      setTimeout(() => {
+        wx.navigateBack({
+          fail: () => wx.switchTab({ url: '/pages/my-list/index' }),
+        });
+      }, 1200);
+    } catch (err) {
+      this.setData({ submitting: false });
+      wx.showModal({
+        title: '提交失败',
+        content: err.friendlyMessage || err.message || '请稍后重试',
+        showCancel: false,
+      });
+    }
+  },
+
+  /** 请求订阅消息授权，失败不阻断提交 */
+  requestSubscribe() {
+    const tmplIds = [SUBSCRIBE_TEMPLATES.RESULT].filter(
+      (id) => id && id.indexOf('REPLACE_') !== 0
+    );
+    if (!tmplIds.length) return Promise.resolve();
+
+    return new Promise((resolve) => {
+      wx.requestSubscribeMessage({
+        tmplIds,
+        success: (res) => {
+          const accepted = tmplIds.filter((id) => res[id] === 'accept');
+          if (!accepted.length) return resolve();
+          // 记录一次性订阅配额，供云函数下发时消耗
+          callFunction('sendSubscribeMsg', { action: 'grant', templateIds: accepted })
+            .catch((e) => console.warn('[apply] 订阅配额记录失败', e))
+            .then(resolve);
+        },
+        fail: (err) => {
+          console.warn('[apply] 订阅授权失败', err);
+          resolve();
+        },
+      });
+    });
+  },
+});

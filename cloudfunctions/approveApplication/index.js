@@ -1,1 +1,89 @@
-LyoqCiAqIGFwcHJvdmVBcHBsaWNhdGlvbiDigJTigJQg6YCa6L+HIC8g5ouS57udICsg5aSH5rOoCiAqIOinhOagvOS5piDCpzIuNQogKgogKiAxLiDmoKHpqozlrqHmibnkurrouqvku73vvIjnmb3lkI3ljZXvvIkKICogMi4g5qCh6aqM55uu5qCH5Y2VIHN0YXR1cyA9PT0gJ3BlbmRpbmcn77yM6YG/5YWN6YeN5aSN5a6h5om5CiAqICAgIOKAlOKAlCDnlKjjgIzluKYgc3RhdHVzIOadoeS7tueahCB1cGRhdGXjgI3lgZrljp/lrZDmm7TmlrDvvIzlj4znq6/lkIzml7bngrnlh7vkuZ/lj6rmnInkuIDmrKHnlJ/mlYgKICogMy4g5pu05pawIHN0YXR1cyAvIGFwcHJvdmVyT3BlbmlkIC8gYXBwcm92ZU5vdGUgLyB1cGRhdGVkQXQKICogNC4g6YCa55+l55Sz6K+35Lq65pyA57uI57uT5p6cCiAqLwpjb25zdCBjbG91ZCA9IHJlcXVpcmUoJ3d4LXNlcnZlci1zZGsnKTsKY29uc3QgQyA9IHJlcXVpcmUoJy4vY29tbW9uJyk7CgpjbG91ZC5pbml0KHsgZW52OiBjbG91ZC5EWU5BTUlDX0NVUlJFTlRfRU5WIH0pOwpjb25zdCBkYiA9IGNsb3VkLmRhdGFiYXNlKCk7Cgpjb25zdCBERUNJU0lPTl9FTlVNID0gW0MuU1RBVFVTLkFQUFJPVkVELCBDLlNUQVRVUy5SRUpFQ1RFRF07CgpleHBvcnRzLm1haW4gPSBhc3luYyAoZXZlbnQpID0+IHsKICBjb25zdCB7IE9QRU5JRCB9ID0gY2xvdWQuZ2V0V1hDb250ZXh0KCk7CiAgaWYgKCFPUEVOSUQpIHsKICAgIHJldHVybiBDLmZhaWwoQy5FUlIuRk9SQklEREVOLCAn5peg5rOV6K+G5Yir55So5oi36Lqr5Lu9Jyk7CiAgfQogIGlmICghQy5pc0FwcHJvdmVyKE9QRU5JRCkpIHsKICAgIHJldHVybiBDLmZhaWwoQy5FUlIuRk9SQklEREVOLCAn5L2g5LiN5piv5a6h5om55Lq677yM5peg5p2D5omn6KGM5a6h5om5Jyk7CiAgfQoKICBjb25zdCBpZCA9IEMuc2FuaXRpemVTdHJpbmcoZXZlbnQuaWQsIDY0KTsKICBpZiAoIWlkKSByZXR1cm4gQy5mYWlsKEMuRVJSLklOVkFMSURfUEFSQU0sICfnvLrlsJHnlLPor7fljZUgaWQnKTsKCiAgY29uc3QgZGVjaXNpb24gPSBDLnNhbml0aXplU3RyaW5nKGV2ZW50LmRlY2lzaW9uLCAyMCk7CiAgaWYgKERFQ0lTSU9OX0VOVU0uaW5kZXhPZihkZWNpc2lvbikgPT09IC0xKSB7CiAgICByZXR1cm4gQy5mYWlsKEMuRVJSLklOVkFMSURfUEFSQU0sICflrqHmibnnu5Pmnpzlj5blgLzkuI3lkIjms5UnKTsKICB9CgogIGNvbnN0IGFwcHJvdmVOb3RlID0gQy5zYW5pdGl6ZVN0cmluZyhldmVudC5hcHByb3ZlTm90ZSwgMjAwKTsKICBjb25zdCBub3cgPSBEYXRlLm5vdygpOwogIGNvbnN0IGNvbGxlY3Rpb24gPSBkYi5jb2xsZWN0aW9uKEMuQ09MTEVDVElPTi5BUFBST1ZBTFMpOwoKICAvLyDljp/lrZDmm7TmlrDvvJrku4XlvZPlvZPliY3nirbmgIHku43kuLogcGVuZGluZyDml7bmiY3lhpnlhaUKICBsZXQgdXBkYXRlUmVzOwogIHRyeSB7CiAgICB1cGRhdGVSZXMgPSBhd2FpdCBjb2xsZWN0aW9uCiAgICAgIC53aGVyZSh7IF9pZDogaWQsIHN0YXR1czogQy5TVEFUVVMuUEVORElORyB9KQogICAgICAudXBkYXRlKHsKICAgICAgICBkYXRhOiB7CiAgICAgICAgICBzdGF0dXM6IGRlY2lzaW9uLAogICAgICAgICAgYXBwcm92ZXJPcGVuaWQ6IE9QRU5JRCwKICAgICAgICAgIGFwcHJvdmVOb3RlLAogICAgICAgICAgdXBkYXRlZEF0OiBub3csCiAgICAgICAgfSwKICAgICAgfSk7CiAgfSBjYXRjaCAoZXJyKSB7CiAgICBjb25zb2xlLmVycm9yKCdbYXBwcm92ZUFwcGxpY2F0aW9uXSDmm7TmlrDlpLHotKUnLCBlcnIpOwogICAgcmV0dXJuIEMuZmFpbChDLkVSUi5JTlRFUk5BTCwgJ+WuoeaJueWksei0pe+8jOivt+eojeWQjumHjeivlScpOwogIH0KCiAgaWYgKCF1cGRhdGVSZXMuc3RhdHMgfHwgdXBkYXRlUmVzLnN0YXRzLnVwZGF0ZWQgPT09IDApIHsKICAgIC8vIOimgeS5iCBpZCDkuI3lrZjlnKjvvIzopoHkuYjlt7LooqvlpITnkIbov4cKICAgIGxldCBleGlzdHMgPSBudWxsOwogICAgdHJ5IHsKICAgICAgY29uc3QgcmVzID0gYXdhaXQgY29sbGVjdGlvbi5kb2MoaWQpLmdldCgpOwogICAgICBleGlzdHMgPSByZXMuZGF0YTsKICAgIH0gY2F0Y2ggKGUpIHsKICAgICAgZXhpc3RzID0gbnVsbDsKICAgIH0KICAgIGlmICghZXhpc3RzKSByZXR1cm4gQy5mYWlsKEMuRVJSLk5PVF9GT1VORCwgJ+iusOW9leS4jeWtmOWcqOaIluW3suiiq+WIoOmZpCcpOwogICAgcmV0dXJuIEMuZmFpbChDLkVSUi5BTFJFQURZX0hBTkRMRUQsICfor6XnlLPor7flt7LooqvlpITnkIbvvIzml6DpnIDph43lpI3lrqHmibknKTsKICB9CgogIC8vIOmAmuefpeeUs+ivt+S6uu+8m+S4i+WPkeWksei0peS4jeWbnua7muWuoeaJuee7k+aenAogIHRyeSB7CiAgICBjb25zdCByZXMgPSBhd2FpdCBjb2xsZWN0aW9uLmRvYyhpZCkuZ2V0KCk7CiAgICBjb25zdCBkb2MgPSByZXMuZGF0YSB8fCB7fTsKICAgIGF3YWl0IGNsb3VkLmNhbGxGdW5jdGlvbih7CiAgICAgIG5hbWU6ICdzZW5kU3Vic2NyaWJlTXNnJywKICAgICAgZGF0YTogewogICAgICAgIGFjdGlvbjogJ3NlbmQnLAogICAgICAgIGludGVybmFsVG9rZW46IEMuSU5URVJOQUxfVE9LRU4sCiAgICAgICAgc2NlbmU6ICdSRVNVTFQnLAogICAgICAgIHJlY29yZDogT2JqZWN0LmFzc2lnbih7fSwgZG9jLCB7IF9pZDogaWQgfSksCiAgICAgIH0sCiAgICB9KTsKICB9IGNhdGNoIChlcnIpIHsKICAgIGNvbnNvbGUuZXJyb3IoJ1thcHByb3ZlQXBwbGljYXRpb25dIOiuoumYhea2iOaBr+S4i+WPkeWksei0pe+8iOW3suW/veeVpe+8iScsIGVycik7CiAgfQoKICByZXR1cm4gQy5vayh7IHN0YXR1czogZGVjaXNpb24gfSk7Cn07Cg==
+/**
+ * approveApplication —— 通过 / 拒绝 + 备注
+ * 规格书 §2.5
+ *
+ * 1. 校验审批人身份（白名单）
+ * 2. 校验目标单 status === 'pending'，避免重复审批
+ *    —— 用「带 status 条件的 update」做原子更新，双端同时点击也只有一次生效
+ * 3. 更新 status / approverOpenid / approveNote / updatedAt
+ * 4. 通知申请人最终结果
+ */
+const cloud = require('wx-server-sdk');
+const C = require('./common');
+
+cloud.init({ env: cloud.DYNAMIC_CURRENT_ENV });
+const db = cloud.database();
+
+const DECISION_ENUM = [C.STATUS.APPROVED, C.STATUS.REJECTED];
+
+exports.main = async (event) => {
+  const { OPENID } = cloud.getWXContext();
+  if (!OPENID) {
+    return C.fail(C.ERR.FORBIDDEN, '无法识别用户身份');
+  }
+  if (!C.isApprover(OPENID)) {
+    return C.fail(C.ERR.FORBIDDEN, '你不是审批人，无权执行审批');
+  }
+
+  const id = C.sanitizeString(event.id, 64);
+  if (!id) return C.fail(C.ERR.INVALID_PARAM, '缺少申请单 id');
+
+  const decision = C.sanitizeString(event.decision, 20);
+  if (DECISION_ENUM.indexOf(decision) === -1) {
+    return C.fail(C.ERR.INVALID_PARAM, '审批结果取值不合法');
+  }
+
+  const approveNote = C.sanitizeString(event.approveNote, 200);
+  const now = Date.now();
+  const collection = db.collection(C.COLLECTION.APPROVALS);
+
+  // 原子更新：仅当当前状态仍为 pending 时才写入
+  let updateRes;
+  try {
+    updateRes = await collection
+      .where({ _id: id, status: C.STATUS.PENDING })
+      .update({
+        data: {
+          status: decision,
+          approverOpenid: OPENID,
+          approveNote,
+          updatedAt: now,
+        },
+      });
+  } catch (err) {
+    console.error('[approveApplication] 更新失败', err);
+    return C.fail(C.ERR.INTERNAL, '审批失败，请稍后重试');
+  }
+
+  if (!updateRes.stats || updateRes.stats.updated === 0) {
+    // 要么 id 不存在，要么已被处理过
+    let exists = null;
+    try {
+      const res = await collection.doc(id).get();
+      exists = res.data;
+    } catch (e) {
+      exists = null;
+    }
+    if (!exists) return C.fail(C.ERR.NOT_FOUND, '记录不存在或已被删除');
+    return C.fail(C.ERR.ALREADY_HANDLED, '该申请已被处理，无需重复审批');
+  }
+
+  // 通知申请人；下发失败不回滚审批结果
+  try {
+    const res = await collection.doc(id).get();
+    const doc = res.data || {};
+    await cloud.callFunction({
+      name: 'sendSubscribeMsg',
+      data: {
+        action: 'send',
+        internalToken: C.INTERNAL_TOKEN,
+        scene: 'RESULT',
+        record: Object.assign({}, doc, { _id: id }),
+      },
+    });
+  } catch (err) {
+    console.error('[approveApplication] 订阅消息下发失败（已忽略）', err);
+  }
+
+  return C.ok({ status: decision });
+};

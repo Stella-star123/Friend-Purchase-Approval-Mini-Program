@@ -1,1 +1,77 @@
-LyoqCiAqIGdldFBlbmRpbmdMaXN0IOKAlOKAlCDlvoXmiJHlrqHmibnliJfooagKICog6KeE5qC85LmmIMKnMi40CiAqCiAqIOadg+mZkO+8muW/hemhu+aYr+WuoeaJueS6uueZveWQjeWNleaIkOWRmO+8jOWQpuWImei/lOWbniBGT1JCSURERU4oNDAzKQogKiDmn6Xor6LvvJpzdGF0dXMgPT0gJ3BlbmRpbmcnIEFORCBwcmljZSA+PSA1CiAqIOWHuuWPgu+8mmRhdGEgLyB0b3RhbCAvIHN1bVByaWNl77yI6aG26YOo5rGH5oC75p2h55So77yJCiAqLwpjb25zdCBjbG91ZCA9IHJlcXVpcmUoJ3d4LXNlcnZlci1zZGsnKTsKY29uc3QgQyA9IHJlcXVpcmUoJy4vY29tbW9uJyk7CgpjbG91ZC5pbml0KHsgZW52OiBjbG91ZC5EWU5BTUlDX0NVUlJFTlRfRU5WIH0pOwpjb25zdCBkYiA9IGNsb3VkLmRhdGFiYXNlKCk7CmNvbnN0IF8gPSBkYi5jb21tYW5kOwpjb25zdCAkID0gZGIuY29tbWFuZC5hZ2dyZWdhdGU7CgpleHBvcnRzLm1haW4gPSBhc3luYyAoZXZlbnQpID0+IHsKICBjb25zdCB7IE9QRU5JRCB9ID0gY2xvdWQuZ2V0V1hDb250ZXh0KCk7CiAgaWYgKCFPUEVOSUQpIHsKICAgIHJldHVybiBDLmZhaWwoQy5FUlIuRk9SQklEREVOLCAn5peg5rOV6K+G5Yir55So5oi36Lqr5Lu9Jyk7CiAgfQogIC8vIOeZveWQjeWNleagoemqjO+8muacquWRveS4reebtOaOpSA0MDMKICBpZiAoIUMuaXNBcHByb3ZlcihPUEVOSUQpKSB7CiAgICByZXR1cm4gQy5mYWlsKEMuRVJSLkZPUkJJRERFTiwgJ+S9oOS4jeaYr+WuoeaJueS6uu+8jOaXoOadg+afpeeci+W+heWuoeaJueWIl+ihqCcpOwogIH0KCiAgY29uc3QgeyBwYWdlU2l6ZSwgc2tpcCB9ID0gQy5ub3JtYWxpemVQYWdpbmcoZXZlbnQpOwogIGNvbnN0IHdoZXJlID0gewogICAgc3RhdHVzOiBDLlNUQVRVUy5QRU5ESU5HLAogICAgcHJpY2U6IF8uZ3RlKEMuQVVUT19BUFBST1ZFX1RIUkVTSE9MRCksCiAgfTsKCiAgdHJ5IHsKICAgIGNvbnN0IGNvbGxlY3Rpb24gPSBkYi5jb2xsZWN0aW9uKEMuQ09MTEVDVElPTi5BUFBST1ZBTFMpOwoKICAgIGNvbnN0IFtsaXN0UmVzLCBjb3VudFJlcywgc3VtUmVzXSA9IGF3YWl0IFByb21pc2UuYWxsKFsKICAgICAgY29sbGVjdGlvbgogICAgICAgIC53aGVyZSh3aGVyZSkKICAgICAgICAub3JkZXJCeSgnY3JlYXRlZEF0JywgJ2Rlc2MnKQogICAgICAgIC5za2lwKHNraXApCiAgICAgICAgLmxpbWl0KHBhZ2VTaXplKQogICAgICAgIC5maWVsZCh7CiAgICAgICAgICBfaWQ6IHRydWUsCiAgICAgICAgICBfb3BlbmlkOiB0cnVlLAogICAgICAgICAgaXRlbU5hbWU6IHRydWUsCiAgICAgICAgICBwcmljZTogdHJ1ZSwKICAgICAgICAgIGNyZWF0ZWRBdDogdHJ1ZSwKICAgICAgICB9KQogICAgICAgIC5nZXQoKSwKICAgICAgY29sbGVjdGlvbi53aGVyZSh3aGVyZSkuY291bnQoKSwKICAgICAgLy8g5ZCI6K6h6YeR6aKd77ya5oyJ5ZCM5qC35p2h5Lu25YWo6YeP6IGa5ZCI77yM5LiN5Y+X5YiG6aG15b2x5ZONCiAgICAgIGNvbGxlY3Rpb24KICAgICAgICAuYWdncmVnYXRlKCkKICAgICAgICAubWF0Y2god2hlcmUpCiAgICAgICAgLmdyb3VwKHsgX2lkOiBudWxsLCBzdW1QcmljZTogJC5zdW0oJyRwcmljZScpIH0pCiAgICAgICAgLmVuZCgpLAogICAgXSk7CgogICAgY29uc3Qgc3VtUHJpY2UgPQogICAgICBzdW1SZXMubGlzdCAmJiBzdW1SZXMubGlzdC5sZW5ndGggPyBNYXRoLnJvdW5kKHN1bVJlcy5saXN0WzBdLnN1bVByaWNlICogMTAwKSAvIDEwMCA6IDA7CgogICAgLy8g55SoIGFwcGxpY2FudE9wZW5pZCDlr7nlpJbmmrTpnLLnlLPor7fkurrmoIfor4bvvIzlkIzml7bnu5nlh7rohLHmlY/kuLIKICAgIGNvbnN0IGRhdGEgPSBsaXN0UmVzLmRhdGEubWFwKChpdGVtKSA9PiAoewogICAgICBfaWQ6IGl0ZW0uX2lkLAogICAgICBpdGVtTmFtZTogaXRlbS5pdGVtTmFtZSwKICAgICAgcHJpY2U6IGl0ZW0ucHJpY2UsCiAgICAgIGFwcGxpY2FudE9wZW5pZDogaXRlbS5fb3BlbmlkLAogICAgICBhcHBsaWNhbnRNYXNrOiBDLm1hc2tPcGVuaWQoaXRlbS5fb3BlbmlkKSwKICAgICAgY3JlYXRlZEF0OiBpdGVtLmNyZWF0ZWRBdCwKICAgIH0pKTsKCiAgICByZXR1cm4gQy5vayhkYXRhLCB7IHRvdGFsOiBjb3VudFJlcy50b3RhbCwgc3VtUHJpY2UsIGlzQXBwcm92ZXI6IHRydWUgfSk7CiAgfSBjYXRjaCAoZXJyKSB7CiAgICBjb25zb2xlLmVycm9yKCdbZ2V0UGVuZGluZ0xpc3RdIOafpeivouWksei0pScsIGVycik7CiAgICByZXR1cm4gQy5mYWlsKEMuRVJSLklOVEVSTkFMLCAn5Yqg6L295aSx6LSl77yM6K+356iN5ZCO6YeN6K+VJyk7CiAgfQp9Owo=
+/**
+ * getPendingList —— 待我审批列表
+ * 规格书 §2.4
+ *
+ * 权限：必须是审批人白名单成员，否则返回 FORBIDDEN(403)
+ * 查询：status == 'pending' AND price >= 5
+ * 出参：data / total / sumPrice（顶部汇总条用）
+ */
+const cloud = require('wx-server-sdk');
+const C = require('./common');
+
+cloud.init({ env: cloud.DYNAMIC_CURRENT_ENV });
+const db = cloud.database();
+const _ = db.command;
+const $ = db.command.aggregate;
+
+exports.main = async (event) => {
+  const { OPENID } = cloud.getWXContext();
+  if (!OPENID) {
+    return C.fail(C.ERR.FORBIDDEN, '无法识别用户身份');
+  }
+  // 白名单校验：未命中直接 403
+  if (!C.isApprover(OPENID)) {
+    return C.fail(C.ERR.FORBIDDEN, '你不是审批人，无权查看待审批列表');
+  }
+
+  const { pageSize, skip } = C.normalizePaging(event);
+  const where = {
+    status: C.STATUS.PENDING,
+    price: _.gte(C.AUTO_APPROVE_THRESHOLD),
+  };
+
+  try {
+    const collection = db.collection(C.COLLECTION.APPROVALS);
+
+    const [listRes, countRes, sumRes] = await Promise.all([
+      collection
+        .where(where)
+        .orderBy('createdAt', 'desc')
+        .skip(skip)
+        .limit(pageSize)
+        .field({
+          _id: true,
+          _openid: true,
+          itemName: true,
+          price: true,
+          createdAt: true,
+        })
+        .get(),
+      collection.where(where).count(),
+      // 合计金额：按同样条件全量聚合，不受分页影响
+      collection
+        .aggregate()
+        .match(where)
+        .group({ _id: null, sumPrice: $.sum('$price') })
+        .end(),
+    ]);
+
+    const sumPrice =
+      sumRes.list && sumRes.list.length ? Math.round(sumRes.list[0].sumPrice * 100) / 100 : 0;
+
+    // 用 applicantOpenid 对外暴露申请人标识，同时给出脱敏串
+    const data = listRes.data.map((item) => ({
+      _id: item._id,
+      itemName: item.itemName,
+      price: item.price,
+      applicantOpenid: item._openid,
+      applicantMask: C.maskOpenid(item._openid),
+      createdAt: item.createdAt,
+    }));
+
+    return C.ok(data, { total: countRes.total, sumPrice, isApprover: true });
+  } catch (err) {
+    console.error('[getPendingList] 查询失败', err);
+    return C.fail(C.ERR.INTERNAL, '加载失败，请稍后重试');
+  }
+};

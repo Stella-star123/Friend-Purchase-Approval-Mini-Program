@@ -1,1 +1,94 @@
-LmJhY2sgewogIHdpZHRoOiA2MHJweDsKICBmb250LXNpemU6IDQ4cnB4OwogIGxpbmUtaGVpZ2h0OiAxOwogIGNvbG9yOiB2YXIoLS1jb2xvci10ZXh0LXByaW1hcnkpOwp9CgouYmFjay0tZ2hvc3QgewogIHZpc2liaWxpdHk6IGhpZGRlbjsKfQoKLyog55Sz6K+35Lq65p2hIDY0IOmrmO+8jOWktOWDj+WchiAzMiDok53lupXnmb3lrZcgKi8KLmFwcGxpY2FudCB7CiAgZGlzcGxheTogZmxleDsKICBhbGlnbi1pdGVtczogY2VudGVyOwogIGhlaWdodDogMTI4cnB4OwogIHBhZGRpbmc6IDAgOHJweDsKICBtYXJnaW4tYm90dG9tOiAyNHJweDsKfQoKLmFwcGxpY2FudF9fYXZhdGFyIHsKICBmbGV4OiBub25lOwogIHdpZHRoOiA2NHJweDsKICBoZWlnaHQ6IDY0cnB4OwogIGJvcmRlci1yYWRpdXM6IDUwJTsKICBiYWNrZ3JvdW5kLWNvbG9yOiB2YXIoLS1jb2xvci1wcmltYXJ5KTsKICBjb2xvcjogI2ZmZmZmZjsKICBmb250LXNpemU6IDI4cnB4OwogIGZvbnQtd2VpZ2h0OiA2MDA7CiAgZGlzcGxheTogZmxleDsKICBhbGlnbi1pdGVtczogY2VudGVyOwogIGp1c3RpZnktY29udGVudDogY2VudGVyOwp9CgouYXBwbGljYW50X19ib2R5IHsKICBmbGV4OiAxOwogIGRpc3BsYXk6IGZsZXg7CiAgZmxleC1kaXJlY3Rpb246IGNvbHVtbjsKICBwYWRkaW5nLWxlZnQ6IDIwcnB4OwogIG1pbi13aWR0aDogMDsKfQoKLmFwcGxpY2FudF9fbmFtZSB7CiAgZm9udC1zaXplOiAzMHJweDsKICBmb250LXdlaWdodDogNTAwOwogIGNvbG9yOiB2YXIoLS1jb2xvci10ZXh0LXByaW1hcnkpOwp9CgouYXBwbGljYW50X19vcGVuaWQgewogIG1hcmdpbi10b3A6IDRycHg7CiAgZm9udC1zaXplOiAyNHJweDsKICBjb2xvcjogdmFyKC0tY29sb3ItdGV4dC1zZWNvbmRhcnkpOwp9CgouYXBwcm92ZS1jYXJkIHsKICBwYWRkaW5nOiA4cnB4IDMycnB4Owp9CgoudGh1bWItd3JhcCB7CiAgbWFyZ2luLXRvcDogMzJycHg7Cn0KCi50aHVtYiB7CiAgd2lkdGg6IDE3NnJweDsKICBoZWlnaHQ6IDE3NnJweDsKICBib3JkZXItcmFkaXVzOiAxNnJweDsKICBiYWNrZ3JvdW5kLWNvbG9yOiB2YXIoLS1jb2xvci1iZy1zdXJmYWNlKTsKfQoKLm5vdGUtZmllbGQgewogIG1hcmdpbi10b3A6IDMycnB4Owp9CgovKiDlrqHmibnlpIfms6jmoYYgNzIg6auYIOWchuinkjEwICovCi5maWVsZF9fY29udHJvbC0tbm90ZSB7CiAgaGVpZ2h0OiAxNDRycHg7CiAgcGFkZGluZzogMjRycHg7CiAgbGluZS1oZWlnaHQ6IDEuNjsKICB3aWR0aDogMTAwJTsKfQoKLnBsYWNlaG9sZGVyIHsKICBjb2xvcjogdmFyKC0tY29sb3ItdGV4dC1wbGFjZWhvbGRlcik7CiAgZm9udC1zaXplOiAyNHJweDsKfQoKLmhhbmRsZWQgewogIG1hcmdpbi10b3A6IDMycnB4OwogIHBhZGRpbmc6IDI4cnB4OwogIGJvcmRlci1yYWRpdXM6IHZhcigtLXJhZGl1cy1jYXJkKTsKICBiYWNrZ3JvdW5kLWNvbG9yOiB2YXIoLS1jb2xvci1iZy1zdXJmYWNlKTsKICBmb250LXNpemU6IDI2cnB4OwogIGNvbG9yOiB2YXIoLS1jb2xvci10ZXh0LXNlY29uZGFyeSk7Cn0K
+.back {
+  width: 60rpx;
+  font-size: 48rpx;
+  line-height: 1;
+  color: var(--color-text-primary);
+}
+
+.back--ghost {
+  visibility: hidden;
+}
+
+/* 申请人条 64 高，头像圆 32 蓝底白字 */
+.applicant {
+  display: flex;
+  align-items: center;
+  height: 128rpx;
+  padding: 0 8rpx;
+  margin-bottom: 24rpx;
+}
+
+.applicant__avatar {
+  flex: none;
+  width: 64rpx;
+  height: 64rpx;
+  border-radius: 50%;
+  background-color: var(--color-primary);
+  color: #ffffff;
+  font-size: 28rpx;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.applicant__body {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  padding-left: 20rpx;
+  min-width: 0;
+}
+
+.applicant__name {
+  font-size: 30rpx;
+  font-weight: 500;
+  color: var(--color-text-primary);
+}
+
+.applicant__openid {
+  margin-top: 4rpx;
+  font-size: 24rpx;
+  color: var(--color-text-secondary);
+}
+
+.approve-card {
+  padding: 8rpx 32rpx;
+}
+
+.thumb-wrap {
+  margin-top: 32rpx;
+}
+
+.thumb {
+  width: 176rpx;
+  height: 176rpx;
+  border-radius: 16rpx;
+  background-color: var(--color-bg-surface);
+}
+
+.note-field {
+  margin-top: 32rpx;
+}
+
+/* 审批备注框 72 高 圆角10 */
+.field__control--note {
+  height: 144rpx;
+  padding: 24rpx;
+  line-height: 1.6;
+  width: 100%;
+}
+
+.placeholder {
+  color: var(--color-text-placeholder);
+  font-size: 24rpx;
+}
+
+.handled {
+  margin-top: 32rpx;
+  padding: 28rpx;
+  border-radius: var(--radius-card);
+  background-color: var(--color-bg-surface);
+  font-size: 26rpx;
+  color: var(--color-text-secondary);
+}

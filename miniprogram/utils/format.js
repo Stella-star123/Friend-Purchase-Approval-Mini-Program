@@ -1,1 +1,74 @@
-LyoqCiAqIOWxleekuuWxguagvOW8j+WMluW3peWFtwogKi8KCmNvbnN0IFNUQVRVU19NQVAgPSB7CiAgcGVuZGluZzogeyB0ZXh0OiAn5b6F5a6h5om5JywgY29sb3I6ICcjRjU5RTBCJywgYmc6ICcjRkZGNEU1JyB9LAogIGFwcHJvdmVkOiB7IHRleHQ6ICflt7LpgJrov4cnLCBjb2xvcjogJyMxNkEzNEEnLCBiZzogJyNFN0Y2RUMnIH0sCiAgcmVqZWN0ZWQ6IHsgdGV4dDogJ+W3suaLkue7nScsIGNvbG9yOiAnI0RDMjYyNicsIGJnOiAnI0ZERUNFQycgfSwKfTsKCmZ1bmN0aW9uIHBhZChuKSB7CiAgcmV0dXJuIG4gPCAxMCA/IGAwJHtufWAgOiBgJHtufWA7Cn0KCi8qKiDml7bpl7TmiLMg4oaSIDIwMjYtMDgtMjYgMjE6NTAgKi8KZnVuY3Rpb24gZm9ybWF0VGltZSh0cykgewogIGlmICghdHMpIHJldHVybiAnLS0nOwogIGNvbnN0IGQgPSBuZXcgRGF0ZShOdW1iZXIodHMpKTsKICBpZiAoTnVtYmVyLmlzTmFOKGQuZ2V0VGltZSgpKSkgcmV0dXJuICctLSc7CiAgcmV0dXJuIGAke2QuZ2V0RnVsbFllYXIoKX0tJHtwYWQoZC5nZXRNb250aCgpICsgMSl9LSR7cGFkKGQuZ2V0RGF0ZSgpKX0gJHtwYWQoZC5nZXRIb3VycygpKX06JHtwYWQoZC5nZXRNaW51dGVzKCkpfWA7Cn0KCi8qKiDml7bpl7TmiLMg4oaSIDA4LTI2IDIxOjUw77yI5YiX6KGo55So55+t5qC85byP77yJICovCmZ1bmN0aW9uIGZvcm1hdFNob3J0VGltZSh0cykgewogIGlmICghdHMpIHJldHVybiAnLS0nOwogIGNvbnN0IGQgPSBuZXcgRGF0ZShOdW1iZXIodHMpKTsKICBpZiAoTnVtYmVyLmlzTmFOKGQuZ2V0VGltZSgpKSkgcmV0dXJuICctLSc7CiAgcmV0dXJuIGAke3BhZChkLmdldE1vbnRoKCkgKyAxKX0tJHtwYWQoZC5nZXREYXRlKCkpfSAke3BhZChkLmdldEhvdXJzKCkpfToke3BhZChkLmdldE1pbnV0ZXMoKSl9YDsKfQoKLyoqIOS7t+agvCDihpIg5Lik5L2N5bCP5pWw5a2X56ym5Liy77yI5LiN5bimIMKl77yM56ym5Y+35Zyo5qih5p2/6YeM5Yqg77yM5pa55L6/5o6n5Yi25a2X5Y+377yJICovCmZ1bmN0aW9uIGZvcm1hdFByaWNlKHByaWNlKSB7CiAgY29uc3QgbiA9IE51bWJlcihwcmljZSk7CiAgaWYgKE51bWJlci5pc05hTihuKSkgcmV0dXJuICcwLjAwJzsKICByZXR1cm4gbi50b0ZpeGVkKDIpOwp9CgovKiogb3BlbmlkIOiEseaVj++8mm9YOGsyYWJjZGVmZyDihpIgb1g4azIqKiplZmcgKi8KZnVuY3Rpb24gbWFza09wZW5pZChvcGVuaWQpIHsKICBpZiAoIW9wZW5pZCkgcmV0dXJuICfmnKrnn6XnlKjmiLcnOwogIGlmIChvcGVuaWQubGVuZ3RoIDw9IDgpIHJldHVybiBvcGVuaWQ7CiAgcmV0dXJuIGAke29wZW5pZC5zbGljZSgwLCA1KX0qKioke29wZW5pZC5zbGljZSgtMyl9YDsKfQoKLyoqIOWPliBvcGVuaWQg6aaW5Liq5Y+v6KeB5a2X56ym5YGa5aS05YOP5Y2g5L2NICovCmZ1bmN0aW9uIGF2YXRhckNoYXIob3BlbmlkKSB7CiAgaWYgKCFvcGVuaWQpIHJldHVybiAnPyc7CiAgY29uc3QgbSA9IG9wZW5pZC5yZXBsYWNlKC9eby9pLCAnJyk7CiAgcmV0dXJuIChtWzBdIHx8ICc/JykudG9VcHBlckNhc2UoKTsKfQoKLyoqIOe7meWIl+ihqOiusOW9leihpeS4iuWxleekuuWtl+aute+8jOmBv+WFjeWcqCBXWE1MIOmHjOWGmemAu+i+kSAqLwpmdW5jdGlvbiBkZWNvcmF0ZVJlY29yZChpdGVtKSB7CiAgY29uc3Qgc3RhdHVzID0gU1RBVFVTX01BUFtpdGVtLnN0YXR1c10gfHwgU1RBVFVTX01BUC5wZW5kaW5nOwogIHJldHVybiBPYmplY3QuYXNzaWduKHt9LCBpdGVtLCB7CiAgICBwcmljZVRleHQ6IGZvcm1hdFByaWNlKGl0ZW0ucHJpY2UpLAogICAgY3JlYXRlZEF0VGV4dDogZm9ybWF0VGltZShpdGVtLmNyZWF0ZWRBdCksCiAgICBjcmVhdGVkQXRTaG9ydDogZm9ybWF0U2hvcnRUaW1lKGl0ZW0uY3JlYXRlZEF0KSwKICAgIHVwZGF0ZWRBdFRleHQ6IGZvcm1hdFRpbWUoaXRlbS51cGRhdGVkQXQpLAogICAgc3RhdHVzVGV4dDogc3RhdHVzLnRleHQsCiAgICBhcHBsaWNhbnRNYXNrOiBtYXNrT3BlbmlkKGl0ZW0uYXBwbGljYW50T3BlbmlkIHx8IGl0ZW0uX29wZW5pZCksCiAgICBhcHBsaWNhbnRDaGFyOiBhdmF0YXJDaGFyKGl0ZW0uYXBwbGljYW50T3BlbmlkIHx8IGl0ZW0uX29wZW5pZCksCiAgfSk7Cn0KCm1vZHVsZS5leHBvcnRzID0gewogIFNUQVRVU19NQVAsCiAgZm9ybWF0VGltZSwKICBmb3JtYXRTaG9ydFRpbWUsCiAgZm9ybWF0UHJpY2UsCiAgbWFza09wZW5pZCwKICBhdmF0YXJDaGFyLAogIGRlY29yYXRlUmVjb3JkLAp9Owo=
+/**
+ * 展示层格式化工具
+ */
+
+const STATUS_MAP = {
+  pending: { text: '待审批', color: '#F59E0B', bg: '#FFF4E5' },
+  approved: { text: '已通过', color: '#16A34A', bg: '#E7F6EC' },
+  rejected: { text: '已拒绝', color: '#DC2626', bg: '#FDECEC' },
+};
+
+function pad(n) {
+  return n < 10 ? `0${n}` : `${n}`;
+}
+
+/** 时间戳 → 2026-08-26 21:50 */
+function formatTime(ts) {
+  if (!ts) return '--';
+  const d = new Date(Number(ts));
+  if (Number.isNaN(d.getTime())) return '--';
+  return `${d.getFullYear()}-${pad(d.getMonth() + 1)}-${pad(d.getDate())} ${pad(d.getHours())}:${pad(d.getMinutes())}`;
+}
+
+/** 时间戳 → 08-26 21:50（列表用短格式） */
+function formatShortTime(ts) {
+  if (!ts) return '--';
+  const d = new Date(Number(ts));
+  if (Number.isNaN(d.getTime())) return '--';
+  return `${pad(d.getMonth() + 1)}-${pad(d.getDate())} ${pad(d.getHours())}:${pad(d.getMinutes())}`;
+}
+
+/** 价格 → 两位小数字符串（不带 ¥，符号在模板里加，方便控制字号） */
+function formatPrice(price) {
+  const n = Number(price);
+  if (Number.isNaN(n)) return '0.00';
+  return n.toFixed(2);
+}
+
+/** openid 脱敏：oX8k2abcdefg → oX8k2***efg */
+function maskOpenid(openid) {
+  if (!openid) return '未知用户';
+  if (openid.length <= 8) return openid;
+  return `${openid.slice(0, 5)}***${openid.slice(-3)}`;
+}
+
+/** 取 openid 首个可见字符做头像占位 */
+function avatarChar(openid) {
+  if (!openid) return '?';
+  const m = openid.replace(/^o/i, '');
+  return (m[0] || '?').toUpperCase();
+}
+
+/** 给列表记录补上展示字段，避免在 WXML 里写逻辑 */
+function decorateRecord(item) {
+  const status = STATUS_MAP[item.status] || STATUS_MAP.pending;
+  return Object.assign({}, item, {
+    priceText: formatPrice(item.price),
+    createdAtText: formatTime(item.createdAt),
+    createdAtShort: formatShortTime(item.createdAt),
+    updatedAtText: formatTime(item.updatedAt),
+    statusText: status.text,
+    applicantMask: maskOpenid(item.applicantOpenid || item._openid),
+    applicantChar: avatarChar(item.applicantOpenid || item._openid),
+  });
+}
+
+module.exports = {
+  STATUS_MAP,
+  formatTime,
+  formatShortTime,
+  formatPrice,
+  maskOpenid,
+  avatarChar,
+  decorateRecord,
+};

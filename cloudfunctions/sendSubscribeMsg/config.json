@@ -1,1 +1,5 @@
-ewogICJwZXJtaXNzaW9ucyI6IHsKICAgICJvcGVuYXBpIjogWyJzdWJzY3JpYmVNZXNzYWdlLnNlbmQiXQogIH0KfQo=
+{
+  "permissions": {
+    "openapi": ["subscribeMessage.send"]
+  }
+}

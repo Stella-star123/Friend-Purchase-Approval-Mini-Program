@@ -1,1 +1,122 @@
-Y29uc3QgeyBjYWxsRnVuY3Rpb24gfSA9IHJlcXVpcmUoJy4uLy4uL3V0aWxzL2Nsb3VkJyk7CmNvbnN0IHsgZGVjb3JhdGVSZWNvcmQgfSA9IHJlcXVpcmUoJy4uLy4uL3V0aWxzL2Zvcm1hdCcpOwoKUGFnZSh7CiAgZGF0YTogewogICAgc3RhdGU6ICdsb2FkaW5nJywKICAgIGVycm9yVGV4dDogJycsCiAgICBpZDogJycsCiAgICByZWNvcmQ6IG51bGwsCiAgICBhcHByb3ZlTm90ZTogJycsCiAgICBzdWJtaXR0aW5nOiBmYWxzZSwKICAgIGRlY2lzaW9uOiAnJywgLy8g5q2j5Zyo5o+Q5Lqk55qE5Yaz5a6a77yM55So5LqO5oyJ6ZKuIGxvYWRpbmcg5a6a5L2NCiAgICBjYW5BcHByb3ZlOiBmYWxzZSwKICB9LAoKICBvbkxvYWQob3B0aW9ucykgewogICAgY29uc3QgaWQgPSBvcHRpb25zICYmIG9wdGlvbnMuaWQ7CiAgICBpZiAoIWlkKSB7CiAgICAgIHRoaXMuc2V0RGF0YSh7IHN0YXRlOiAnZXJyb3InLCBlcnJvclRleHQ6ICfnvLrlsJHnlLPor7fljZUgaWQnIH0pOwogICAgICByZXR1cm47CiAgICB9CiAgICB0aGlzLnNldERhdGEoeyBpZCB9KTsKICAgIHRoaXMuZmV0Y2hEZXRhaWwoKTsKICB9LAoKICBmZXRjaERldGFpbCgpIHsKICAgIHRoaXMuc2V0RGF0YSh7IHN0YXRlOiAnbG9hZGluZycsIGVycm9yVGV4dDogJycgfSk7CiAgICByZXR1cm4gY2FsbEZ1bmN0aW9uKCdnZXRBcHBsaWNhdGlvbkRldGFpbCcsIHsgaWQ6IHRoaXMuZGF0YS5pZCB9KQogICAgICAudGhlbigocmVzKSA9PiB7CiAgICAgICAgY29uc3QgcmVjb3JkID0gZGVjb3JhdGVSZWNvcmQocmVzLmRhdGEgfHwge30pOwogICAgICAgIHRoaXMuc2V0RGF0YSh7CiAgICAgICAgICByZWNvcmQsCiAgICAgICAgICBzdGF0ZTogJ3JlYWR5JywKICAgICAgICAgIGNhbkFwcHJvdmU6ICEhcmVjb3JkLmNhbkFwcHJvdmUsCiAgICAgICAgfSk7CiAgICAgIH0pCiAgICAgIC5jYXRjaCgoZXJyKSA9PiB7CiAgICAgICAgdGhpcy5zZXREYXRhKHsKICAgICAgICAgIHN0YXRlOiAnZXJyb3InLAogICAgICAgICAgZXJyb3JUZXh0OiBlcnIuZnJpZW5kbHlNZXNzYWdlIHx8ICfliqDovb3lpLHotKXvvIzor7fmo4Dmn6XnvZHnu5wnLAogICAgICAgIH0pOwogICAgICB9KTsKICB9LAoKICBvblJldHJ5KCkgewogICAgdGhpcy5mZXRjaERldGFpbCgpOwogIH0sCgogIG9uQmFjaygpIHsKICAgIHd4Lm5hdmlnYXRlQmFjayh7CiAgICAgIGZhaWw6ICgpID0+IHd4LnN3aXRjaFRhYih7IHVybDogJy9wYWdlcy9wZW5kaW5nL2luZGV4JyB9KSwKICAgIH0pOwogIH0sCgogIG9uTm90ZUlucHV0KGUpIHsKICAgIHRoaXMuc2V0RGF0YSh7IGFwcHJvdmVOb3RlOiBlLmRldGFpbC52YWx1ZSB9KTsKICB9LAoKICBvbkFwcHJvdmUoKSB7CiAgICB0aGlzLnN1Ym1pdERlY2lzaW9uKCdhcHByb3ZlZCcsICfnoa7orqTpgJrov4fov5nnrJTnlLPor7fvvJ8nKTsKICB9LAoKICBvblJlamVjdCgpIHsKICAgIHRoaXMuc3VibWl0RGVjaXNpb24oJ3JlamVjdGVkJywgJ+ehruiupOaLkue7nei/meeslOeUs+ivt++8n+W7uuiuruWhq+WGmeWkh+azqOivtOaYjuWOn+WboOOAgicpOwogIH0sCgogIHN1Ym1pdERlY2lzaW9uKGRlY2lzaW9uLCBjb25maXJtVGV4dCkgewogICAgaWYgKHRoaXMuZGF0YS5zdWJtaXR0aW5nIHx8ICF0aGlzLmRhdGEuY2FuQXBwcm92ZSkgcmV0dXJuOwoKICAgIHd4LnNob3dNb2RhbCh7CiAgICAgIHRpdGxlOiBkZWNpc2lvbiA9PT0gJ2FwcHJvdmVkJyA/ICfpgJrov4fnlLPor7cnIDogJ+aLkue7neeUs+ivtycsCiAgICAgIGNvbnRlbnQ6IGNvbmZpcm1UZXh0LAogICAgICBjb25maXJtVGV4dDogJ+ehruiupCcsCiAgICAgIGNhbmNlbFRleHQ6ICflho3nnIvnnIsnLAogICAgICBzdWNjZXNzOiAocmVzKSA9PiB7CiAgICAgICAgaWYgKCFyZXMuY29uZmlybSkgcmV0dXJuOwogICAgICAgIHRoaXMuZG9TdWJtaXQoZGVjaXNpb24pOwogICAgICB9LAogICAgfSk7CiAgfSwKCiAgZG9TdWJtaXQoZGVjaXNpb24pIHsKICAgIC8vIOmYsumHjeWkjeaPkOS6pAogICAgdGhpcy5zZXREYXRhKHsgc3VibWl0dGluZzogdHJ1ZSwgZGVjaXNpb24gfSk7CgogICAgY2FsbEZ1bmN0aW9uKCdhcHByb3ZlQXBwbGljYXRpb24nLCB7CiAgICAgIGlkOiB0aGlzLmRhdGEuaWQsCiAgICAgIGRlY2lzaW9uLAogICAgICBhcHByb3ZlTm90ZTogdGhpcy5kYXRhLmFwcHJvdmVOb3RlLnRyaW0oKSwKICAgIH0pCiAgICAgIC50aGVuKCgpID0+IHsKICAgICAgICB3eC5zaG93VG9hc3QoewogICAgICAgICAgdGl0bGU6IGRlY2lzaW9uID09PSAnYXBwcm92ZWQnID8gJ+W3sumAmui/hycgOiAn5bey5ouS57udJywKICAgICAgICAgIGljb246ICdzdWNjZXNzJywKICAgICAgICAgIGR1cmF0aW9uOiAxMjAwLAogICAgICAgIH0pOwogICAgICAgIHNldFRpbWVvdXQoKCkgPT4gewogICAgICAgICAgd3gubmF2aWdhdGVCYWNrKHsKICAgICAgICAgICAgZmFpbDogKCkgPT4gd3guc3dpdGNoVGFiKHsgdXJsOiAnL3BhZ2VzL3BlbmRpbmcvaW5kZXgnIH0pLAogICAgICAgICAgfSk7CiAgICAgICAgfSwgMTAwMCk7CiAgICAgIH0pCiAgICAgIC5jYXRjaCgoZXJyKSA9PiB7CiAgICAgICAgdGhpcy5zZXREYXRhKHsgc3VibWl0dGluZzogZmFsc2UsIGRlY2lzaW9uOiAnJyB9KTsKICAgICAgICAvLyDlt7LooqvlpITnkIbvvJrliLfmlrDpobXpnaLnirbmgIHvvIzpgb/lhY3nu6fnu63mk43kvZwKICAgICAgICBpZiAoZXJyLmVyckNvZGUgPT09ICdBTFJFQURZX0hBTkRMRUQnKSB7CiAgICAgICAgICB3eC5zaG93TW9kYWwoewogICAgICAgICAgICB0aXRsZTogJ+aXoOmcgOmHjeWkjeWuoeaJuScsCiAgICAgICAgICAgIGNvbnRlbnQ6ICfor6XnlLPor7flt7LooqvlpITnkIbjgIInLAogICAgICAgICAgICBzaG93Q2FuY2VsOiBmYWxzZSwKICAgICAgICAgICAgc3VjY2VzczogKCkgPT4gdGhpcy5mZXRjaERldGFpbCgpLAogICAgICAgICAgfSk7CiAgICAgICAgICByZXR1cm47CiAgICAgICAgfQogICAgICAgIHd4LnNob3dNb2RhbCh7CiAgICAgICAgICB0aXRsZTogJ+WuoeaJueWksei0pScsCiAgICAgICAgICBjb250ZW50OiBlcnIuZnJpZW5kbHlNZXNzYWdlIHx8IGVyci5tZXNzYWdlIHx8ICfor7fnqI3lkI7ph43or5UnLAogICAgICAgICAgc2hvd0NhbmNlbDogZmFsc2UsCiAgICAgICAgfSk7CiAgICAgIH0pOwogIH0sCn0pOwo=
+const { callFunction } = require('../../utils/cloud');
+const { decorateRecord } = require('../../utils/format');
+
+Page({
+  data: {
+    state: 'loading',
+    errorText: '',
+    id: '',
+    record: null,
+    approveNote: '',
+    submitting: false,
+    decision: '', // 正在提交的决定，用于按钮 loading 定位
+    canApprove: false,
+  },
+
+  onLoad(options) {
+    const id = options && options.id;
+    if (!id) {
+      this.setData({ state: 'error', errorText: '缺少申请单 id' });
+      return;
+    }
+    this.setData({ id });
+    this.fetchDetail();
+  },
+
+  fetchDetail() {
+    this.setData({ state: 'loading', errorText: '' });
+    return callFunction('getApplicationDetail', { id: this.data.id })
+      .then((res) => {
+        const record = decorateRecord(res.data || {});
+        this.setData({
+          record,
+          state: 'ready',
+          canApprove: !!record.canApprove,
+        });
+      })
+      .catch((err) => {
+        this.setData({
+          state: 'error',
+          errorText: err.friendlyMessage || '加载失败，请检查网络',
+        });
+      });
+  },
+
+  onRetry() {
+    this.fetchDetail();
+  },
+
+  onBack() {
+    wx.navigateBack({
+      fail: () => wx.switchTab({ url: '/pages/pending/index' }),
+    });
+  },
+
+  onNoteInput(e) {
+    this.setData({ approveNote: e.detail.value });
+  },
+
+  onApprove() {
+    this.submitDecision('approved', '确认通过这笔申请？');
+  },
+
+  onReject() {
+    this.submitDecision('rejected', '确认拒绝这笔申请？建议填写备注说明原因。');
+  },
+
+  submitDecision(decision, confirmText) {
+    if (this.data.submitting || !this.data.canApprove) return;
+
+    wx.showModal({
+      title: decision === 'approved' ? '通过申请' : '拒绝申请',
+      content: confirmText,
+      confirmText: '确认',
+      cancelText: '再看看',
+      success: (res) => {
+        if (!res.confirm) return;
+        this.doSubmit(decision);
+      },
+    });
+  },
+
+  doSubmit(decision) {
+    // 防重复提交
+    this.setData({ submitting: true, decision });
+
+    callFunction('approveApplication', {
+      id: this.data.id,
+      decision,
+      approveNote: this.data.approveNote.trim(),
+    })
+      .then(() => {
+        wx.showToast({
+          title: decision === 'approved' ? '已通过' : '已拒绝',
+          icon: 'success',
+          duration: 1200,
+        });
+        setTimeout(() => {
+          wx.navigateBack({
+            fail: () => wx.switchTab({ url: '/pages/pending/index' }),
+          });
+        }, 1000);
+      })
+      .catch((err) => {
+        this.setData({ submitting: false, decision: '' });
+        // 已被处理：刷新页面状态，避免继续操作
+        if (err.errCode === 'ALREADY_HANDLED') {
+          wx.showModal({
+            title: '无需重复审批',
+            content: '该申请已被处理。',
+            showCancel: false,
+            success: () => this.fetchDetail(),
+          });
+          return;
+        }
+        wx.showModal({
+          title: '审批失败',
+          content: err.friendlyMessage || err.message || '请稍后重试',
+          showCancel: false,
+        });
+      });
+  },
+});

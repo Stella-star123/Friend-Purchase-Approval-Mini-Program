@@ -1,1 +1,73 @@
-LnN1bW1hcnkgewogIG1hcmdpbi1ib3R0b206IDMycnB4OwogIGZvbnQtd2VpZ2h0OiA1MDA7Cn0KCi5wZW5kaW5nLWNhcmQgewogIHBhZGRpbmc6IDI4cnB4IDMycnB4OwogIG1hcmdpbi1ib3R0b206IDI0cnB4OwogIGJhY2tncm91bmQtY29sb3I6IHZhcigtLWNvbG9yLWJnLXN1cmZhY2UpOwogIGJvcmRlci1yYWRpdXM6IHZhcigtLXJhZGl1cy1jYXJkKTsKfQoKLnBlbmRpbmctY2FyZC0taG92ZXIgewogIGJhY2tncm91bmQtY29sb3I6ICNlZmYxZjU7Cn0KCi5wZW5kaW5nLWNhcmRfX3JvdyB7CiAgZGlzcGxheTogZmxleDsKICBhbGlnbi1pdGVtczogY2VudGVyOwogIGp1c3RpZnktY29udGVudDogc3BhY2UtYmV0d2VlbjsKfQoKLnBlbmRpbmctY2FyZF9fcm93LS1zdWIgewogIG1hcmdpbi10b3A6IDE2cnB4Owp9CgoucGVuZGluZy1jYXJkX19uYW1lIHsKICBmbGV4OiAxOwogIGZvbnQtc2l6ZTogMzBycHg7CiAgZm9udC13ZWlnaHQ6IDUwMDsKICBjb2xvcjogdmFyKC0tY29sb3ItdGV4dC1wcmltYXJ5KTsKICBvdmVyZmxvdzogaGlkZGVuOwogIHRleHQtb3ZlcmZsb3c6IGVsbGlwc2lzOwogIHdoaXRlLXNwYWNlOiBub3dyYXA7CiAgcGFkZGluZy1yaWdodDogMjBycHg7Cn0KCi5wZW5kaW5nLWNhcmRfX3ByaWNlIHsKICBmbGV4OiBub25lOwogIGZvbnQtc2l6ZTogMzBycHg7CiAgZm9udC13ZWlnaHQ6IDcwMDsKICBjb2xvcjogdmFyKC0tY29sb3ItdGV4dC1wcmltYXJ5KTsKfQoKLnBlbmRpbmctY2FyZF9fbWV0YSB7CiAgZm9udC1zaXplOiAyNHJweDsKICBjb2xvcjogdmFyKC0tY29sb3ItdGV4dC1zZWNvbmRhcnkpOwp9CgoucGVuZGluZy1jYXJkX19saW5rIHsKICBmb250LXNpemU6IDI0cnB4OwogIGNvbG9yOiB2YXIoLS1jb2xvci1wcmltYXJ5KTsKfQoKLnJlbWluZGVyIHsKICBkaXNwbGF5OiBmbGV4OwogIGFsaWduLWl0ZW1zOiBjZW50ZXI7CiAganVzdGlmeS1jb250ZW50OiBzcGFjZS1iZXR3ZWVuOwogIG1hcmdpbjogMTZycHggMCA0OHJweDsKICBwYWRkaW5nOiAyNnJweCAzMnJweDsKICBiYWNrZ3JvdW5kLWNvbG9yOiB2YXIoLS1jb2xvci1iZy1pbnB1dCk7CiAgYm9yZGVyLXJhZGl1czogdmFyKC0tcmFkaXVzLWNhcmQpOwp9CgoucmVtaW5kZXJfX3RleHQgewogIGZvbnQtc2l6ZTogMjZycHg7CiAgY29sb3I6IHZhcigtLWNvbG9yLXRleHQtc2Vjb25kYXJ5KTsKfQoKLnJlbWluZGVyX19hcnJvdyB7CiAgZm9udC1zaXplOiAzMnJweDsKICBjb2xvcjogdmFyKC0tY29sb3ItdGV4dC1wbGFjZWhvbGRlcik7Cn0K
+.summary {
+  margin-bottom: 32rpx;
+  font-weight: 500;
+}
+
+.pending-card {
+  padding: 28rpx 32rpx;
+  margin-bottom: 24rpx;
+  background-color: var(--color-bg-surface);
+  border-radius: var(--radius-card);
+}
+
+.pending-card--hover {
+  background-color: #eff1f5;
+}
+
+.pending-card__row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.pending-card__row--sub {
+  margin-top: 16rpx;
+}
+
+.pending-card__name {
+  flex: 1;
+  font-size: 30rpx;
+  font-weight: 500;
+  color: var(--color-text-primary);
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  padding-right: 20rpx;
+}
+
+.pending-card__price {
+  flex: none;
+  font-size: 30rpx;
+  font-weight: 700;
+  color: var(--color-text-primary);
+}
+
+.pending-card__meta {
+  font-size: 24rpx;
+  color: var(--color-text-secondary);
+}
+
+.pending-card__link {
+  font-size: 24rpx;
+  color: var(--color-primary);
+}
+
+.reminder {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 16rpx 0 48rpx;
+  padding: 26rpx 32rpx;
+  background-color: var(--color-bg-input);
+  border-radius: var(--radius-card);
+}
+
+.reminder__text {
+  font-size: 26rpx;
+  color: var(--color-text-secondary);
+}
+
+.reminder__arrow {
+  font-size: 32rpx;
+  color: var(--color-text-placeholder);
+}

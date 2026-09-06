@@ -1,1 +1,51 @@
-PHZpZXcgY2xhc3M9InBhZ2UgcGFnZS0tZ2FwLWJvdHRvbSI+CiAgPHZpZXcgY2xhc3M9InBhZ2UtaGVhZGVyIj4KICAgIDx0ZXh0IGNsYXNzPSJwYWdlLXRpdGxlIj7miJHnmoTnlLPor7c8L3RleHQ+CiAgICA8dGV4dAogICAgICBjbGFzcz0icGFnZS1oZWFkZXJfX2FjdGlvbiB7e3N0YXRlID09PSAnbG9hZGluZycgPyAncGFnZS1oZWFkZXJfX2FjdGlvbi0tZGlzYWJsZWQnIDogJyd9fSIKICAgICAgYmluZHRhcD0ib25SZWZyZXNoVGFwIgogICAgPuWIt+aWsDwvdGV4dD4KICA8L3ZpZXc+CgogIDwhLS0g5Yqg6L295LitIC0tPgogIDxza2VsZXRvbiB3eDppZj0ie3tzdGF0ZSA9PT0gJ2xvYWRpbmcnfX0iIGNvdW50PSIzIiAvPgoKICA8IS0tIOmUmeivryAtLT4KICA8ZXJyb3ItdGlwIHd4OmVsaWY9Int7c3RhdGUgPT09ICdlcnJvcid9fSIgdGV4dD0ie3tlcnJvclRleHR9fSIgYmluZDpyZXRyeT0ib25SZXRyeSIgLz4KCiAgPCEtLSDnqbrnirbmgIEgLS0+CiAgPGVtcHR5LXN0YXRlCiAgICB3eDplbGlmPSJ7e3N0YXRlID09PSAnZW1wdHknfX0iCiAgICB0ZXh0PSLmmoLml6DnlLPor7forrDlvZUiCiAgICBhY3Rpb24tdGV4dD0i5Y675o+Q5Lqk55Sz6K+3IgogICAgYmluZDphY3Rpb249ImdvQXBwbHkiCiAgLz4KCiAgPCEtLSDliJfooaggLS0+CiAgPGJsb2NrIHd4OmVsc2U+CiAgICA8dmlldwogICAgICBjbGFzcz0iYXBwbHktY2FyZCIKICAgICAgd3g6Zm9yPSJ7e2xpc3R9fSIKICAgICAgd3g6a2V5PSJfaWQiCiAgICAgIGRhdGEtaWQ9Int7aXRlbS5faWR9fSIKICAgICAgYmluZHRhcD0iZ29EZXRhaWwiCiAgICAgIGhvdmVyLWNsYXNzPSJhcHBseS1jYXJkLS1ob3ZlciIKICAgID4KICAgICAgPHZpZXcgY2xhc3M9ImFwcGx5LWNhcmRfX21haW4iPgogICAgICAgIDx0ZXh0IGNsYXNzPSJhcHBseS1jYXJkX19uYW1lIj57e2l0ZW0uaXRlbU5hbWV9fTwvdGV4dD4KICAgICAgICA8dGV4dCBjbGFzcz0iYXBwbHktY2FyZF9fbWV0YSI+e3tpdGVtLmNyZWF0ZWRBdFNob3J0fX08L3RleHQ+CiAgICAgICAgPHRleHQgY2xhc3M9ImFwcGx5LWNhcmRfX3ByaWNlIj7CpXt7aXRlbS5wcmljZVRleHR9fTwvdGV4dD4KICAgICAgPC92aWV3PgogICAgICA8dmlldyBjbGFzcz0iYXBwbHktY2FyZF9fc2lkZSI+CiAgICAgICAgPHN0YXR1cy10YWcgc3RhdHVzPSJ7e2l0ZW0uc3RhdHVzfX0iIC8+CiAgICAgIDwvdmlldz4KICAgIDwvdmlldz4KCiAgICA8dmlldyBjbGFzcz0ibGlzdC1mb290ZXIiPuWFsSB7e3RvdGFsfX0g5p2h55Sz6K+3PC92aWV3PgogIDwvYmxvY2s+CgogIDwhLS0g5paw5bu65YWl5Y+jIC0tPgogIDx2aWV3IGNsYXNzPSJmb290ZXItYmFyIiB3eDppZj0ie3tzdGF0ZSAhPT0gJ2VtcHR5J319Ij4KICAgIDxidXR0b24gY2xhc3M9ImJ0biBidG4tLXByaW1hcnkiIGJpbmR0YXA9ImdvQXBwbHkiPuaWsOW7uueUs+ivtzwvYnV0dG9uPgogIDwvdmlldz4KPC92aWV3Pgo=
+<view class="page page--gap-bottom">
+  <view class="page-header">
+    <text class="page-title">我的申请</text>
+    <text
+      class="page-header__action {{state === 'loading' ? 'page-header__action--disabled' : ''}}"
+      bindtap="onRefreshTap"
+    >刷新</text>
+  </view>
+
+  <!-- 加载中 -->
+  <skeleton wx:if="{{state === 'loading'}}" count="3" />
+
+  <!-- 错误 -->
+  <error-tip wx:elif="{{state === 'error'}}" text="{{errorText}}" bind:retry="onRetry" />
+
+  <!-- 空状态 -->
+  <empty-state
+    wx:elif="{{state === 'empty'}}"
+    text="暂无申请记录"
+    action-text="去提交申请"
+    bind:action="goApply"
+  />
+
+  <!-- 列表 -->
+  <block wx:else>
+    <view
+      class="apply-card"
+      wx:for="{{list}}"
+      wx:key="_id"
+      data-id="{{item._id}}"
+      bindtap="goDetail"
+      hover-class="apply-card--hover"
+    >
+      <view class="apply-card__main">
+        <text class="apply-card__name">{{item.itemName}}</text>
+        <text class="apply-card__meta">{{item.createdAtShort}}</text>
+        <text class="apply-card__price">¥{{item.priceText}}</text>
+      </view>
+      <view class="apply-card__side">
+        <status-tag status="{{item.status}}" />
+      </view>
+    </view>
+
+    <view class="list-footer">共 {{total}} 条申请</view>
+  </block>
+
+  <!-- 新建入口 -->
+  <view class="footer-bar" wx:if="{{state !== 'empty'}}">
+    <button class="btn btn--primary" bindtap="goApply">新建申请</button>
+  </view>
+</view>

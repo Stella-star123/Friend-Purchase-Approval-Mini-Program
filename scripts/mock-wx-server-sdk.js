@@ -1,1 +1,239 @@
-LyoqCiAqIHd4LXNlcnZlci1zZGsg55qE5YaF5a2Y54mI5qih5ouf5a6e546w77yM5LuF55So5LqO5pys5Zyw6LeR5LqR5Ye95pWw6YC76L6R5rWL6K+V44CCCiAqIOS4jeWPguS4jumDqOe9su+8jOS5n+S4jeS8muiiq+S4iuS8oOWIsOS6keerr+OAggogKi8KCmNvbnN0IHN0b3JlID0geyBhcHByb3ZhbHM6IFtdLCBzdWJzY3JpYmVRdW90YTogW10gfTsKbGV0IGN1cnJlbnRPcGVuaWQgPSAnJzsKY29uc3QgcmVnaXN0cnkgPSB7fTsgLy8g5LqR5Ye95pWw5ZCNIOKGkiBtYWluCmNvbnN0IHNlbnRNZXNzYWdlcyA9IFtdOwpsZXQgYXV0b0lkID0gMDsKCi8vIC0tLS0tLS0tLS0tLS0tLS0g5oyH5Luk5a+56LGhIC0tLS0tLS0tLS0tLS0tLS0KY29uc3QgY21kID0gewogIGd0ZTogKHZhbHVlKSA9PiAoeyBfX2NtZDogJ2d0ZScsIHZhbHVlIH0pLAogIGd0OiAodmFsdWUpID0+ICh7IF9fY21kOiAnZ3QnLCB2YWx1ZSB9KSwKICBsdDogKHZhbHVlKSA9PiAoeyBfX2NtZDogJ2x0JywgdmFsdWUgfSksCiAgaW5jOiAodmFsdWUpID0+ICh7IF9fY21kOiAnaW5jJywgdmFsdWUgfSksCiAgYWdncmVnYXRlOiB7CiAgICBzdW06IChleHByKSA9PiAoeyBfX2FnZzogJ3N1bScsIGZpZWxkOiBTdHJpbmcoZXhwcikucmVwbGFjZSgvXlwkLywgJycpIH0pLAogIH0sCn07CgpmdW5jdGlvbiBtYXRjaE9uZShkb2NWYWx1ZSwgY29uZCkgewogIGlmIChjb25kICYmIHR5cGVvZiBjb25kID09PSAnb2JqZWN0JyAmJiBjb25kLl9fY21kKSB7CiAgICBzd2l0Y2ggKGNvbmQuX19jbWQpIHsKICAgICAgY2FzZSAnZ3RlJzoKICAgICAgICByZXR1cm4gZG9jVmFsdWUgPj0gY29uZC52YWx1ZTsKICAgICAgY2FzZSAnZ3QnOgogICAgICAgIHJldHVybiBkb2NWYWx1ZSA+IGNvbmQudmFsdWU7CiAgICAgIGNhc2UgJ2x0JzoKICAgICAgICByZXR1cm4gZG9jVmFsdWUgPCBjb25kLnZhbHVlOwogICAgICBkZWZhdWx0OgogICAgICAgIHRocm93IG5ldyBFcnJvcihgbW9jayDmnKrlrp7njrDnmoTmn6Xor6LmjIfku6TvvJoke2NvbmQuX19jbWR9YCk7CiAgICB9CiAgfQogIHJldHVybiBkb2NWYWx1ZSA9PT0gY29uZDsKfQoKZnVuY3Rpb24gbWF0Y2hXaGVyZShkb2MsIHdoZXJlKSB7CiAgaWYgKCF3aGVyZSkgcmV0dXJuIHRydWU7CiAgcmV0dXJuIE9iamVjdC5rZXlzKHdoZXJlKS5ldmVyeSgoaykgPT4gbWF0Y2hPbmUoZG9jW2tdLCB3aGVyZVtrXSkpOwp9CgpmdW5jdGlvbiBhcHBseVVwZGF0ZShkb2MsIGRhdGEpIHsKICBPYmplY3Qua2V5cyhkYXRhKS5mb3JFYWNoKChrKSA9PiB7CiAgICBjb25zdCB2ID0gZGF0YVtrXTsKICAgIGlmICh2ICYmIHR5cGVvZiB2ID09PSAnb2JqZWN0JyAmJiB2Ll9fY21kID09PSAnaW5jJykgewogICAgICBkb2Nba10gPSAoTnVtYmVyKGRvY1trXSkgfHwgMCkgKyB2LnZhbHVlOwogICAgfSBlbHNlIHsKICAgICAgZG9jW2tdID0gdjsKICAgIH0KICB9KTsKfQoKZnVuY3Rpb24gcHJvamVjdChkb2MsIGZpZWxkKSB7CiAgaWYgKCFmaWVsZCkgcmV0dXJuIE9iamVjdC5hc3NpZ24oe30sIGRvYyk7CiAgY29uc3Qgb3V0ID0ge307CiAgT2JqZWN0LmtleXMoZmllbGQpLmZvckVhY2goKGspID0+IHsKICAgIGlmIChmaWVsZFtrXSAmJiBrIGluIGRvYykgb3V0W2tdID0gZG9jW2tdOwogIH0pOwogIHJldHVybiBvdXQ7Cn0KCi8vIC0tLS0tLS0tLS0tLS0tLS0g5p+l6K+i6ZO+IC0tLS0tLS0tLS0tLS0tLS0KY2xhc3MgUXVlcnkgewogIGNvbnN0cnVjdG9yKG5hbWUpIHsKICAgIHRoaXMubmFtZSA9IG5hbWU7CiAgICB0aGlzLl93aGVyZSA9IG51bGw7CiAgICB0aGlzLl9vcmRlckJ5ID0gW107CiAgICB0aGlzLl9za2lwID0gMDsKICAgIHRoaXMuX2xpbWl0ID0gMTAwOwogICAgdGhpcy5fZmllbGQgPSBudWxsOwogICAgdGhpcy5fZG9jSWQgPSBudWxsOwogIH0KCiAgZ2V0IF9yb3dzKCkgewogICAgaWYgKCFzdG9yZVt0aGlzLm5hbWVdKSBzdG9yZVt0aGlzLm5hbWVdID0gW107CiAgICByZXR1cm4gc3RvcmVbdGhpcy5uYW1lXTsKICB9CgogIHdoZXJlKHcpIHsKICAgIHRoaXMuX3doZXJlID0gdzsKICAgIHJldHVybiB0aGlzOwogIH0KICBvcmRlckJ5KGZpZWxkLCBkaXIpIHsKICAgIHRoaXMuX29yZGVyQnkucHVzaChbZmllbGQsIGRpcl0pOwogICAgcmV0dXJuIHRoaXM7CiAgfQogIHNraXAobikgewogICAgdGhpcy5fc2tpcCA9IG47CiAgICByZXR1cm4gdGhpczsKICB9CiAgbGltaXQobikgewogICAgdGhpcy5fbGltaXQgPSBuOwogICAgcmV0dXJuIHRoaXM7CiAgfQogIGZpZWxkKGYpIHsKICAgIHRoaXMuX2ZpZWxkID0gZjsKICAgIHJldHVybiB0aGlzOwogIH0KICBkb2MoaWQpIHsKICAgIHRoaXMuX2RvY0lkID0gaWQ7CiAgICByZXR1cm4gdGhpczsKICB9CgogIF9maWx0ZXJlZCgpIHsKICAgIGxldCByb3dzID0gdGhpcy5fcm93cy5maWx0ZXIoKGQpID0+IG1hdGNoV2hlcmUoZCwgdGhpcy5fd2hlcmUpKTsKICAgIGlmICh0aGlzLl9kb2NJZCAhPSBudWxsKSByb3dzID0gcm93cy5maWx0ZXIoKGQpID0+IGQuX2lkID09PSB0aGlzLl9kb2NJZCk7CiAgICB0aGlzLl9vcmRlckJ5LmZvckVhY2goKFtmLCBkaXJdKSA9PiB7CiAgICAgIHJvd3Muc29ydCgoYSwgYikgPT4gKGRpciA9PT0gJ2Rlc2MnID8gKGJbZl0gPiBhW2ZdID8gMSA6IC0xKSA6IGFbZl0gPiBiW2ZdID8gMSA6IC0xKSk7CiAgICB9KTsKICAgIHJldHVybiByb3dzOwogIH0KCiAgYXN5bmMgZ2V0KCkgewogICAgaWYgKHRoaXMuX2RvY0lkICE9IG51bGwpIHsKICAgICAgY29uc3Qgcm93ID0gdGhpcy5fcm93cy5maW5kKChkKSA9PiBkLl9pZCA9PT0gdGhpcy5fZG9jSWQpOwogICAgICBpZiAoIXJvdykgewogICAgICAgIGNvbnN0IGVyciA9IG5ldyBFcnJvcignZG9jdW1lbnQuZ2V0OmZhaWwgZG9jdW1lbnQgZG9lcyBub3QgZXhpc3QnKTsKICAgICAgICBlcnIuZXJyQ29kZSA9IC0xOwogICAgICAgIHRocm93IGVycjsKICAgICAgfQogICAgICByZXR1cm4geyBkYXRhOiBwcm9qZWN0KHJvdywgdGhpcy5fZmllbGQpIH07CiAgICB9CiAgICBjb25zdCByb3dzID0gdGhpcy5fZmlsdGVyZWQoKS5zbGljZSh0aGlzLl9za2lwLCB0aGlzLl9za2lwICsgdGhpcy5fbGltaXQpOwogICAgcmV0dXJuIHsgZGF0YTogcm93cy5tYXAoKHIpID0+IHByb2plY3QociwgdGhpcy5fZmllbGQpKSB9OwogIH0KCiAgYXN5bmMgY291bnQoKSB7CiAgICByZXR1cm4geyB0b3RhbDogdGhpcy5fZmlsdGVyZWQoKS5sZW5ndGggfTsKICB9CgogIGFzeW5jIGFkZCh7IGRhdGEgfSkgewogICAgY29uc3QgX2lkID0gZGF0YS5faWQgIT0gbnVsbCA/IGRhdGEuX2lkIDogYG1vY2tfJHsrK2F1dG9JZH1gOwogICAgaWYgKHRoaXMuX3Jvd3Muc29tZSgoZCkgPT4gZC5faWQgPT09IF9pZCkpIHsKICAgICAgY29uc3QgZXJyID0gbmV3IEVycm9yKCdkdXBsaWNhdGUgX2lkJyk7CiAgICAgIGVyci5lcnJDb2RlID0gLTUwMjAwMTsKICAgICAgdGhyb3cgZXJyOwogICAgfQogICAgdGhpcy5fcm93cy5wdXNoKE9iamVjdC5hc3NpZ24oe30sIGRhdGEsIHsgX2lkIH0pKTsKICAgIHJldHVybiB7IF9pZCB9OwogIH0KCiAgYXN5bmMgdXBkYXRlKHsgZGF0YSB9KSB7CiAgICBjb25zdCByb3dzID0gdGhpcy5fZmlsdGVyZWQoKTsKICAgIGlmICh0aGlzLl9kb2NJZCAhPSBudWxsICYmIHJvd3MubGVuZ3RoID09PSAwKSB7CiAgICAgIC8vIOecn+WunueOr+WigyBkb2MoKS51cGRhdGUoKSDlkb3kuK3kuI3liLDkvJrmiqXplJkKICAgICAgY29uc3QgZXJyID0gbmV3IEVycm9yKCdkb2N1bWVudC51cGRhdGU6ZmFpbCBkb2N1bWVudCBkb2VzIG5vdCBleGlzdCcpOwogICAgICBlcnIuZXJyQ29kZSA9IC0xOwogICAgICB0aHJvdyBlcnI7CiAgICB9CiAgICByb3dzLmZvckVhY2goKHIpID0+IGFwcGx5VXBkYXRlKHIsIGRhdGEpKTsKICAgIHJldHVybiB7IHN0YXRzOiB7IHVwZGF0ZWQ6IHJvd3MubGVuZ3RoIH0gfTsKICB9CgogIGFnZ3JlZ2F0ZSgpIHsKICAgIGNvbnN0IHNlbGYgPSB0aGlzOwogICAgY29uc3QgcGlwZWxpbmUgPSB7IHdoZXJlOiBudWxsLCBncm91cDogbnVsbCB9OwogICAgY29uc3QgYWdnID0gewogICAgICBtYXRjaCh3KSB7CiAgICAgICAgcGlwZWxpbmUud2hlcmUgPSB3OwogICAgICAgIHJldHVybiBhZ2c7CiAgICAgIH0sCiAgICAgIGdyb3VwKGcpIHsKICAgICAgICBwaXBlbGluZS5ncm91cCA9IGc7CiAgICAgICAgcmV0dXJuIGFnZzsKICAgICAgfSwKICAgICAgYXN5bmMgZW5kKCkgewogICAgICAgIGNvbnN0IHJvd3MgPSBzZWxmLl9yb3dzLmZpbHRlcigoZCkgPT4gbWF0Y2hXaGVyZShkLCBwaXBlbGluZS53aGVyZSkpOwogICAgICAgIGlmICghcGlwZWxpbmUuZ3JvdXApIHJldHVybiB7IGxpc3Q6IHJvd3MgfTsKICAgICAgICBjb25zdCBvdXQgPSB7IF9pZDogcGlwZWxpbmUuZ3JvdXAuX2lkIH07CiAgICAgICAgT2JqZWN0LmtleXMocGlwZWxpbmUuZ3JvdXApLmZvckVhY2goKGspID0+IHsKICAgICAgICAgIGlmIChrID09PSAnX2lkJykgcmV0dXJuOwogICAgICAgICAgY29uc3Qgc3BlYyA9IHBpcGVsaW5lLmdyb3VwW2tdOwogICAgICAgICAgaWYgKHNwZWMgJiYgc3BlYy5fX2FnZyA9PT0gJ3N1bScpIHsKICAgICAgICAgICAgb3V0W2tdID0gcm93cy5yZWR1Y2UoKHMsIHIpID0+IHMgKyAoTnVtYmVyKHJbc3BlYy5maWVsZF0pIHx8IDApLCAwKTsKICAgICAgICAgIH0KICAgICAgICB9KTsKICAgICAgICByZXR1cm4geyBsaXN0OiByb3dzLmxlbmd0aCA/IFtvdXRdIDogW10gfTsKICAgICAgfSwKICAgIH07CiAgICByZXR1cm4gYWdnOwogIH0KfQoKLy8gLS0tLS0tLS0tLS0tLS0tLSDlr7nlpJbmjqXlj6MgLS0tLS0tLS0tLS0tLS0tLQpjb25zdCBkYXRhYmFzZSA9ICgpID0+IHsKICBjb25zdCBkYiA9IChuYW1lKSA9PiBuZXcgUXVlcnkobmFtZSk7CiAgcmV0dXJuIHsKICAgIGNvbGxlY3Rpb246IChuYW1lKSA9PiBuZXcgUXVlcnkobmFtZSksCiAgICBjb21tYW5kOiBjbWQsCiAgfTsKfTsKZGF0YWJhc2UuY29tbWFuZCA9IGNtZDsKCmNvbnN0IHNkayA9IHsKICBEWU5BTUlDX0NVUlJFTlRfRU5WOiAnbW9jay1lbnYnLAogIGluaXQoKSB7fSwKICBnZXRXWENvbnRleHQ6ICgpID0+ICh7IE9QRU5JRDogY3VycmVudE9wZW5pZCwgQVBQSUQ6ICdtb2NrLWFwcGlkJyB9KSwKICBkYXRhYmFzZTogKCkgPT4gewogICAgY29uc3QgZCA9IHsgY29sbGVjdGlvbjogKG5hbWUpID0+IG5ldyBRdWVyeShuYW1lKSB9OwogICAgT2JqZWN0LmRlZmluZVByb3BlcnR5KGQsICdjb21tYW5kJywgeyBnZXQ6ICgpID0+IGNtZCB9KTsKICAgIHJldHVybiBkOwogIH0sCiAgY2FsbEZ1bmN0aW9uOiBhc3luYyAoeyBuYW1lLCBkYXRhIH0pID0+IHsKICAgIGlmICghcmVnaXN0cnlbbmFtZV0pIHRocm93IG5ldyBFcnJvcihgbW9jazog5LqR5Ye95pWwICR7bmFtZX0g5pyq5rOo5YaMYCk7CiAgICAvLyDkupHlh73mlbDkupLosIPml7YgT1BFTklEIOS4iuS4i+aWh+W7tue7rQogICAgY29uc3QgcmVzdWx0ID0gYXdhaXQgcmVnaXN0cnlbbmFtZV0oZGF0YSB8fCB7fSk7CiAgICByZXR1cm4geyByZXN1bHQgfTsKICB9LAogIG9wZW5hcGk6IHsKICAgIHN1YnNjcmliZU1lc3NhZ2U6IHsKICAgICAgc2VuZDogYXN5bmMgKHBheWxvYWQpID0+IHsKICAgICAgICBzZW50TWVzc2FnZXMucHVzaChwYXlsb2FkKTsKICAgICAgICByZXR1cm4geyBlcnJDb2RlOiAwIH07CiAgICAgIH0sCiAgICB9LAogIH0sCn07CgovLyDmtYvor5XovoXliqkKc2RrLl9fbW9jayA9IHsKICBzdG9yZSwKICBzZW50TWVzc2FnZXMsCiAgcmVnaXN0ZXIobmFtZSwgbWFpbikgewogICAgcmVnaXN0cnlbbmFtZV0gPSBtYWluOwogIH0sCiAgc2V0T3BlbmlkKG9wZW5pZCkgewogICAgY3VycmVudE9wZW5pZCA9IG9wZW5pZDsKICB9LAogIHJlc2V0KCkgewogICAgc3RvcmUuYXBwcm92YWxzLmxlbmd0aCA9IDA7CiAgICBzdG9yZS5zdWJzY3JpYmVRdW90YS5sZW5ndGggPSAwOwogICAgc2VudE1lc3NhZ2VzLmxlbmd0aCA9IDA7CiAgICBhdXRvSWQgPSAwOwogIH0sCn07Cgptb2R1bGUuZXhwb3J0cyA9IHNkazsK
+/**
+ * wx-server-sdk 的内存版模拟实现，仅用于本地跑云函数逻辑测试。
+ * 不参与部署，也不会被上传到云端。
+ */
+
+const store = { approvals: [], subscribeQuota: [] };
+let currentOpenid = '';
+const registry = {}; // 云函数名 → main
+const sentMessages = [];
+let autoId = 0;
+
+// ---------------- 指令对象 ----------------
+const cmd = {
+  gte: (value) => ({ __cmd: 'gte', value }),
+  gt: (value) => ({ __cmd: 'gt', value }),
+  lt: (value) => ({ __cmd: 'lt', value }),
+  inc: (value) => ({ __cmd: 'inc', value }),
+  aggregate: {
+    sum: (expr) => ({ __agg: 'sum', field: String(expr).replace(/^\$/, '') }),
+  },
+};
+
+function matchOne(docValue, cond) {
+  if (cond && typeof cond === 'object' && cond.__cmd) {
+    switch (cond.__cmd) {
+      case 'gte':
+        return docValue >= cond.value;
+      case 'gt':
+        return docValue > cond.value;
+      case 'lt':
+        return docValue < cond.value;
+      default:
+        throw new Error(`mock 未实现的查询指令：${cond.__cmd}`);
+    }
+  }
+  return docValue === cond;
+}
+
+function matchWhere(doc, where) {
+  if (!where) return true;
+  return Object.keys(where).every((k) => matchOne(doc[k], where[k]));
+}
+
+function applyUpdate(doc, data) {
+  Object.keys(data).forEach((k) => {
+    const v = data[k];
+    if (v && typeof v === 'object' && v.__cmd === 'inc') {
+      doc[k] = (Number(doc[k]) || 0) + v.value;
+    } else {
+      doc[k] = v;
+    }
+  });
+}
+
+function project(doc, field) {
+  if (!field) return Object.assign({}, doc);
+  const out = {};
+  Object.keys(field).forEach((k) => {
+    if (field[k] && k in doc) out[k] = doc[k];
+  });
+  return out;
+}
+
+// ---------------- 查询链 ----------------
+class Query {
+  constructor(name) {
+    this.name = name;
+    this._where = null;
+    this._orderBy = [];
+    this._skip = 0;
+    this._limit = 100;
+    this._field = null;
+    this._docId = null;
+  }
+
+  get _rows() {
+    if (!store[this.name]) store[this.name] = [];
+    return store[this.name];
+  }
+
+  where(w) {
+    this._where = w;
+    return this;
+  }
+  orderBy(field, dir) {
+    this._orderBy.push([field, dir]);
+    return this;
+  }
+  skip(n) {
+    this._skip = n;
+    return this;
+  }
+  limit(n) {
+    this._limit = n;
+    return this;
+  }
+  field(f) {
+    this._field = f;
+    return this;
+  }
+  doc(id) {
+    this._docId = id;
+    return this;
+  }
+
+  _filtered() {
+    let rows = this._rows.filter((d) => matchWhere(d, this._where));
+    if (this._docId != null) rows = rows.filter((d) => d._id === this._docId);
+    this._orderBy.forEach(([f, dir]) => {
+      rows.sort((a, b) => (dir === 'desc' ? (b[f] > a[f] ? 1 : -1) : a[f] > b[f] ? 1 : -1));
+    });
+    return rows;
+  }
+
+  async get() {
+    if (this._docId != null) {
+      const row = this._rows.find((d) => d._id === this._docId);
+      if (!row) {
+        const err = new Error('document.get:fail document does not exist');
+        err.errCode = -1;
+        throw err;
+      }
+      return { data: project(row, this._field) };
+    }
+    const rows = this._filtered().slice(this._skip, this._skip + this._limit);
+    return { data: rows.map((r) => project(r, this._field)) };
+  }
+
+  async count() {
+    return { total: this._filtered().length };
+  }
+
+  async add({ data }) {
+    const _id = data._id != null ? data._id : `mock_${++autoId}`;
+    if (this._rows.some((d) => d._id === _id)) {
+      const err = new Error('duplicate _id');
+      err.errCode = -502001;
+      throw err;
+    }
+    this._rows.push(Object.assign({}, data, { _id }));
+    return { _id };
+  }
+
+  async update({ data }) {
+    const rows = this._filtered();
+    if (this._docId != null && rows.length === 0) {
+      // 真实环境 doc().update() 命中不到会报错
+      const err = new Error('document.update:fail document does not exist');
+      err.errCode = -1;
+      throw err;
+    }
+    rows.forEach((r) => applyUpdate(r, data));
+    return { stats: { updated: rows.length } };
+  }
+
+  aggregate() {
+    const self = this;
+    const pipeline = { where: null, group: null };
+    const agg = {
+      match(w) {
+        pipeline.where = w;
+        return agg;
+      },
+      group(g) {
+        pipeline.group = g;
+        return agg;
+      },
+      async end() {
+        const rows = self._rows.filter((d) => matchWhere(d, pipeline.where));
+        if (!pipeline.group) return { list: rows };
+        const out = { _id: pipeline.group._id };
+        Object.keys(pipeline.group).forEach((k) => {
+          if (k === '_id') return;
+          const spec = pipeline.group[k];
+          if (spec && spec.__agg === 'sum') {
+            out[k] = rows.reduce((s, r) => s + (Number(r[spec.field]) || 0), 0);
+          }
+        });
+        return { list: rows.length ? [out] : [] };
+      },
+    };
+    return agg;
+  }
+}
+
+// ---------------- 对外接口 ----------------
+const database = () => {
+  const db = (name) => new Query(name);
+  return {
+    collection: (name) => new Query(name),
+    command: cmd,
+  };
+};
+database.command = cmd;
+
+const sdk = {
+  DYNAMIC_CURRENT_ENV: 'mock-env',
+  init() {},
+  getWXContext: () => ({ OPENID: currentOpenid, APPID: 'mock-appid' }),
+  database: () => {
+    const d = { collection: (name) => new Query(name) };
+    Object.defineProperty(d, 'command', { get: () => cmd });
+    return d;
+  },
+  callFunction: async ({ name, data }) => {
+    if (!registry[name]) throw new Error(`mock: 云函数 ${name} 未注册`);
+    // 云函数互调时 OPENID 上下文延续
+    const result = await registry[name](data || {});
+    return { result };
+  },
+  openapi: {
+    subscribeMessage: {
+      send: async (payload) => {
+        sentMessages.push(payload);
+        return { errCode: 0 };
+      },
+    },
+  },
+};
+
+// 测试辅助
+sdk.__mock = {
+  store,
+  sentMessages,
+  register(name, main) {
+    registry[name] = main;
+  },
+  setOpenid(openid) {
+    currentOpenid = openid;
+  },
+  reset() {
+    store.approvals.length = 0;
+    store.subscribeQuota.length = 0;
+    sentMessages.length = 0;
+    autoId = 0;
+  },
+};
+
+module.exports = sdk;

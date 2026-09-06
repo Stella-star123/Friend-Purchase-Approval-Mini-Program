@@ -1,1 +1,190 @@
-LyoqCiAqIOS6keWHveaVsOWFseS6q+aooeWdl++8iOWUr+S4gOa6kOaWh+S7tu+8iQogKiDimqDvuI8g5LiN6KaB55u05o6l5pS55ZCE5LqR5Ye95pWw55uu5b2V5LiL55Sf5oiQ55qEIGNvbW1vbi5qcyDigJTigJQg5pS56L+Z6YeM77yM54S25ZCO5omn6KGM77yaCiAqICAgICAgbm9kZSBzY3JpcHRzL3N5bmMtc2hhcmVkLmpzCiAqICAgIOiEmuacrOS8muaKiuacrOaWh+S7tuWIhuWPkeWIsCA2IOS4quS6keWHveaVsOebruW9leOAggogKi8KCi8vIC0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLQovLyDphY3nva7ljLoKLy8gLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tCgovLyDlrqHmibnkurrnmb3lkI3ljZXop4HkuIvmlrkgZ2V0QXBwcm92ZXJMaXN0KCnvvIzku4Xku47njq/looPlj5jph48gQVBQUk9WRVJfT1BFTklEUyDor7vlj5bvvIzkuI3lnKjku6PnoIHph4zlhpnmrbvjgIIKCi8qKiDpm4blkIjlkI0gKi8KY29uc3QgQ09MTEVDVElPTiA9IHsKICBBUFBST1ZBTFM6ICdhcHByb3ZhbHMnLAogIFNVQlNDUklCRV9RVU9UQTogJ3N1YnNjcmliZVF1b3RhJywKfTsKCi8qKiDoh6rliqjlrqHmibnpmIjlgLzvvIjlhYPvvInvvJpwcmljZSA8IDUg55u05o6l6YCa6L+HICovCmNvbnN0IEFVVE9fQVBQUk9WRV9USFJFU0hPTEQgPSA1OwoKLyoqIOeUs+ivt+eKtuaAgeaemuS4viAqLwpjb25zdCBTVEFUVVMgPSB7CiAgUEVORElORzogJ3BlbmRpbmcnLAogIEFQUFJPVkVEOiAnYXBwcm92ZWQnLAogIFJFSkVDVEVEOiAncmVqZWN0ZWQnLAp9OwoKLyoqCiAqIOiuoumYhea2iOaBr+aooeadvyBJRO+8iOS4juWJjeerryBjb25maWcvaW5kZXguanMg5L+d5oyB5LiA6Ie077yJ44CCCiAqIOS7heS7juS6keWHveaVsOeOr+Wig+WPmOmHj+ivu+WPlu+8jOS4jeWcqOS7o+eggemHjOWGmeatu++8mgogKiAgIFRNUExfUEVORElORyA9IOW+heWuoeaJueaPkOmGkuaooeadvyBJRO+8iOWcuuaZryBB77yM5Y+R57uZ5a6h5om55Lq677yJCiAqICAgVE1QTF9SRVNVTFQgID0g5a6h5om557uT5p6c6YCa55+l5qih5p2/IElE77yI5Zy65pmvIELvvIzlj5Hnu5nnlLPor7fkurrvvIkKICovCmNvbnN0IFNVQlNDUklCRV9URU1QTEFURVMgPSB7CiAgUEVORElORzogcHJvY2Vzcy5lbnYuVE1QTF9QRU5ESU5HIHx8ICcnLAogIFJFU1VMVDogcHJvY2Vzcy5lbnYuVE1QTF9SRVNVTFQgfHwgJycsCn07CgovKioKICog5LqR5Ye95pWw5LmL6Ze05LqS6LCD55qE5YaF6YOo5Luk54mM44CCCiAqIOmYsuatouWJjeerr+S8qumAoCBhY3Rpb249J3NlbmQnIOebtOaOpee7meS7u+aEj+eUqOaIt+WPkeiuoumYhea2iOaBr+OAggogKiDku4Xku47kupHlh73mlbDnjq/looPlj5jph48gSU5URVJOQUxfVE9LRU4g6K+75Y+W77yM5LiN5Zyo5Luj56CB6YeM5YaZ5q2744CCCiAqIOiLpeacqumFjee9ru+8jHNlbmRTdWJzY3JpYmVNc2cg5Lya55u05o6l5oql6ZSZ77yI6YG/5YWN56m65Luk54mM6KKr57uV6L+H77yJ44CCCiAqLwpjb25zdCBJTlRFUk5BTF9UT0tFTiA9IHByb2Nlc3MuZW52LklOVEVSTkFMX1RPS0VOIHx8ICcnOwoKLy8gLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tCi8vIOmUmeivr+eggQovLyAtLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0KCmNvbnN0IEVSUiA9IHsKICBJTlZBTElEX1BBUkFNOiAnSU5WQUxJRF9QQVJBTScsCiAgRk9SQklEREVOOiAnRk9SQklEREVOJywKICBOT1RfRk9VTkQ6ICdOT1RfRk9VTkQnLAogIEFMUkVBRFlfSEFORExFRDogJ0FMUkVBRFlfSEFORExFRCcsCiAgSU5URVJOQUw6ICdJTlRFUk5BTCcsCn07CgovLyAtLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0KLy8g57uf5LiA5ZON5bqUCi8vIC0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLQoKZnVuY3Rpb24gb2soZGF0YSwgZXh0cmEpIHsKICByZXR1cm4gT2JqZWN0LmFzc2lnbih7IHN1Y2Nlc3M6IHRydWUsIGRhdGEgfSwgZXh0cmEgfHwge30pOwp9CgpmdW5jdGlvbiBmYWlsKGVyckNvZGUsIG1lc3NhZ2UpIHsKICByZXR1cm4geyBzdWNjZXNzOiBmYWxzZSwgZXJyQ29kZSwgbWVzc2FnZTogbWVzc2FnZSB8fCAnJyB9Owp9CgovLyAtLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0KLy8g6Lqr5Lu95LiO5p2D6ZmQCi8vIC0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLQoKLyoqCiAqIOWuoeaJueS6uueZveWQjeWNle+8muS7heS7juS6keWHveaVsOeOr+Wig+WPmOmHjyBBUFBST1ZFUl9PUEVOSURTIOivu+WPlu+8iOmAl+WPt+WIhumalO+8ieOAggogKiDmnKrphY3nva7ml7bov5Tlm57nqbrmlbDnu4Qg4oaSIOaJgOacieS6uumDveS8muiiq+WIpOWumuS4uumdnuWuoeaJueS6uu+8iGZhaWwtY2xvc2Vk77yM5a6J5YWo77yJ44CCCiAqIOmFjee9ruWFpeWPo++8muS6keW8gOWPkeaOp+WItuWPsCDihpIg5LqR5Ye95pWwIOKGkiDphY3nva4g4oaSIOeOr+Wig+WPmOmHj+OAggogKi8KZnVuY3Rpb24gZ2V0QXBwcm92ZXJMaXN0KCkgewogIGNvbnN0IGZyb21FbnYgPSBwcm9jZXNzLmVudi5BUFBST1ZFUl9PUEVOSURTOwogIGlmICghZnJvbUVudiB8fCAhZnJvbUVudi50cmltKCkpIHJldHVybiBbXTsKICByZXR1cm4gZnJvbUVudgogICAgLnNwbGl0KCcsJykKICAgIC5tYXAoKHMpID0+IHMudHJpbSgpKQogICAgLmZpbHRlcihCb29sZWFuKTsKfQoKLyoqIOW9k+WJjSBvcGVuaWQg5piv5ZCm5a6h5om55Lq6ICovCmZ1bmN0aW9uIGlzQXBwcm92ZXIob3BlbmlkKSB7CiAgaWYgKCFvcGVuaWQpIHJldHVybiBmYWxzZTsKICByZXR1cm4gZ2V0QXBwcm92ZXJMaXN0KCkuaW5kZXhPZihvcGVuaWQpID4gLTE7Cn0KCi8vIC0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLQovLyDlj4LmlbDmoKHpqowKLy8gLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tCgovKiog5Y676aaW5bC+56m655m95bm26ZmQ6ZW/77yM6Z2e5a2X56ym5Liy6L+U5Zue56m65LiyICovCmZ1bmN0aW9uIHNhbml0aXplU3RyaW5nKHZhbCwgbWF4TGVuKSB7CiAgaWYgKHR5cGVvZiB2YWwgIT09ICdzdHJpbmcnKSByZXR1cm4gJyc7CiAgY29uc3QgcyA9IHZhbC50cmltKCk7CiAgcmV0dXJuIG1heExlbiA/IHMuc2xpY2UoMCwgbWF4TGVuKSA6IHM7Cn0KCi8qKgogKiDmoKHpqozlubblvZLkuIDljJbku7fmoLwKICogQHJldHVybnMge3tvazogYm9vbGVhbiwgdmFsdWU/OiBudW1iZXIsIG1lc3NhZ2U/OiBzdHJpbmd9fQogKi8KZnVuY3Rpb24gbm9ybWFsaXplUHJpY2UocmF3KSB7CiAgY29uc3QgbiA9IHR5cGVvZiByYXcgPT09ICdzdHJpbmcnID8gTnVtYmVyKHJhdykgOiByYXc7CiAgaWYgKHR5cGVvZiBuICE9PSAnbnVtYmVyJyB8fCAhTnVtYmVyLmlzRmluaXRlKG4pKSB7CiAgICByZXR1cm4geyBvazogZmFsc2UsIG1lc3NhZ2U6ICfku7fmoLzlv4XpobvkuLrmlbDlrZcnIH07CiAgfQogIGlmIChuIDwgMCkgewogICAgcmV0dXJuIHsgb2s6IGZhbHNlLCBtZXNzYWdlOiAn5Lu35qC85LiN6IO95Li66LSf5pWwJyB9OwogIH0KICBpZiAobiA+IDEwMDAwMDApIHsKICAgIHJldHVybiB7IG9rOiBmYWxzZSwgbWVzc2FnZTogJ+S7t+agvOi2heWHuuWFgeiuuOiMg+WbtCcgfTsKICB9CiAgLy8g5L+d55WZ5Lik5L2N5bCP5pWw77yM6KeE6YG/5rWu54K56K+v5beuCiAgcmV0dXJuIHsgb2s6IHRydWUsIHZhbHVlOiBNYXRoLnJvdW5kKG4gKiAxMDApIC8gMTAwIH07Cn0KCi8qKiDku4XlhYHorrggaHR0cC9odHRwcyDpk77mjqXvvIzlhbbku5bkuIDlvovop4bkuLrnqbogKi8KZnVuY3Rpb24gbm9ybWFsaXplVXJsKHJhdykgewogIGNvbnN0IHMgPSBzYW5pdGl6ZVN0cmluZyhyYXcsIDEwMDApOwogIGlmICghcykgcmV0dXJuICcnOwogIHJldHVybiAvXmh0dHBzPzpcL1wvL2kudGVzdChzKSA/IHMgOiAnJzsKfQoKLyoqIOS6keWtmOWCqCBmaWxlSUQg5qCh6aqM77yIY2xvdWQ6Ly8g5byA5aS077yJICovCmZ1bmN0aW9uIG5vcm1hbGl6ZUZpbGVJZChyYXcpIHsKICBjb25zdCBzID0gc2FuaXRpemVTdHJpbmcocmF3LCA1MDApOwogIGlmICghcykgcmV0dXJuICcnOwogIHJldHVybiAvXmNsb3VkOlwvXC8vaS50ZXN0KHMpID8gcyA6ICcnOwp9CgovKiog5YiG6aG15Y+C5pWw5b2S5LiA5YyWICovCmZ1bmN0aW9uIG5vcm1hbGl6ZVBhZ2luZyhpbnB1dCkgewogIGNvbnN0IHJhdyA9IGlucHV0IHx8IHt9OwogIGxldCBwYWdlID0gTnVtYmVyKHJhdy5wYWdlKTsKICBsZXQgcGFnZVNpemUgPSBOdW1iZXIocmF3LnBhZ2VTaXplKTsKICBpZiAoIU51bWJlci5pc0Zpbml0ZShwYWdlKSB8fCBwYWdlIDwgMSkgcGFnZSA9IDE7CiAgaWYgKCFOdW1iZXIuaXNGaW5pdGUocGFnZVNpemUpIHx8IHBhZ2VTaXplIDwgMSkgcGFnZVNpemUgPSAyMDsKICBwYWdlID0gTWF0aC5mbG9vcihwYWdlKTsKICBwYWdlU2l6ZSA9IE1hdGgubWluKE1hdGguZmxvb3IocGFnZVNpemUpLCAxMDApOwogIHJldHVybiB7IHBhZ2UsIHBhZ2VTaXplLCBza2lwOiAocGFnZSAtIDEpICogcGFnZVNpemUgfTsKfQoKLy8gLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tCi8vIOaXtumXtOagvOW8j+WMlu+8iOiuoumYhea2iOaBr+eUqO+8jOS4nOWFq+WMuu+8iQovLyAtLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0KCmZ1bmN0aW9uIGZvcm1hdFRpbWUodHMpIHsKICBjb25zdCBkID0gbmV3IERhdGUoTnVtYmVyKHRzKSArIDggKiAzNjAwICogMTAwMCk7IC8vIOS6keWHveaVsOm7mOiupCBVVEPvvIzovazkuJzlhavljLoKICBjb25zdCBwYWQgPSAobikgPT4gKG4gPCAxMCA/IGAwJHtufWAgOiBgJHtufWApOwogIHJldHVybiBgJHtkLmdldFVUQ0Z1bGxZZWFyKCl9LSR7cGFkKGQuZ2V0VVRDTW9udGgoKSArIDEpfS0ke3BhZChkLmdldFVUQ0RhdGUoKSl9ICR7cGFkKAogICAgZC5nZXRVVENIb3VycygpCiAgKX06JHtwYWQoZC5nZXRVVENNaW51dGVzKCkpfWA7Cn0KCi8qKiBvcGVuaWQg6ISx5pWPICovCmZ1bmN0aW9uIG1hc2tPcGVuaWQob3BlbmlkKSB7CiAgaWYgKCFvcGVuaWQpIHJldHVybiAn5pyq55+l55So5oi3JzsKICBpZiAob3BlbmlkLmxlbmd0aCA8PSA4KSByZXR1cm4gb3BlbmlkOwogIHJldHVybiBgJHtvcGVuaWQuc2xpY2UoMCwgNSl9KioqJHtvcGVuaWQuc2xpY2UoLTMpfWA7Cn0KCm1vZHVsZS5leHBvcnRzID0gewogIENPTExFQ1RJT04sCiAgQVVUT19BUFBST1ZFX1RIUkVTSE9MRCwKICBTVEFUVVMsCiAgU1VCU0NSSUJFX1RFTVBMQVRFUywKICBJTlRFUk5BTF9UT0tFTiwKICBFUlIsCiAgb2ssCiAgZmFpbCwKICBnZXRBcHByb3Zlckxpc3QsCiAgaXNBcHByb3ZlciwKICBzYW5pdGl6ZVN0cmluZywKICBub3JtYWxpemVQcmljZSwKICBub3JtYWxpemVVcmwsCiAgbm9ybWFsaXplRmlsZUlkLAogIG5vcm1hbGl6ZVBhZ2luZywKICBmb3JtYXRUaW1lLAogIG1hc2tPcGVuaWQsCn07Cg==
+/**
+ * 云函数共享模块（唯一源文件）
+ * ⚠️ 不要直接改各云函数目录下生成的 common.js —— 改这里，然后执行：
+ *      node scripts/sync-shared.js
+ *    脚本会把本文件分发到 6 个云函数目录。
+ */
+
+// ---------------------------------------------------------------
+// 配置区
+// ---------------------------------------------------------------
+
+// 审批人白名单见下方 getApproverList()，仅从环境变量 APPROVER_OPENIDS 读取，不在代码里写死。
+
+/** 集合名 */
+const COLLECTION = {
+  APPROVALS: 'approvals',
+  SUBSCRIBE_QUOTA: 'subscribeQuota',
+};
+
+/** 自动审批阈值（元）：price < 5 直接通过 */
+const AUTO_APPROVE_THRESHOLD = 5;
+
+/** 申请状态枚举 */
+const STATUS = {
+  PENDING: 'pending',
+  APPROVED: 'approved',
+  REJECTED: 'rejected',
+};
+
+/**
+ * 订阅消息模板 ID（与前端 config/index.js 保持一致）。
+ * 仅从云函数环境变量读取，不在代码里写死：
+ *   TMPL_PENDING = 待审批提醒模板 ID（场景 A，发给审批人）
+ *   TMPL_RESULT  = 审批结果通知模板 ID（场景 B，发给申请人）
+ */
+const SUBSCRIBE_TEMPLATES = {
+  PENDING: process.env.TMPL_PENDING || '',
+  RESULT: process.env.TMPL_RESULT || '',
+};
+
+/**
+ * 云函数之间互调的内部令牌。
+ * 防止前端伪造 action='send' 直接给任意用户发订阅消息。
+ * 仅从云函数环境变量 INTERNAL_TOKEN 读取，不在代码里写死。
+ * 若未配置，sendSubscribeMsg 会直接报错（避免空令牌被绕过）。
+ */
+const INTERNAL_TOKEN = process.env.INTERNAL_TOKEN || '';
+
+// ---------------------------------------------------------------
+// 错误码
+// ---------------------------------------------------------------
+
+const ERR = {
+  INVALID_PARAM: 'INVALID_PARAM',
+  FORBIDDEN: 'FORBIDDEN',
+  NOT_FOUND: 'NOT_FOUND',
+  ALREADY_HANDLED: 'ALREADY_HANDLED',
+  INTERNAL: 'INTERNAL',
+};
+
+// ---------------------------------------------------------------
+// 统一响应
+// ---------------------------------------------------------------
+
+function ok(data, extra) {
+  return Object.assign({ success: true, data }, extra || {});
+}
+
+function fail(errCode, message) {
+  return { success: false, errCode, message: message || '' };
+}
+
+// ---------------------------------------------------------------
+// 身份与权限
+// ---------------------------------------------------------------
+
+/**
+ * 审批人白名单：仅从云函数环境变量 APPROVER_OPENIDS 读取（逗号分隔）。
+ * 未配置时返回空数组 → 所有人都会被判定为非审批人（fail-closed，安全）。
+ * 配置入口：云开发控制台 → 云函数 → 配置 → 环境变量。
+ */
+function getApproverList() {
+  const fromEnv = process.env.APPROVER_OPENIDS;
+  if (!fromEnv || !fromEnv.trim()) return [];
+  return fromEnv
+    .split(',')
+    .map((s) => s.trim())
+    .filter(Boolean);
+}
+
+/** 当前 openid 是否审批人 */
+function isApprover(openid) {
+  if (!openid) return false;
+  return getApproverList().indexOf(openid) > -1;
+}
+
+// ---------------------------------------------------------------
+// 参数校验
+// ---------------------------------------------------------------
+
+/** 去首尾空白并限长，非字符串返回空串 */
+function sanitizeString(val, maxLen) {
+  if (typeof val !== 'string') return '';
+  const s = val.trim();
+  return maxLen ? s.slice(0, maxLen) : s;
+}
+
+/**
+ * 校验并归一化价格
+ * @returns {{ok: boolean, value?: number, message?: string}}
+ */
+function normalizePrice(raw) {
+  const n = typeof raw === 'string' ? Number(raw) : raw;
+  if (typeof n !== 'number' || !Number.isFinite(n)) {
+    return { ok: false, message: '价格必须为数字' };
+  }
+  if (n < 0) {
+    return { ok: false, message: '价格不能为负数' };
+  }
+  if (n > 1000000) {
+    return { ok: false, message: '价格超出允许范围' };
+  }
+  // 保留两位小数，规避浮点误差
+  return { ok: true, value: Math.round(n * 100) / 100 };
+}
+
+/** 仅允许 http/https 链接，其他一律视为空 */
+function normalizeUrl(raw) {
+  const s = sanitizeString(raw, 1000);
+  if (!s) return '';
+  return /^https?:\/\//i.test(s) ? s : '';
+}
+
+/** 云存储 fileID 校验（cloud:// 开头） */
+function normalizeFileId(raw) {
+  const s = sanitizeString(raw, 500);
+  if (!s) return '';
+  return /^cloud:\/\//i.test(s) ? s : '';
+}
+
+/** 分页参数归一化 */
+function normalizePaging(input) {
+  const raw = input || {};
+  let page = Number(raw.page);
+  let pageSize = Number(raw.pageSize);
+  if (!Number.isFinite(page) || page < 1) page = 1;
+  if (!Number.isFinite(pageSize) || pageSize < 1) pageSize = 20;
+  page = Math.floor(page);
+  pageSize = Math.min(Math.floor(pageSize), 100);
+  return { page, pageSize, skip: (page - 1) * pageSize };
+}
+
+// ---------------------------------------------------------------
+// 时间格式化（订阅消息用，东八区）
+// ---------------------------------------------------------------
+
+function formatTime(ts) {
+  const d = new Date(Number(ts) + 8 * 3600 * 1000); // 云函数默认 UTC，转东八区
+  const pad = (n) => (n < 10 ? `0${n}` : `${n}`);
+  return `${d.getUTCFullYear()}-${pad(d.getUTCMonth() + 1)}-${pad(d.getUTCDate())} ${pad(
+    d.getUTCHours()
+  )}:${pad(d.getUTCMinutes())}`;
+}
+
+/** openid 脱敏 */
+function maskOpenid(openid) {
+  if (!openid) return '未知用户';
+  if (openid.length <= 8) return openid;
+  return `${openid.slice(0, 5)}***${openid.slice(-3)}`;
+}
+
+module.exports = {
+  COLLECTION,
+  AUTO_APPROVE_THRESHOLD,
+  STATUS,
+  SUBSCRIBE_TEMPLATES,
+  INTERNAL_TOKEN,
+  ERR,
+  ok,
+  fail,
+  getApproverList,
+  isApprover,
+  sanitizeString,
+  normalizePrice,
+  normalizeUrl,
+  normalizeFileId,
+  normalizePaging,
+  formatTime,
+  maskOpenid,
+};

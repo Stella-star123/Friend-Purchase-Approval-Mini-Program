@@ -1,1 +1,53 @@
-LmVtcHR5IHsKICBkaXNwbGF5OiBmbGV4OwogIGZsZXgtZGlyZWN0aW9uOiBjb2x1bW47CiAgYWxpZ24taXRlbXM6IGNlbnRlcjsKICBwYWRkaW5nOiAxNDBycHggMCA4MHJweDsKfQoKLyog5Zu+5qCH5Yy6IDY0w5c2NCDlnIbop5IgMTbvvIzlupXoibIgI0VERUZGMyAqLwouZW1wdHlfX2ljb24gewogIHdpZHRoOiAxMjhycHg7CiAgaGVpZ2h0OiAxMjhycHg7CiAgYm9yZGVyLXJhZGl1czogMzJycHg7CiAgYmFja2dyb3VuZC1jb2xvcjogI2VkZWZmMzsKICBkaXNwbGF5OiBmbGV4OwogIGFsaWduLWl0ZW1zOiBjZW50ZXI7CiAganVzdGlmeS1jb250ZW50OiBjZW50ZXI7Cn0KCi5lbXB0eV9faWNvbi1kb2MgewogIHdpZHRoOiA1NnJweDsKICBkaXNwbGF5OiBmbGV4OwogIGZsZXgtZGlyZWN0aW9uOiBjb2x1bW47CiAgZ2FwOiAxMHJweDsKfQoKLmVtcHR5X19pY29uLWxpbmUgewogIGhlaWdodDogOHJweDsKICBib3JkZXItcmFkaXVzOiA0cnB4OwogIGJhY2tncm91bmQtY29sb3I6ICNjM2M4ZDA7Cn0KCi5lbXB0eV9faWNvbi1saW5lLS1zaG9ydCB7CiAgd2lkdGg6IDYwJTsKfQoKLmVtcHR5X190ZXh0IHsKICBtYXJnaW4tdG9wOiAzMnJweDsKICBmb250LXNpemU6IDI4cnB4OwogIGZvbnQtd2VpZ2h0OiA1MDA7CiAgY29sb3I6ICM2YjcyODA7Cn0KCi5lbXB0eV9fYWN0aW9uIHsKICBtYXJnaW4tdG9wOiA0MHJweDsKICBwYWRkaW5nOiAwIDQ4cnB4OwogIGhlaWdodDogODBycHg7CiAgbGluZS1oZWlnaHQ6IDgwcnB4OwogIGJvcmRlci1yYWRpdXM6IDQ4cnB4OwogIGJhY2tncm91bmQtY29sb3I6ICMzYjZmZjU7CiAgY29sb3I6ICNmZmZmZmY7CiAgZm9udC1zaXplOiAyOHJweDsKICBmb250LXdlaWdodDogNjAwOwp9Cg==
+.empty {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 140rpx 0 80rpx;
+}
+
+/* 图标区 64×64 圆角 16，底色 #EDEFF3 */
+.empty__icon {
+  width: 128rpx;
+  height: 128rpx;
+  border-radius: 32rpx;
+  background-color: #edeff3;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.empty__icon-doc {
+  width: 56rpx;
+  display: flex;
+  flex-direction: column;
+  gap: 10rpx;
+}
+
+.empty__icon-line {
+  height: 8rpx;
+  border-radius: 4rpx;
+  background-color: #c3c8d0;
+}
+
+.empty__icon-line--short {
+  width: 60%;
+}
+
+.empty__text {
+  margin-top: 32rpx;
+  font-size: 28rpx;
+  font-weight: 500;
+  color: #6b7280;
+}
+
+.empty__action {
+  margin-top: 40rpx;
+  padding: 0 48rpx;
+  height: 80rpx;
+  line-height: 80rpx;
+  border-radius: 48rpx;
+  background-color: #3b6ff5;
+  color: #ffffff;
+  font-size: 28rpx;
+  font-weight: 600;
+}

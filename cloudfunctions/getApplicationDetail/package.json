@@ -1,1 +1,9 @@
-ewogICJuYW1lIjogImdldEFwcGxpY2F0aW9uRGV0YWlsIiwKICAidmVyc2lvbiI6ICIxLjAuMCIsCiAgImRlc2NyaXB0aW9uIjogIuWlveWPi+mHh+i0reWuoeaJuSAtIGdldEFwcGxpY2F0aW9uRGV0YWlsIOS6keWHveaVsCIsCiAgIm1haW4iOiAiaW5kZXguanMiLAogICJkZXBlbmRlbmNpZXMiOiB7CiAgICAid3gtc2VydmVyLXNkayI6ICJ+Mi42LjMiCiAgfQp9Cg==
+{
+  "name": "getApplicationDetail",
+  "version": "1.0.0",
+  "description": "好友采购审批 - getApplicationDetail 云函数",
+  "main": "index.js",
+  "dependencies": {
+    "wx-server-sdk": "~2.6.3"
+  }
+}

@@ -1,1 +1,9 @@
-ewogICJuYW1lIjogImdldFBlbmRpbmdMaXN0IiwKICAidmVyc2lvbiI6ICIxLjAuMCIsCiAgImRlc2NyaXB0aW9uIjogIuWlveWPi+mHh+i0reWuoeaJuSAtIGdldFBlbmRpbmdMaXN0IOS6keWHveaVsCIsCiAgIm1haW4iOiAiaW5kZXguanMiLAogICJkZXBlbmRlbmNpZXMiOiB7CiAgICAid3gtc2VydmVyLXNkayI6ICJ+Mi42LjMiCiAgfQp9Cg==
+{
+  "name": "getPendingList",
+  "version": "1.0.0",
+  "description": "好友采购审批 - getPendingList 云函数",
+  "main": "index.js",
+  "dependencies": {
+    "wx-server-sdk": "~2.6.3"
+  }
+}

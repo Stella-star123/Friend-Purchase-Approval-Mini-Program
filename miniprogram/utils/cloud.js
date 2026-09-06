@@ -1,1 +1,45 @@
-LyoqCiAqIOS6keWHveaVsOiwg+eUqOe7n+S4gOWwgeijhQogKiDnuqblrprvvJrkupHlh73mlbDkuIDlvovov5Tlm54geyBzdWNjZXNzOiB0cnVlLCBkYXRhLCAuLi4gfSDmiJYgeyBzdWNjZXNzOiBmYWxzZSwgZXJyQ29kZSwgbWVzc2FnZSB9CiAqIOi/memHjOaKiuWksei0pee7n+S4gOi9rOaIkCByZWplY3TvvIzpobXpnaLlj6rpnIAgdHJ5L2NhdGNo44CCCiAqLwoKY29uc3QgRVJSX01FU1NBR0UgPSB7CiAgSU5WQUxJRF9QQVJBTTogJ+aPkOS6pOWGheWuueacieivr++8jOivt+ajgOafpeWQjumHjeivlScsCiAgRk9SQklEREVOOiAn5L2g5rKh5pyJ6K+l5pON5L2c5p2D6ZmQJywKICBOT1RfRk9VTkQ6ICforrDlvZXkuI3lrZjlnKjmiJblt7LooqvliKDpmaQnLAogIEFMUkVBRFlfSEFORExFRDogJ+ivpeeUs+ivt+W3suiiq+WkhOeQhu+8jOaXoOmcgOmHjeWkjeWuoeaJuScsCiAgTkVUV09SSzogJ+WKoOi9veWksei0pe+8jOivt+ajgOafpee9kee7nCcsCn07CgovKioKICogQHBhcmFtIHtzdHJpbmd9IG5hbWUg5LqR5Ye95pWw5ZCNCiAqIEBwYXJhbSB7b2JqZWN0fSBkYXRhIOWFpeWPgu+8iOS4jeimgeS8oCBvcGVuaWQgLyDml7bpl7TvvIzmnI3liqHnq6/oh6rlj5bvvIkKICogQHJldHVybnMge1Byb21pc2U8b2JqZWN0Pn0g5LqR5Ye95pWwIHJlc3VsdAogKi8KZnVuY3Rpb24gY2FsbEZ1bmN0aW9uKG5hbWUsIGRhdGEgPSB7fSkgewogIHJldHVybiB3eC5jbG91ZAogICAgLmNhbGxGdW5jdGlvbih7IG5hbWUsIGRhdGEgfSkKICAgIC50aGVuKChyZXMpID0+IHsKICAgICAgY29uc3QgcmVzdWx0ID0gcmVzICYmIHJlcy5yZXN1bHQ7CiAgICAgIGlmICghcmVzdWx0IHx8IHR5cGVvZiByZXN1bHQgIT09ICdvYmplY3QnKSB7CiAgICAgICAgdGhyb3cgbWFrZUVycm9yKCdORVRXT1JLJywgJ+i/lOWbnuaVsOaNruW8guW4uCcpOwogICAgICB9CiAgICAgIGlmIChyZXN1bHQuc3VjY2VzcykgcmV0dXJuIHJlc3VsdDsKICAgICAgdGhyb3cgbWFrZUVycm9yKHJlc3VsdC5lcnJDb2RlIHx8ICdVTktOT1dOJywgcmVzdWx0Lm1lc3NhZ2UpOwogICAgfSkKICAgIC5jYXRjaCgoZXJyKSA9PiB7CiAgICAgIC8vIOe9kee7nOWxguWksei0pe+8iOS6keWHveaVsOacqumDqOe9siAvIOaWree9kSAvIOi2heaXtu+8ieS5n+i1sOi/memHjAogICAgICBpZiAoZXJyICYmIGVyci5lcnJDb2RlKSB0aHJvdyBlcnI7CiAgICAgIHRocm93IG1ha2VFcnJvcignTkVUV09SSycsIChlcnIgJiYgZXJyLmVyck1zZykgfHwgJycpOwogICAgfSk7Cn0KCmZ1bmN0aW9uIG1ha2VFcnJvcihlcnJDb2RlLCBtZXNzYWdlKSB7CiAgY29uc3QgZXJyID0gbmV3IEVycm9yKG1lc3NhZ2UgfHwgRVJSX01FU1NBR0VbZXJyQ29kZV0gfHwgJ+aTjeS9nOWksei0pe+8jOivt+eojeWQjumHjeivlScpOwogIGVyci5lcnJDb2RlID0gZXJyQ29kZTsKICBlcnIuZnJpZW5kbHlNZXNzYWdlID0gRVJSX01FU1NBR0VbZXJyQ29kZV0gfHwgZXJyLm1lc3NhZ2U7CiAgcmV0dXJuIGVycjsKfQoKbW9kdWxlLmV4cG9ydHMgPSB7IGNhbGxGdW5jdGlvbiwgRVJSX01FU1NBR0UgfTsK
+/**
+ * 云函数调用统一封装
+ * 约定：云函数一律返回 { success: true, data, ... } 或 { success: false, errCode, message }
+ * 这里把失败统一转成 reject，页面只需 try/catch。
+ */
+
+const ERR_MESSAGE = {
+  INVALID_PARAM: '提交内容有误，请检查后重试',
+  FORBIDDEN: '你没有该操作权限',
+  NOT_FOUND: '记录不存在或已被删除',
+  ALREADY_HANDLED: '该申请已被处理，无需重复审批',
+  NETWORK: '加载失败，请检查网络',
+};
+
+/**
+ * @param {string} name 云函数名
+ * @param {object} data 入参（不要传 openid / 时间，服务端自取）
+ * @returns {Promise<object>} 云函数 result
+ */
+function callFunction(name, data = {}) {
+  return wx.cloud
+    .callFunction({ name, data })
+    .then((res) => {
+      const result = res && res.result;
+      if (!result || typeof result !== 'object') {
+        throw makeError('NETWORK', '返回数据异常');
+      }
+      if (result.success) return result;
+      throw makeError(result.errCode || 'UNKNOWN', result.message);
+    })
+    .catch((err) => {
+      // 网络层失败（云函数未部署 / 断网 / 超时）也走这里
+      if (err && err.errCode) throw err;
+      throw makeError('NETWORK', (err && err.errMsg) || '');
+    });
+}
+
+function makeError(errCode, message) {
+  const err = new Error(message || ERR_MESSAGE[errCode] || '操作失败，请稍后重试');
+  err.errCode = errCode;
+  err.friendlyMessage = ERR_MESSAGE[errCode] || err.message;
+  return err;
+}
+
+module.exports = { callFunction, ERR_MESSAGE };

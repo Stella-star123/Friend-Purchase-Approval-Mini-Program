@@ -1,1 +1,8 @@
-ewogICJuYXZpZ2F0aW9uQmFyVGl0bGVUZXh0IjogIuWuoeaJuSIsCiAgInVzaW5nQ29tcG9uZW50cyI6IHsKICAgICJzdGF0dXMtdGFnIjogIi9jb21wb25lbnRzL3N0YXR1cy10YWcvaW5kZXgiLAogICAgInNrZWxldG9uIjogIi9jb21wb25lbnRzL3NrZWxldG9uL2luZGV4IiwKICAgICJlcnJvci10aXAiOiAiL2NvbXBvbmVudHMvZXJyb3ItdGlwL2luZGV4IgogIH0KfQo=
+{
+  "navigationBarTitleText": "审批",
+  "usingComponents": {
+    "status-tag": "/components/status-tag/index",
+    "skeleton": "/components/skeleton/index",
+    "error-tip": "/components/error-tip/index"
+  }
+}

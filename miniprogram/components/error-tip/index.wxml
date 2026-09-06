@@ -1,1 +1,5 @@
-PHZpZXcgY2xhc3M9ImVycm9yIj4KICA8dmlldyBjbGFzcz0iZXJyb3JfX2ljb24iPiE8L3ZpZXc+CiAgPHZpZXcgY2xhc3M9ImVycm9yX190ZXh0Ij57e3RleHR9fTwvdmlldz4KICA8dmlldyB3eDppZj0ie3tzaG93UmV0cnl9fSIgY2xhc3M9ImVycm9yX19yZXRyeSIgYmluZHRhcD0ib25SZXRyeSI+e3tyZXRyeVRleHR9fTwvdmlldz4KPC92aWV3Pgo=
+<view class="error">
+  <view class="error__icon">!</view>
+  <view class="error__text">{{text}}</view>
+  <view wx:if="{{showRetry}}" class="error__retry" bindtap="onRetry">{{retryText}}</view>
+</view>

@@ -1,1 +1,54 @@
-LyoqCiAqIGdldE15QXBwbGljYXRpb25zIOKAlOKAlCDmiJHnmoTnlLPor7fliJfooagKICog6KeE5qC85LmmIMKnMi4yCiAqCiAqIOadg+mZkO+8muW8uuWItiB3aGVyZSBfb3BlbmlkID09IOacrOS6uiBPUEVOSUQKICog5o6S5bqP77yaY3JlYXRlZEF0IOWAkuW6jwogKiDpmYTliqDvvJrov5Tlm54gaXNBcHByb3Zlcu+8jOS+m+WJjeerr+WGs+WumuaYr+WQpuWxleekuuWuoeaJueWFpeWPowogKi8KY29uc3QgY2xvdWQgPSByZXF1aXJlKCd3eC1zZXJ2ZXItc2RrJyk7CmNvbnN0IEMgPSByZXF1aXJlKCcuL2NvbW1vbicpOwoKY2xvdWQuaW5pdCh7IGVudjogY2xvdWQuRFlOQU1JQ19DVVJSRU5UX0VOViB9KTsKY29uc3QgZGIgPSBjbG91ZC5kYXRhYmFzZSgpOwoKZXhwb3J0cy5tYWluID0gYXN5bmMgKGV2ZW50KSA9PiB7CiAgY29uc3QgeyBPUEVOSUQgfSA9IGNsb3VkLmdldFdYQ29udGV4dCgpOwogIGlmICghT1BFTklEKSB7CiAgICByZXR1cm4gQy5mYWlsKEMuRVJSLkZPUkJJRERFTiwgJ+aXoOazleivhuWIq+eUqOaIt+i6q+S7vScpOwogIH0KCiAgY29uc3QgeyBwYWdlU2l6ZSwgc2tpcCB9ID0gQy5ub3JtYWxpemVQYWdpbmcoZXZlbnQpOwogIC8vIOadg+mZkOaguOW/g++8muWPquafpeacrOS6uuiusOW9le+8jOW/veeVpeWuouaIt+err+WPr+iDveS8oOWFpeeahOS7u+S9lSBvcGVuaWQKICBjb25zdCB3aGVyZSA9IHsgX29wZW5pZDogT1BFTklEIH07CgogIHRyeSB7CiAgICBjb25zdCBjb2xsZWN0aW9uID0gZGIuY29sbGVjdGlvbihDLkNPTExFQ1RJT04uQVBQUk9WQUxTKTsKCiAgICBjb25zdCBbbGlzdFJlcywgY291bnRSZXNdID0gYXdhaXQgUHJvbWlzZS5hbGwoWwogICAgICBjb2xsZWN0aW9uCiAgICAgICAgLndoZXJlKHdoZXJlKQogICAgICAgIC5vcmRlckJ5KCdjcmVhdGVkQXQnLCAnZGVzYycpCiAgICAgICAgLnNraXAoc2tpcCkKICAgICAgICAubGltaXQocGFnZVNpemUpCiAgICAgICAgLmZpZWxkKHsKICAgICAgICAgIF9pZDogdHJ1ZSwKICAgICAgICAgIGl0ZW1OYW1lOiB0cnVlLAogICAgICAgICAgcHJpY2U6IHRydWUsCiAgICAgICAgICBzdGF0dXM6IHRydWUsCiAgICAgICAgICBjcmVhdGVkQXQ6IHRydWUsCiAgICAgICAgICB1cGRhdGVkQXQ6IHRydWUsCiAgICAgICAgfSkKICAgICAgICAuZ2V0KCksCiAgICAgIGNvbGxlY3Rpb24ud2hlcmUod2hlcmUpLmNvdW50KCksCiAgICBdKTsKCiAgICByZXR1cm4gQy5vayhsaXN0UmVzLmRhdGEsIHsKICAgICAgdG90YWw6IGNvdW50UmVzLnRvdGFsLAogICAgICBpc0FwcHJvdmVyOiBDLmlzQXBwcm92ZXIoT1BFTklEKSwKICAgIH0pOwogIH0gY2F0Y2ggKGVycikgewogICAgY29uc29sZS5lcnJvcignW2dldE15QXBwbGljYXRpb25zXSDmn6Xor6LlpLHotKUnLCBlcnIpOwogICAgcmV0dXJuIEMuZmFpbChDLkVSUi5JTlRFUk5BTCwgJ+WKoOi9veWksei0pe+8jOivt+eojeWQjumHjeivlScpOwogIH0KfTsK
+/**
+ * getMyApplications —— 我的申请列表
+ * 规格书 §2.2
+ *
+ * 权限：强制 where _openid == 本人 OPENID
+ * 排序：createdAt 倒序
+ * 附加：返回 isApprover，供前端决定是否展示审批入口
+ */
+const cloud = require('wx-server-sdk');
+const C = require('./common');
+
+cloud.init({ env: cloud.DYNAMIC_CURRENT_ENV });
+const db = cloud.database();
+
+exports.main = async (event) => {
+  const { OPENID } = cloud.getWXContext();
+  if (!OPENID) {
+    return C.fail(C.ERR.FORBIDDEN, '无法识别用户身份');
+  }
+
+  const { pageSize, skip } = C.normalizePaging(event);
+  // 权限核心：只查本人记录，忽略客户端可能传入的任何 openid
+  const where = { _openid: OPENID };
+
+  try {
+    const collection = db.collection(C.COLLECTION.APPROVALS);
+
+    const [listRes, countRes] = await Promise.all([
+      collection
+        .where(where)
+        .orderBy('createdAt', 'desc')
+        .skip(skip)
+        .limit(pageSize)
+        .field({
+          _id: true,
+          itemName: true,
+          price: true,
+          status: true,
+          createdAt: true,
+          updatedAt: true,
+        })
+        .get(),
+      collection.where(where).count(),
+    ]);
+
+    return C.ok(listRes.data, {
+      total: countRes.total,
+      isApprover: C.isApprover(OPENID),
+    });
+  } catch (err) {
+    console.error('[getMyApplications] 查询失败', err);
+    return C.fail(C.ERR.INTERNAL, '加载失败，请稍后重试');
+  }
+};

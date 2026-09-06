@@ -1,1 +1,16 @@
-IyBPUwouRFNfU3RvcmUKVGh1bWJzLmRiCgojIOW+ruS/oeW8gOWPkeiAheW3peWFt+acrOWcsOengeaciemFjee9ru+8iOWQq+acrOacuui3r+W+hO+8jOS4jeWFpeW6k++8iQpwcm9qZWN0LnByaXZhdGUuY29uZmlnLmpzb24KCiMg5L6d6LWWCm5vZGVfbW9kdWxlcy8KCiMg5pel5b+XCioubG9nCgojIOe8lui+keWZqAouaWRlYS8KLnZzY29kZS8K
+# OS
+.DS_Store
+Thumbs.db
+
+# 微信开发者工具本地私有配置（含本机路径，不入库）
+project.private.config.json
+
+# 依赖
+node_modules/
+
+# 日志
+*.log
+
+# 编辑器
+.idea/
+.vscode/

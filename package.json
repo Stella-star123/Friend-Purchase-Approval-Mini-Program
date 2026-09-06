@@ -1,1 +1,12 @@
-ewogICJuYW1lIjogImZyaWVuZC1hcHByb3ZhbCIsCiAgInZlcnNpb24iOiAiMS4wLjAiLAogICJwcml2YXRlIjogdHJ1ZSwKICAiZGVzY3JpcHRpb24iOiAi5aW95Y+L6YeH6LSt5a6h5om55bCP56iL5bqP77yI5b6u5L+h5Y6f55SfICsg6IW+6K6v5LqR5byA5Y+RIENsb3VkQmFzZe+8iSIsCiAgInNjcmlwdHMiOiB7CiAgICAic3luYyI6ICJub2RlIHNjcmlwdHMvc3luYy1zaGFyZWQuanMiLAogICAgInZlcmlmeSI6ICJub2RlIHNjcmlwdHMvdmVyaWZ5LmpzIiwKICAgICJ0ZXN0IjogIm5vZGUgc2NyaXB0cy90ZXN0LWNsb3VkZnVuY3Rpb25zLmpzIiwKICAgICJjaGVjayI6ICJub2RlIHNjcmlwdHMvc3luYy1zaGFyZWQuanMgJiYgbm9kZSBzY3JpcHRzL3ZlcmlmeS5qcyAmJiBub2RlIHNjcmlwdHMvdGVzdC1jbG91ZGZ1bmN0aW9ucy5qcyIKICB9Cn0K
+{
+  "name": "friend-approval",
+  "version": "1.0.0",
+  "private": true,
+  "description": "好友采购审批小程序（微信原生 + 腾讯云开发 CloudBase）",
+  "scripts": {
+    "sync": "node scripts/sync-shared.js",
+    "verify": "node scripts/verify.js",
+    "test": "node scripts/test-cloudfunctions.js",
+    "check": "node scripts/sync-shared.js && node scripts/verify.js && node scripts/test-cloudfunctions.js"
+  }
+}

@@ -1,1 +1,35 @@
-ewogICJwYWdlcyI6IFsKICAgICJwYWdlcy9teS1saXN0L2luZGV4IiwKICAgICJwYWdlcy9hcHBseS9pbmRleCIsCiAgICAicGFnZXMvZGV0YWlsL2luZGV4IiwKICAgICJwYWdlcy9wZW5kaW5nL2luZGV4IiwKICAgICJwYWdlcy9hcHByb3ZlL2luZGV4IgogIF0sCiAgIndpbmRvdyI6IHsKICAgICJiYWNrZ3JvdW5kVGV4dFN0eWxlIjogImRhcmsiLAogICAgIm5hdmlnYXRpb25CYXJCYWNrZ3JvdW5kQ29sb3IiOiAiI0ZGRkZGRiIsCiAgICAibmF2aWdhdGlvbkJhclRpdGxlVGV4dCI6ICLlpb3lj4vph4fotK3lrqHmibkiLAogICAgIm5hdmlnYXRpb25CYXJUZXh0U3R5bGUiOiAiYmxhY2siLAogICAgImJhY2tncm91bmRDb2xvciI6ICIjRkZGRkZGIgogIH0sCiAgInRhYkJhciI6IHsKICAgICJjb2xvciI6ICIjOUFBMEE2IiwKICAgICJzZWxlY3RlZENvbG9yIjogIiMzQjZGRjUiLAogICAgImJhY2tncm91bmRDb2xvciI6ICIjRkZGRkZGIiwKICAgICJib3JkZXJTdHlsZSI6ICJibGFjayIsCiAgICAibGlzdCI6IFsKICAgICAgewogICAgICAgICJwYWdlUGF0aCI6ICJwYWdlcy9teS1saXN0L2luZGV4IiwKICAgICAgICAidGV4dCI6ICLmiJHnmoTnlLPor7ciCiAgICAgIH0sCiAgICAgIHsKICAgICAgICAicGFnZVBhdGgiOiAicGFnZXMvcGVuZGluZy9pbmRleCIsCiAgICAgICAgInRleHQiOiAi5b6F5oiR5a6h5om5IgogICAgICB9CiAgICBdCiAgfSwKICAic3R5bGUiOiAidjIiLAogICJzaXRlbWFwTG9jYXRpb24iOiAic2l0ZW1hcC5qc29uIiwKICAibGF6eUNvZGVMb2FkaW5nIjogInJlcXVpcmVkQ29tcG9uZW50cyIKfQo=
+{
+  "pages": [
+    "pages/my-list/index",
+    "pages/apply/index",
+    "pages/detail/index",
+    "pages/pending/index",
+    "pages/approve/index"
+  ],
+  "window": {
+    "backgroundTextStyle": "dark",
+    "navigationBarBackgroundColor": "#FFFFFF",
+    "navigationBarTitleText": "好友采购审批",
+    "navigationBarTextStyle": "black",
+    "backgroundColor": "#FFFFFF"
+  },
+  "tabBar": {
+    "color": "#9AA0A6",
+    "selectedColor": "#3B6FF5",
+    "backgroundColor": "#FFFFFF",
+    "borderStyle": "black",
+    "list": [
+      {
+        "pagePath": "pages/my-list/index",
+        "text": "我的申请"
+      },
+      {
+        "pagePath": "pages/pending/index",
+        "text": "待我审批"
+      }
+    ]
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json",
+  "lazyCodeLoading": "requiredComponents"
+}

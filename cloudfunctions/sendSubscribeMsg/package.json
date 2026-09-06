@@ -1,1 +1,9 @@
-ewogICJuYW1lIjogInNlbmRTdWJzY3JpYmVNc2ciLAogICJ2ZXJzaW9uIjogIjEuMC4wIiwKICAiZGVzY3JpcHRpb24iOiAi5aW95Y+L6YeH6LSt5a6h5om5IC0gc2VuZFN1YnNjcmliZU1zZyDkupHlh73mlbAiLAogICJtYWluIjogImluZGV4LmpzIiwKICAiZGVwZW5kZW5jaWVzIjogewogICAgInd4LXNlcnZlci1zZGsiOiAifjIuNi4zIgogIH0KfQo=
+{
+  "name": "sendSubscribeMsg",
+  "version": "1.0.0",
+  "description": "好友采购审批 - sendSubscribeMsg 云函数",
+  "main": "index.js",
+  "dependencies": {
+    "wx-server-sdk": "~2.6.3"
+  }
+}

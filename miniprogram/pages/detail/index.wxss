@@ -1,1 +1,117 @@
-LmJhY2sgewogIHdpZHRoOiA2MHJweDsKICBmb250LXNpemU6IDQ4cnB4OwogIGxpbmUtaGVpZ2h0OiAxOwogIGNvbG9yOiB2YXIoLS1jb2xvci10ZXh0LXByaW1hcnkpOwp9CgouYmFjay0tZ2hvc3QgewogIHZpc2liaWxpdHk6IGhpZGRlbjsKfQoKLyog54q25oCB5qiq5bmFICovCi5zdGF0dXMtYmFubmVyIHsKICBkaXNwbGF5OiBmbGV4OwogIGFsaWduLWl0ZW1zOiBjZW50ZXI7CiAgcGFkZGluZzogMjhycHg7CiAgYm9yZGVyLXJhZGl1czogdmFyKC0tcmFkaXVzLWNhcmQpOwogIG1hcmdpbi1ib3R0b206IDMycnB4Owp9Cgouc3RhdHVzLWJhbm5lci0tcGVuZGluZyB7CiAgYmFja2dyb3VuZC1jb2xvcjogdmFyKC0tY29sb3ItcGVuZGluZy1iZyk7Cn0KCi5zdGF0dXMtYmFubmVyLS1hcHByb3ZlZCB7CiAgYmFja2dyb3VuZC1jb2xvcjogdmFyKC0tY29sb3ItYXBwcm92ZWQtYmcpOwp9Cgouc3RhdHVzLWJhbm5lci0tcmVqZWN0ZWQgewogIGJhY2tncm91bmQtY29sb3I6IHZhcigtLWNvbG9yLXJlamVjdGVkLWJnKTsKfQoKLnN0YXR1cy1iYW5uZXJfX2ljb24gewogIGZsZXg6IG5vbmU7CiAgd2lkdGg6IDY0cnB4OwogIGhlaWdodDogNjRycHg7CiAgbWFyZ2luLXJpZ2h0OiAyMHJweDsKICBib3JkZXItcmFkaXVzOiA1MCU7CiAgYmFja2dyb3VuZC1jb2xvcjogcmdiYSgyNTUsIDI1NSwgMjU1LCAwLjcpOwogIGRpc3BsYXk6IGZsZXg7CiAgYWxpZ24taXRlbXM6IGNlbnRlcjsKICBqdXN0aWZ5LWNvbnRlbnQ6IGNlbnRlcjsKICBmb250LXNpemU6IDMycnB4Owp9Cgouc3RhdHVzLWJhbm5lcl9fYm9keSB7CiAgZGlzcGxheTogZmxleDsKICBmbGV4LWRpcmVjdGlvbjogY29sdW1uOwogIG1pbi13aWR0aDogMDsKfQoKLnN0YXR1cy1iYW5uZXJfX3RpdGxlIHsKICBmb250LXNpemU6IDMwcnB4OwogIGZvbnQtd2VpZ2h0OiA2MDA7Cn0KCi5zdGF0dXMtYmFubmVyLS1wZW5kaW5nIC5zdGF0dXMtYmFubmVyX190aXRsZSB7CiAgY29sb3I6IHZhcigtLWNvbG9yLXBlbmRpbmcpOwp9Cgouc3RhdHVzLWJhbm5lci0tYXBwcm92ZWQgLnN0YXR1cy1iYW5uZXJfX3RpdGxlIHsKICBjb2xvcjogdmFyKC0tY29sb3ItYXBwcm92ZWQpOwp9Cgouc3RhdHVzLWJhbm5lci0tcmVqZWN0ZWQgLnN0YXR1cy1iYW5uZXJfX3RpdGxlIHsKICBjb2xvcjogdmFyKC0tY29sb3ItcmVqZWN0ZWQpOwp9Cgouc3RhdHVzLWJhbm5lcl9fc3ViIHsKICBtYXJnaW4tdG9wOiA2cnB4OwogIGZvbnQtc2l6ZTogMjRycHg7CiAgY29sb3I6IHZhcigtLWNvbG9yLXRleHQtc2Vjb25kYXJ5KTsKfQoKLmRldGFpbC1jYXJkIHsKICBwYWRkaW5nOiA4cnB4IDMycnB4Owp9CgovKiDllYblk4HmiKrlm74gODjDlzg4IOWchuinkiA4ICovCi50aHVtYi13cmFwIHsKICBtYXJnaW4tdG9wOiAzMnJweDsKfQoKLnRodW1iIHsKICB3aWR0aDogMTc2cnB4OwogIGhlaWdodDogMTc2cnB4OwogIGJvcmRlci1yYWRpdXM6IDE2cnB4OwogIGJhY2tncm91bmQtY29sb3I6IHZhcigtLWNvbG9yLWJnLXN1cmZhY2UpOwp9CgovKiDlrqHmibnlpIfms6jmoYYgKi8KLm5vdGUgewogIG1hcmdpbi10b3A6IDMycnB4OwogIHBhZGRpbmc6IDI4cnB4OwogIGJvcmRlci1yYWRpdXM6IHZhcigtLXJhZGl1cy1jYXJkKTsKfQoKLm5vdGUtLXJlamVjdGVkIHsKICBiYWNrZ3JvdW5kLWNvbG9yOiB2YXIoLS1jb2xvci1yZWplY3RlZC1iZyk7Cn0KCi5ub3RlLS1hcHByb3ZlZCB7CiAgYmFja2dyb3VuZC1jb2xvcjogdmFyKC0tY29sb3ItYXBwcm92ZWQtYmcpOwp9Cgoubm90ZV9fbGFiZWwgewogIGRpc3BsYXk6IGJsb2NrOwogIGZvbnQtc2l6ZTogMjRycHg7CiAgY29sb3I6IHZhcigtLWNvbG9yLXRleHQtc2Vjb25kYXJ5KTsKICBtYXJnaW4tYm90dG9tOiAxMHJweDsKfQoKLm5vdGVfX3RleHQgewogIGZvbnQtc2l6ZTogMjhycHg7CiAgbGluZS1oZWlnaHQ6IDEuNjsKICBjb2xvcjogdmFyKC0tY29sb3ItdGV4dC1wcmltYXJ5KTsKfQo=
+.back {
+  width: 60rpx;
+  font-size: 48rpx;
+  line-height: 1;
+  color: var(--color-text-primary);
+}
+
+.back--ghost {
+  visibility: hidden;
+}
+
+/* 状态横幅 */
+.status-banner {
+  display: flex;
+  align-items: center;
+  padding: 28rpx;
+  border-radius: var(--radius-card);
+  margin-bottom: 32rpx;
+}
+
+.status-banner--pending {
+  background-color: var(--color-pending-bg);
+}
+
+.status-banner--approved {
+  background-color: var(--color-approved-bg);
+}
+
+.status-banner--rejected {
+  background-color: var(--color-rejected-bg);
+}
+
+.status-banner__icon {
+  flex: none;
+  width: 64rpx;
+  height: 64rpx;
+  margin-right: 20rpx;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.7);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 32rpx;
+}
+
+.status-banner__body {
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+}
+
+.status-banner__title {
+  font-size: 30rpx;
+  font-weight: 600;
+}
+
+.status-banner--pending .status-banner__title {
+  color: var(--color-pending);
+}
+
+.status-banner--approved .status-banner__title {
+  color: var(--color-approved);
+}
+
+.status-banner--rejected .status-banner__title {
+  color: var(--color-rejected);
+}
+
+.status-banner__sub {
+  margin-top: 6rpx;
+  font-size: 24rpx;
+  color: var(--color-text-secondary);
+}
+
+.detail-card {
+  padding: 8rpx 32rpx;
+}
+
+/* 商品截图 88×88 圆角 8 */
+.thumb-wrap {
+  margin-top: 32rpx;
+}
+
+.thumb {
+  width: 176rpx;
+  height: 176rpx;
+  border-radius: 16rpx;
+  background-color: var(--color-bg-surface);
+}
+
+/* 审批备注框 */
+.note {
+  margin-top: 32rpx;
+  padding: 28rpx;
+  border-radius: var(--radius-card);
+}
+
+.note--rejected {
+  background-color: var(--color-rejected-bg);
+}
+
+.note--approved {
+  background-color: var(--color-approved-bg);
+}
+
+.note__label {
+  display: block;
+  font-size: 24rpx;
+  color: var(--color-text-secondary);
+  margin-bottom: 10rpx;
+}
+
+.note__text {
+  font-size: 28rpx;
+  line-height: 1.6;
+  color: var(--color-text-primary);
+}

@@ -1,1 +1,242 @@
-IyEvdXNyL2Jpbi9lbnYgbm9kZQovKioKICog6aG555uu6Ieq5qOA6ISa5pysCiAqICAgbm9kZSBzY3JpcHRzL3ZlcmlmeS5qcwogKgogKiDmo4Dmn6XpobnvvJoKICogIDEuIOaJgOaciSBKU09OIOWPr+ino+aekAogKiAgMi4gYXBwLmpzb24g5Lit55m76K6w55qE6aG16Z2i6YO95a2Y5ZyoIHd4bWwvanMKICogIDMuIOmhtemdoiBqc29uIOmHjOW8leeUqOeahOiHquWumuS5iee7hOS7tui3r+W+hOmDveWtmOWcqAogKiAgNC4g6aG16Z2iIGpzIOiwg+eUqOeahOS6keWHveaVsOWQjemDveacieWvueW6lOebruW9lQogKiAgNS4g5q+P5Liq5LqR5Ye95pWw6YO95pyJIGluZGV4LmpzIC8gcGFja2FnZS5qc29uIC8gY29tbW9uLmpzCiAqICA2LiDliY3lkI7nq6/phY3nva7kuIDoh7TmgKfvvIjmqKHmnb8gSUTjgIHpmIjlgLzvvIkKICovCmNvbnN0IGZzID0gcmVxdWlyZSgnZnMnKTsKY29uc3QgcGF0aCA9IHJlcXVpcmUoJ3BhdGgnKTsKCmNvbnN0IFJPT1QgPSBwYXRoLnJlc29sdmUoX19kaXJuYW1lLCAnLi4nKTsKY29uc3QgTVAgPSBwYXRoLmpvaW4oUk9PVCwgJ21pbmlwcm9ncmFtJyk7CmNvbnN0IENGID0gcGF0aC5qb2luKFJPT1QsICdjbG91ZGZ1bmN0aW9ucycpOwoKY29uc3QgZXJyb3JzID0gW107CmNvbnN0IHdhcm5zID0gW107CmNvbnN0IGluZm8gPSBbXTsKCmZ1bmN0aW9uIHdhbGsoZGlyLCBleHQsIG91dCA9IFtdKSB7CiAgaWYgKCFmcy5leGlzdHNTeW5jKGRpcikpIHJldHVybiBvdXQ7CiAgZnMucmVhZGRpclN5bmMoZGlyLCB7IHdpdGhGaWxlVHlwZXM6IHRydWUgfSkuZm9yRWFjaCgoZSkgPT4gewogICAgY29uc3QgcCA9IHBhdGguam9pbihkaXIsIGUubmFtZSk7CiAgICBpZiAoZS5pc0RpcmVjdG9yeSgpKSB7CiAgICAgIGlmIChlLm5hbWUgPT09ICdub2RlX21vZHVsZXMnKSByZXR1cm47CiAgICAgIHdhbGsocCwgZXh0LCBvdXQpOwogICAgfSBlbHNlIGlmIChlLm5hbWUuZW5kc1dpdGgoZXh0KSkgewogICAgICBvdXQucHVzaChwKTsKICAgIH0KICB9KTsKICByZXR1cm4gb3V0Owp9Cgpjb25zdCByZWwgPSAocCkgPT4gcGF0aC5yZWxhdGl2ZShST09ULCBwKS5yZXBsYWNlKC9cXC9nLCAnLycpOwoKLy8gLS0tLSAxLiBKU09OIOino+aekCAtLS0tCmNvbnN0IGpzb25GaWxlcyA9IHdhbGsoUk9PVCwgJy5qc29uJyk7CmNvbnN0IHBhcnNlZCA9IHt9Owpqc29uRmlsZXMuZm9yRWFjaCgoZikgPT4gewogIHRyeSB7CiAgICBwYXJzZWRbZl0gPSBKU09OLnBhcnNlKGZzLnJlYWRGaWxlU3luYyhmLCAndXRmOCcpKTsKICB9IGNhdGNoIChlKSB7CiAgICBlcnJvcnMucHVzaChgSlNPTiDop6PmnpDlpLHotKUgJHtyZWwoZil9OiAke2UubWVzc2FnZX1gKTsKICB9Cn0pOwppbmZvLnB1c2goYEpTT04g5paH5Lu2ICR7anNvbkZpbGVzLmxlbmd0aH0g5Liq77yM6Kej5p6Q6YCa6L+HICR7T2JqZWN0LmtleXMocGFyc2VkKS5sZW5ndGh9IOS4qmApOwoKLy8gLS0tLSAyLiBhcHAuanNvbiDpobXpnaLlrZjlnKjmgKcgLS0tLQpjb25zdCBhcHBKc29uUGF0aCA9IHBhdGguam9pbihNUCwgJ2FwcC5qc29uJyk7CmNvbnN0IGFwcEpzb24gPSBwYXJzZWRbYXBwSnNvblBhdGhdOwppZiAoIWFwcEpzb24pIHsKICBlcnJvcnMucHVzaCgnYXBwLmpzb24g57y65aSx5oiW5peg5rOV6Kej5p6QJyk7Cn0gZWxzZSB7CiAgKGFwcEpzb24ucGFnZXMgfHwgW10pLmZvckVhY2goKHBhZ2UpID0+IHsKICAgIFsnLnd4bWwnLCAnLmpzJywgJy5qc29uJ10uZm9yRWFjaCgoZXh0KSA9PiB7CiAgICAgIGNvbnN0IGYgPSBwYXRoLmpvaW4oTVAsIHBhZ2UgKyBleHQpOwogICAgICBpZiAoIWZzLmV4aXN0c1N5bmMoZikpIGVycm9ycy5wdXNoKGBhcHAuanNvbiDnmbvorrDnmoTpobXpnaLnvLrlsJHmlofku7bvvJoke3BhZ2V9JHtleHR9YCk7CiAgICB9KTsKICB9KTsKICBpbmZvLnB1c2goYGFwcC5qc29uIOeZu+iusOmhtemdoiAkeyhhcHBKc29uLnBhZ2VzIHx8IFtdKS5sZW5ndGh9IOS4qmApOwoKICAvLyB0YWJCYXIg6aG16Z2i5b+F6aG75ZyoIHBhZ2VzIOS4rQogIGNvbnN0IHRhYnMgPSAoYXBwSnNvbi50YWJCYXIgJiYgYXBwSnNvbi50YWJCYXIubGlzdCkgfHwgW107CiAgdGFicy5mb3JFYWNoKCh0KSA9PiB7CiAgICBpZiAoKGFwcEpzb24ucGFnZXMgfHwgW10pLmluZGV4T2YodC5wYWdlUGF0aCkgPT09IC0xKSB7CiAgICAgIGVycm9ycy5wdXNoKGB0YWJCYXIg6aG16Z2i5pyq55m76K6w5ZyoIHBhZ2VzIOS4re+8miR7dC5wYWdlUGF0aH1gKTsKICAgIH0KICB9KTsKICBpbmZvLnB1c2goYHRhYkJhciDpobkgJHt0YWJzLmxlbmd0aH0g5LiqYCk7Cn0KCi8vIC0tLS0gMy4g6Ieq5a6a5LmJ57uE5Lu25byV55SoIC0tLS0KbGV0IGNvbXBSZWZzID0gMDsKT2JqZWN0LmtleXMocGFyc2VkKS5mb3JFYWNoKChmKSA9PiB7CiAgaWYgKCFmLnN0YXJ0c1dpdGgoTVApKSByZXR1cm47CiAgY29uc3QgdWMgPSBwYXJzZWRbZl0udXNpbmdDb21wb25lbnRzOwogIGlmICghdWMpIHJldHVybjsKICBPYmplY3Qua2V5cyh1YykuZm9yRWFjaCgobmFtZSkgPT4gewogICAgY29tcFJlZnMgKz0gMTsKICAgIGNvbnN0IHJhdyA9IHVjW25hbWVdOwogICAgY29uc3QgYmFzZSA9IHJhdy5zdGFydHNXaXRoKCcvJykgPyBwYXRoLmpvaW4oTVAsIHJhdy5zbGljZSgxKSkgOiBwYXRoLnJlc29sdmUocGF0aC5kaXJuYW1lKGYpLCByYXcpOwogICAgWycud3htbCcsICcuanMnLCAnLmpzb24nXS5mb3JFYWNoKChleHQpID0+IHsKICAgICAgaWYgKCFmcy5leGlzdHNTeW5jKGJhc2UgKyBleHQpKSB7CiAgICAgICAgZXJyb3JzLnB1c2goYCR7cmVsKGYpfSDlvJXnlKjnu4Tku7YgJHtuYW1lfSDnvLrlsJHmlofku7YgJHtyZWwoYmFzZSArIGV4dCl9YCk7CiAgICAgIH0KICAgIH0pOwogIH0pOwp9KTsKaW5mby5wdXNoKGDoh6rlrprkuYnnu4Tku7blvJXnlKggJHtjb21wUmVmc30g5aSEYCk7CgovLyAtLS0tIDQuIOS6keWHveaVsOiwg+eUqOWQjSAtLS0tCmNvbnN0IGNsb3VkRm5EaXJzID0gZnMuZXhpc3RzU3luYyhDRikKICA/IGZzLnJlYWRkaXJTeW5jKENGLCB7IHdpdGhGaWxlVHlwZXM6IHRydWUgfSkuZmlsdGVyKChlKSA9PiBlLmlzRGlyZWN0b3J5KCkpLm1hcCgoZSkgPT4gZS5uYW1lKQogIDogW107CmNvbnN0IGNhbGxlZE5hbWVzID0gbmV3IFNldCgpOwp3YWxrKE1QLCAnLmpzJykuZm9yRWFjaCgoZikgPT4gewogIGNvbnN0IHNyYyA9IGZzLnJlYWRGaWxlU3luYyhmLCAndXRmOCcpOwogIGNvbnN0IHJlID0gL2NhbGxGdW5jdGlvblwoXHMqWyciXShbQS1aYS16MC05X10rKVsnIl0vZzsKICBsZXQgbTsKICB3aGlsZSAoKG0gPSByZS5leGVjKHNyYykpKSBjYWxsZWROYW1lcy5hZGQobVsxXSk7Cn0pOwpjYWxsZWROYW1lcy5mb3JFYWNoKChuYW1lKSA9PiB7CiAgaWYgKGNsb3VkRm5EaXJzLmluZGV4T2YobmFtZSkgPT09IC0xKSB7CiAgICBlcnJvcnMucHVzaChg5YmN56uv6LCD55So5LqG5LiN5a2Y5Zyo55qE5LqR5Ye95pWw77yaJHtuYW1lfWApOwogIH0KfSk7CmluZm8ucHVzaChg5YmN56uv6LCD55So5LqR5Ye95pWwICR7Y2FsbGVkTmFtZXMuc2l6ZX0g5Liq77yaJHtbLi4uY2FsbGVkTmFtZXNdLnNvcnQoKS5qb2luKCcsICcpfWApOwoKLy8g5LqR5Ye95pWw5LmL6Ze055qE5LqS6LCDCndhbGsoQ0YsICcuanMnKS5mb3JFYWNoKChmKSA9PiB7CiAgaWYgKHBhdGguYmFzZW5hbWUoZikgIT09ICdpbmRleC5qcycpIHJldHVybjsKICBjb25zdCBzcmMgPSBmcy5yZWFkRmlsZVN5bmMoZiwgJ3V0ZjgnKTsKICBjb25zdCByZSA9IC9jYWxsRnVuY3Rpb25cKFxzKlx7W1xzXFNdezAsODB9P25hbWU6XHMqWyciXShbQS1aYS16MC05X10rKVsnIl0vZzsKICBsZXQgbTsKICB3aGlsZSAoKG0gPSByZS5leGVjKHNyYykpKSB7CiAgICBpZiAoY2xvdWRGbkRpcnMuaW5kZXhPZihtWzFdKSA9PT0gLTEpIHsKICAgICAgZXJyb3JzLnB1c2goYCR7cmVsKGYpfSDkupLosIPkuobkuI3lrZjlnKjnmoTkupHlh73mlbDvvJoke21bMV19YCk7CiAgICB9CiAgfQp9KTsKCi8vIC0tLS0gNS4g5LqR5Ye95pWw5a6M5pW05oCnIC0tLS0KY29uc3QgRVhQRUNURURfRk4gPSBbCiAgJ3N1Ym1pdEFwcGx5JywKICAnZ2V0TXlBcHBsaWNhdGlvbnMnLAogICdnZXRBcHBsaWNhdGlvbkRldGFpbCcsCiAgJ2dldFBlbmRpbmdMaXN0JywKICAnYXBwcm92ZUFwcGxpY2F0aW9uJywKICAnc2VuZFN1YnNjcmliZU1zZycsCl07CkVYUEVDVEVEX0ZOLmZvckVhY2goKG5hbWUpID0+IHsKICBpZiAoY2xvdWRGbkRpcnMuaW5kZXhPZihuYW1lKSA9PT0gLTEpIHsKICAgIGVycm9ycy5wdXNoKGDnvLrlsJHkupHlh73mlbDnm67lvZXvvJoke25hbWV9YCk7CiAgICByZXR1cm47CiAgfQogIFsnaW5kZXguanMnLCAncGFja2FnZS5qc29uJywgJ2NvbW1vbi5qcyddLmZvckVhY2goKGZpbGUpID0+IHsKICAgIGlmICghZnMuZXhpc3RzU3luYyhwYXRoLmpvaW4oQ0YsIG5hbWUsIGZpbGUpKSkgewogICAgICBlcnJvcnMucHVzaChg5LqR5Ye95pWwICR7bmFtZX0g57y65bCRICR7ZmlsZX1gKTsKICAgIH0KICB9KTsKfSk7CmluZm8ucHVzaChg5LqR5Ye95pWwICR7Y2xvdWRGbkRpcnMubGVuZ3RofSDkuKrvvJoke2Nsb3VkRm5EaXJzLnNvcnQoKS5qb2luKCcsICcpfWApOwoKLy8gc2VuZFN1YnNjcmliZU1zZyDlv4Xpobvlo7DmmI4gb3BlbmFwaSDmnYPpmZAKY29uc3Qgc3ViQ2ZnID0gcGFyc2VkW3BhdGguam9pbihDRiwgJ3NlbmRTdWJzY3JpYmVNc2cnLCAnY29uZmlnLmpzb24nKV07CmlmICghc3ViQ2ZnKSB7CiAgZXJyb3JzLnB1c2goJ3NlbmRTdWJzY3JpYmVNc2cvY29uZmlnLmpzb24g57y65aSxJyk7Cn0gZWxzZSB7CiAgY29uc3Qgb3BlbmFwaSA9IChzdWJDZmcucGVybWlzc2lvbnMgJiYgc3ViQ2ZnLnBlcm1pc3Npb25zLm9wZW5hcGkpIHx8IFtdOwogIGlmIChvcGVuYXBpLmluZGV4T2YoJ3N1YnNjcmliZU1lc3NhZ2Uuc2VuZCcpID09PSAtMSkgewogICAgZXJyb3JzLnB1c2goJ3NlbmRTdWJzY3JpYmVNc2cvY29uZmlnLmpzb24g5pyq5aOw5piOIHN1YnNjcmliZU1lc3NhZ2Uuc2VuZCDmnYPpmZAnKTsKICB9IGVsc2UgewogICAgaW5mby5wdXNoKCdzZW5kU3Vic2NyaWJlTXNnIOW3suWjsOaYjiBzdWJzY3JpYmVNZXNzYWdlLnNlbmQg5p2D6ZmQJyk7CiAgfQp9CgovLyAtLS0tIDYuIOWJjeWQjuerr+mFjee9ruS4gOiHtOaApyAtLS0tCmNvbnN0IGZlQ29uZmlnID0gcmVxdWlyZShwYXRoLmpvaW4oTVAsICdjb25maWcnLCAnaW5kZXguanMnKSk7CmNvbnN0IGJlQ29uZmlnID0gcmVxdWlyZShwYXRoLmpvaW4oUk9PVCwgJ3NoYXJlZCcsICdjb21tb24uanMnKSk7CgppZiAoZmVDb25maWcuQVVUT19BUFBST1ZFX1RIUkVTSE9MRCAhPT0gYmVDb25maWcuQVVUT19BUFBST1ZFX1RIUkVTSE9MRCkgewogIGVycm9ycy5wdXNoKAogICAgYOiHquWKqOWuoeaJuemYiOWAvOWJjeWQjuerr+S4jeS4gOiHtO+8muWJjeerryAke2ZlQ29uZmlnLkFVVE9fQVBQUk9WRV9USFJFU0hPTER9IHZzIOWQjuerryAke2JlQ29uZmlnLkFVVE9fQVBQUk9WRV9USFJFU0hPTER9YAogICk7Cn0gZWxzZSB7CiAgaW5mby5wdXNoKGDoh6rliqjlrqHmibnpmIjlgLzkuIDoh7TvvJrCpSR7YmVDb25maWcuQVVUT19BUFBST1ZFX1RIUkVTSE9MRH1gKTsKfQoKLy8g6K6i6ZiF5qih5p2/77ya5YmN56uv5ZyoIGNvbmZpZy9pbmRleC5qcyDloavlhpnvvIjlrqLmiLfnq6/lj5HotbforqLpmIXlv4XpnIDvvIzlsZ7lhazlvIDlgLzvvInvvIwKLy8g5ZCO56uv5LuO546v5aKD5Y+Y6YePIFRNUExfUEVORElORyAvIFRNUExfUkVTVUxUIOivu+WPluOAguS4pOiAhemhu+S4gOiHtO+8jOS9huWQjuerr+WAvOWPquWcqOmDqOe9suWQjgovLyDnlLHnjq/looPlj5jph4/lhrPlrprvvIzmlYXmraTlpITlj6rmoKHpqozjgIzliY3nq6/lt7LloasgKyDlkI7nq6/noa7lrp7otbDkuobnjq/looPlj5jph4/jgI3vvIzkuI3lho3lgZrlrZfpnaLlgLzmr5TovoPjgIIKaWYgKAogICFmZUNvbmZpZy5TVUJTQ1JJQkVfVEVNUExBVEVTIHx8CiAgdHlwZW9mIGZlQ29uZmlnLlNVQlNDUklCRV9URU1QTEFURVMuUEVORElORyA9PT0gJ3VuZGVmaW5lZCcgfHwKICB0eXBlb2YgZmVDb25maWcuU1VCU0NSSUJFX1RFTVBMQVRFUy5SRVNVTFQgPT09ICd1bmRlZmluZWQnCikgewogIGVycm9ycy5wdXNoKCfliY3nq68gU1VCU0NSSUJFX1RFTVBMQVRFUyDnvLrlsJHlrZfmrrUnKTsKfSBlbHNlIHsKICBpbmZvLnB1c2goJ+WJjeerr+aooeadvyBJRCDphY3nva7lrozmlbTvvIjkuI7lkI7nq6/njq/looPlj5jph48gVE1QTF9QRU5ESU5HL1RNUExfUkVTVUxUIOmhu+S/neaMgeS4gOiHtO+8iScpOwp9CgppZiAoCiAgIWJlQ29uZmlnLlNVQlNDUklCRV9URU1QTEFURVMgfHwKICB0eXBlb2YgYmVDb25maWcuU1VCU0NSSUJFX1RFTVBMQVRFUy5QRU5ESU5HID09PSAndW5kZWZpbmVkJyB8fAogIHR5cGVvZiBiZUNvbmZpZy5TVUJTQ1JJQkVfVEVNUExBVEVTLlJFU1VMVCA9PT0gJ3VuZGVmaW5lZCcKKSB7CiAgZXJyb3JzLnB1c2goJ+WQjuerryBTVUJTQ1JJQkVfVEVNUExBVEVTIOe7k+aehOW8guW4uCcpOwp9IGVsc2UgewogIGluZm8ucHVzaCgn5ZCO56uv5qih5p2/IElEIOW3suS7jueOr+Wig+WPmOmHj+ivu+WPlu+8iFRNUExfUEVORElORyAvIFRNUExfUkVTVUxU77yJJyk7Cn0KCi8vIOWQjuerr+WFs+mUrumFjee9ruW/hemhu+i1sOeOr+Wig+WPmOmHj++8jOS4jeW+l+WGmeatu+WcqOS7o+eggQpjb25zdCBiZVNyYyA9IGZzLnJlYWRGaWxlU3luYyhwYXRoLmpvaW4oUk9PVCwgJ3NoYXJlZCcsICdjb21tb24uanMnKSwgJ3V0ZjgnKTsKWydBUFBST1ZFUl9PUEVOSURTJywgJ1RNUExfUEVORElORycsICdUTVBMX1JFU1VMVCcsICdJTlRFUk5BTF9UT0tFTiddLmZvckVhY2goKGspID0+IHsKICBpZiAoIWJlU3JjLmluY2x1ZGVzKGBwcm9jZXNzLmVudi4ke2t9YCkpIHsKICAgIGVycm9ycy5wdXNoKGDlkI7nq6/mnKrku47njq/looPlj5jph4/or7vlj5YgJHtrfWApOwogIH0KfSk7CmlmICgKICBiZVNyYy5pbmNsdWRlcygnUkVQTEFDRV9XSVRIX0FQUFJPVkVSX09QRU5JRCcpIHx8CiAgYmVTcmMuaW5jbHVkZXMoJ0NIQU5HRV9NRV9UT19BX1JBTkRPTV9TRUNSRVQnKQopIHsKICBlcnJvcnMucHVzaCgn5ZCO56uv5Luj56CB5LuN5ZCr5pyJ5piO5paH5Y2g5L2NL+m7mOiupOWAvO+8jOivt+aUueS4uueOr+Wig+WPmOmHjycpOwp9IGVsc2UgewogIGluZm8ucHVzaCgn5ZCO56uv5bey5peg5piO5paH5a+G6ZKl77yIQVBQUk9WRVJfT1BFTklEUyAvIElOVEVSTkFMX1RPS0VOIC8g5qih5p2/IElEIOWdh+i1sOeOr+Wig+WPmOmHj++8iScpOwp9CgovLyAtLS0tIOW+hemFjee9rumhue+8iOaPkOmGku+8jOmdnumUmeivr++8iS0tLS0KY29uc3QgcGxhY2Vob2xkZXJzID0gWwogIFtwYXRoLmpvaW4oTVAsICdjb25maWcnLCAnaW5kZXguanMnKSwgJ1JFUExBQ0VfV0lUSF9ZT1VSX0NMT1VEX0VOVl9JRCcsICfkupHnjq/looMgSUQnXSwKICBbcGF0aC5qb2luKE1QLCAnY29uZmlnJywgJ2luZGV4LmpzJyksICdSRVBMQUNFX1dJVEhfUEVORElOR19URU1QTEFURV9JRCcsICflvoXlrqHmibnmj5DphpLmqKHmnb8gSUTvvIjliY3nq6/vvIknXSwKICBbcGF0aC5qb2luKE1QLCAnY29uZmlnJywgJ2luZGV4LmpzJyksICdSRVBMQUNFX1dJVEhfUkVTVUxUX1RFTVBMQVRFX0lEJywgJ+WuoeaJuee7k+aenOaooeadvyBJRO+8iOWJjeerr++8iSddLAogIFtwYXRoLmpvaW4oUk9PVCwgJ3Byb2plY3QuY29uZmlnLmpzb24nKSwgJ1JFUExBQ0VfV0lUSF9ZT1VSX0FQUElEJywgJ+Wwj+eoi+W6jyBBcHBJRCddLApdOwpwbGFjZWhvbGRlcnMuZm9yRWFjaCgoW2ZpbGUsIHRva2VuLCBsYWJlbF0pID0+IHsKICBpZiAoZnMuZXhpc3RzU3luYyhmaWxlKSAmJiBmcy5yZWFkRmlsZVN5bmMoZmlsZSwgJ3V0ZjgnKS5pbmNsdWRlcyh0b2tlbikpIHsKICAgIHdhcm5zLnB1c2goYCR7bGFiZWx9IOS7jeS4uuWNoOS9jeWAvO+8iCR7cmVsKGZpbGUpfe+8iWApOwogIH0KfSk7CgovLyAtLS0tIOi+k+WHuiAtLS0tCmNvbnNvbGUubG9nKCdcbj09PSDnu5PmnoToh6rmo4AgPT09Jyk7CmluZm8uZm9yRWFjaCgoaSkgPT4gY29uc29sZS5sb2coYCAgwrcgJHtpfWApKTsKCmlmICh3YXJucy5sZW5ndGgpIHsKICBjb25zb2xlLmxvZygnXG49PT0g5b6F6YWN572u77yI6YOo572y5YmN5b+F6aG75aGr77yJPT09Jyk7CiAgd2FybnMuZm9yRWFjaCgodykgPT4gY29uc29sZS5sb2coYCAgISAke3d9YCkpOwp9CgppZiAoZXJyb3JzLmxlbmd0aCkgewogIGNvbnNvbGUubG9nKCdcbj09PSDplJnor68gPT09Jyk7CiAgZXJyb3JzLmZvckVhY2goKGUpID0+IGNvbnNvbGUubG9nKGAgIOKclyAke2V9YCkpOwogIGNvbnNvbGUubG9nKGBcbuiHquajgOWksei0pe+8miR7ZXJyb3JzLmxlbmd0aH0g5Liq6ZSZ6K+vXG5gKTsKICBwcm9jZXNzLmV4aXQoMSk7Cn0KCmNvbnNvbGUubG9nKCdcbuKckyDnu5PmnoToh6rmo4Dlhajpg6jpgJrov4dcbicpOwo=
+#!/usr/bin/env node
+/**
+ * 项目自检脚本
+ *   node scripts/verify.js
+ *
+ * 检查项：
+ *  1. 所有 JSON 可解析
+ *  2. app.json 中登记的页面都存在 wxml/js
+ *  3. 页面 json 里引用的自定义组件路径都存在
+ *  4. 页面 js 调用的云函数名都有对应目录
+ *  5. 每个云函数都有 index.js / package.json / common.js
+ *  6. 前后端配置一致性（模板 ID、阈值）
+ */
+const fs = require('fs');
+const path = require('path');
+
+const ROOT = path.resolve(__dirname, '..');
+const MP = path.join(ROOT, 'miniprogram');
+const CF = path.join(ROOT, 'cloudfunctions');
+
+const errors = [];
+const warns = [];
+const info = [];
+
+function walk(dir, ext, out = []) {
+  if (!fs.existsSync(dir)) return out;
+  fs.readdirSync(dir, { withFileTypes: true }).forEach((e) => {
+    const p = path.join(dir, e.name);
+    if (e.isDirectory()) {
+      if (e.name === 'node_modules') return;
+      walk(p, ext, out);
+    } else if (e.name.endsWith(ext)) {
+      out.push(p);
+    }
+  });
+  return out;
+}
+
+const rel = (p) => path.relative(ROOT, p).replace(/\\/g, '/');
+
+// ---- 1. JSON 解析 ----
+const jsonFiles = walk(ROOT, '.json');
+const parsed = {};
+jsonFiles.forEach((f) => {
+  try {
+    parsed[f] = JSON.parse(fs.readFileSync(f, 'utf8'));
+  } catch (e) {
+    errors.push(`JSON 解析失败 ${rel(f)}: ${e.message}`);
+  }
+});
+info.push(`JSON 文件 ${jsonFiles.length} 个，解析通过 ${Object.keys(parsed).length} 个`);
+
+// ---- 2. app.json 页面存在性 ----
+const appJsonPath = path.join(MP, 'app.json');
+const appJson = parsed[appJsonPath];
+if (!appJson) {
+  errors.push('app.json 缺失或无法解析');
+} else {
+  (appJson.pages || []).forEach((page) => {
+    ['.wxml', '.js', '.json'].forEach((ext) => {
+      const f = path.join(MP, page + ext);
+      if (!fs.existsSync(f)) errors.push(`app.json 登记的页面缺少文件：${page}${ext}`);
+    });
+  });
+  info.push(`app.json 登记页面 ${(appJson.pages || []).length} 个`);
+
+  // tabBar 页面必须在 pages 中
+  const tabs = (appJson.tabBar && appJson.tabBar.list) || [];
+  tabs.forEach((t) => {
+    if ((appJson.pages || []).indexOf(t.pagePath) === -1) {
+      errors.push(`tabBar 页面未登记在 pages 中：${t.pagePath}`);
+    }
+  });
+  info.push(`tabBar 项 ${tabs.length} 个`);
+}
+
+// ---- 3. 自定义组件引用 ----
+let compRefs = 0;
+Object.keys(parsed).forEach((f) => {
+  if (!f.startsWith(MP)) return;
+  const uc = parsed[f].usingComponents;
+  if (!uc) return;
+  Object.keys(uc).forEach((name) => {
+    compRefs += 1;
+    const raw = uc[name];
+    const base = raw.startsWith('/') ? path.join(MP, raw.slice(1)) : path.resolve(path.dirname(f), raw);
+    ['.wxml', '.js', '.json'].forEach((ext) => {
+      if (!fs.existsSync(base + ext)) {
+        errors.push(`${rel(f)} 引用组件 ${name} 缺少文件 ${rel(base + ext)}`);
+      }
+    });
+  });
+});
+info.push(`自定义组件引用 ${compRefs} 处`);
+
+// ---- 4. 云函数调用名 ----
+const cloudFnDirs = fs.existsSync(CF)
+  ? fs.readdirSync(CF, { withFileTypes: true }).filter((e) => e.isDirectory()).map((e) => e.name)
+  : [];
+const calledNames = new Set();
+walk(MP, '.js').forEach((f) => {
+  const src = fs.readFileSync(f, 'utf8');
+  const re = /callFunction\(\s*['"]([A-Za-z0-9_]+)['"]/g;
+  let m;
+  while ((m = re.exec(src))) calledNames.add(m[1]);
+});
+calledNames.forEach((name) => {
+  if (cloudFnDirs.indexOf(name) === -1) {
+    errors.push(`前端调用了不存在的云函数：${name}`);
+  }
+});
+info.push(`前端调用云函数 ${calledNames.size} 个：${[...calledNames].sort().join(', ')}`);
+
+// 云函数之间的互调
+walk(CF, '.js').forEach((f) => {
+  if (path.basename(f) !== 'index.js') return;
+  const src = fs.readFileSync(f, 'utf8');
+  const re = /callFunction\(\s*\{[\s\S]{0,80}?name:\s*['"]([A-Za-z0-9_]+)['"]/g;
+  let m;
+  while ((m = re.exec(src))) {
+    if (cloudFnDirs.indexOf(m[1]) === -1) {
+      errors.push(`${rel(f)} 互调了不存在的云函数：${m[1]}`);
+    }
+  }
+});
+
+// ---- 5. 云函数完整性 ----
+const EXPECTED_FN = [
+  'submitApply',
+  'getMyApplications',
+  'getApplicationDetail',
+  'getPendingList',
+  'approveApplication',
+  'sendSubscribeMsg',
+];
+EXPECTED_FN.forEach((name) => {
+  if (cloudFnDirs.indexOf(name) === -1) {
+    errors.push(`缺少云函数目录：${name}`);
+    return;
+  }
+  ['index.js', 'package.json', 'common.js'].forEach((file) => {
+    if (!fs.existsSync(path.join(CF, name, file))) {
+      errors.push(`云函数 ${name} 缺少 ${file}`);
+    }
+  });
+});
+info.push(`云函数 ${cloudFnDirs.length} 个：${cloudFnDirs.sort().join(', ')}`);
+
+// sendSubscribeMsg 必须声明 openapi 权限
+const subCfg = parsed[path.join(CF, 'sendSubscribeMsg', 'config.json')];
+if (!subCfg) {
+  errors.push('sendSubscribeMsg/config.json 缺失');
+} else {
+  const openapi = (subCfg.permissions && subCfg.permissions.openapi) || [];
+  if (openapi.indexOf('subscribeMessage.send') === -1) {
+    errors.push('sendSubscribeMsg/config.json 未声明 subscribeMessage.send 权限');
+  } else {
+    info.push('sendSubscribeMsg 已声明 subscribeMessage.send 权限');
+  }
+}
+
+// ---- 6. 前后端配置一致性 ----
+const feConfig = require(path.join(MP, 'config', 'index.js'));
+const beConfig = require(path.join(ROOT, 'shared', 'common.js'));
+
+if (feConfig.AUTO_APPROVE_THRESHOLD !== beConfig.AUTO_APPROVE_THRESHOLD) {
+  errors.push(
+    `自动审批阈值前后端不一致：前端 ${feConfig.AUTO_APPROVE_THRESHOLD} vs 后端 ${beConfig.AUTO_APPROVE_THRESHOLD}`
+  );
+} else {
+  info.push(`自动审批阈值一致：¥${beConfig.AUTO_APPROVE_THRESHOLD}`);
+}
+
+// 订阅模板：前端在 config/index.js 填写（客户端发起订阅必需，属公开值），
+// 后端从环境变量 TMPL_PENDING / TMPL_RESULT 读取。两者须一致，但后端值只在部署后
+// 由环境变量决定，故此处只校验「前端已填 + 后端确实走了环境变量」，不再做字面值比较。
+if (
+  !feConfig.SUBSCRIBE_TEMPLATES ||
+  typeof feConfig.SUBSCRIBE_TEMPLATES.PENDING === 'undefined' ||
+  typeof feConfig.SUBSCRIBE_TEMPLATES.RESULT === 'undefined'
+) {
+  errors.push('前端 SUBSCRIBE_TEMPLATES 缺少字段');
+} else {
+  info.push('前端模板 ID 配置完整（与后端环境变量 TMPL_PENDING/TMPL_RESULT 须保持一致）');
+}
+
+if (
+  !beConfig.SUBSCRIBE_TEMPLATES ||
+  typeof beConfig.SUBSCRIBE_TEMPLATES.PENDING === 'undefined' ||
+  typeof beConfig.SUBSCRIBE_TEMPLATES.RESULT === 'undefined'
+) {
+  errors.push('后端 SUBSCRIBE_TEMPLATES 结构异常');
+} else {
+  info.push('后端模板 ID 已从环境变量读取（TMPL_PENDING / TMPL_RESULT）');
+}
+
+// 后端关键配置必须走环境变量，不得写死在代码
+const beSrc = fs.readFileSync(path.join(ROOT, 'shared', 'common.js'), 'utf8');
+['APPROVER_OPENIDS', 'TMPL_PENDING', 'TMPL_RESULT', 'INTERNAL_TOKEN'].forEach((k) => {
+  if (!beSrc.includes(`process.env.${k}`)) {
+    errors.push(`后端未从环境变量读取 ${k}`);
+  }
+});
+if (
+  beSrc.includes('REPLACE_WITH_APPROVER_OPENID') ||
+  beSrc.includes('CHANGE_ME_TO_A_RANDOM_SECRET')
+) {
+  errors.push('后端代码仍含有明文占位/默认值，请改为环境变量');
+} else {
+  info.push('后端已无明文密钥（APPROVER_OPENIDS / INTERNAL_TOKEN / 模板 ID 均走环境变量）');
+}
+
+// ---- 待配置项（提醒，非错误）----
+const placeholders = [
+  [path.join(MP, 'config', 'index.js'), 'REPLACE_WITH_YOUR_CLOUD_ENV_ID', '云环境 ID'],
+  [path.join(MP, 'config', 'index.js'), 'REPLACE_WITH_PENDING_TEMPLATE_ID', '待审批提醒模板 ID（前端）'],
+  [path.join(MP, 'config', 'index.js'), 'REPLACE_WITH_RESULT_TEMPLATE_ID', '审批结果模板 ID（前端）'],
+  [path.join(ROOT, 'project.config.json'), 'REPLACE_WITH_YOUR_APPID', '小程序 AppID'],
+];
+placeholders.forEach(([file, token, label]) => {
+  if (fs.existsSync(file) && fs.readFileSync(file, 'utf8').includes(token)) {
+    warns.push(`${label} 仍为占位值（${rel(file)}）`);
+  }
+});
+
+// ---- 输出 ----
+console.log('\n=== 结构自检 ===');
+info.forEach((i) => console.log(`  · ${i}`));
+
+if (warns.length) {
+  console.log('\n=== 待配置（部署前必须填）===');
+  warns.forEach((w) => console.log(`  ! ${w}`));
+}
+
+if (errors.length) {
+  console.log('\n=== 错误 ===');
+  errors.forEach((e) => console.log(`  ✗ ${e}`));
+  console.log(`\n自检失败：${errors.length} 个错误\n`);
+  process.exit(1);
+}
+
+console.log('\n✓ 结构自检全部通过\n');

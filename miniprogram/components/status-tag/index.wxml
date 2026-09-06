@@ -1,1 +1,1 @@
-PHZpZXcgY2xhc3M9InN0YXR1cy10YWciIHN0eWxlPSJjb2xvcjoge3tjb2xvcn19OyBiYWNrZ3JvdW5kLWNvbG9yOiB7e2JnfX07Ij57e3RleHR9fTwvdmlldz4K
+<view class="status-tag" style="color: {{color}}; background-color: {{bg}};">{{text}}</view>

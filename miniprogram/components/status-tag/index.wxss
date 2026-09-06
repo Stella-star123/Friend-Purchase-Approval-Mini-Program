@@ -1,1 +1,11 @@
-LnN0YXR1cy10YWcgewogIGRpc3BsYXk6IGlubGluZS1mbGV4OwogIGFsaWduLWl0ZW1zOiBjZW50ZXI7CiAganVzdGlmeS1jb250ZW50OiBjZW50ZXI7CiAgcGFkZGluZzogMTJycHggMjRycHg7CiAgYm9yZGVyLXJhZGl1czogMjRycHg7CiAgZm9udC1zaXplOiAyNHJweDsKICBmb250LXdlaWdodDogNjAwOwogIGxpbmUtaGVpZ2h0OiAxOwogIHdoaXRlLXNwYWNlOiBub3dyYXA7Cn0K
+.status-tag {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 12rpx 24rpx;
+  border-radius: 24rpx;
+  font-size: 24rpx;
+  font-weight: 600;
+  line-height: 1;
+  white-space: nowrap;
+}

@@ -1,1 +1,69 @@
-PHZpZXcgY2xhc3M9InBhZ2UgcGFnZS0tZ2FwLWJvdHRvbSI+CiAgPHZpZXcgY2xhc3M9InBhZ2UtaGVhZGVyIj4KICAgIDx2aWV3IGNsYXNzPSJiYWNrIiBiaW5kdGFwPSJvbkJhY2siPuKAuTwvdmlldz4KICAgIDx0ZXh0IGNsYXNzPSJwYWdlLXRpdGxlIj7nlLPor7for6bmg4U8L3RleHQ+CiAgICA8dmlldyBjbGFzcz0iYmFjayBiYWNrLS1naG9zdCI+PC92aWV3PgogIDwvdmlldz4KCiAgPHNrZWxldG9uIHd4OmlmPSJ7e3N0YXRlID09PSAnbG9hZGluZyd9fSIgY291bnQ9IjIiIC8+CgogIDxlcnJvci10aXAgd3g6ZWxpZj0ie3tzdGF0ZSA9PT0gJ2Vycm9yJ319IiB0ZXh0PSJ7e2Vycm9yVGV4dH19IiBiaW5kOnJldHJ5PSJvblJldHJ5IiAvPgoKICA8YmxvY2sgd3g6ZWxzZT4KICAgIDwhLS0g54q25oCB5qiq5bmFIC0tPgogICAgPHZpZXcgY2xhc3M9InN0YXR1cy1iYW5uZXIge3tiYW5uZXIuY2xzfX0iPgogICAgICA8dGV4dCBjbGFzcz0ic3RhdHVzLWJhbm5lcl9faWNvbiI+e3tiYW5uZXIuaWNvbn19PC90ZXh0PgogICAgICA8dmlldyBjbGFzcz0ic3RhdHVzLWJhbm5lcl9fYm9keSI+CiAgICAgICAgPHRleHQgY2xhc3M9InN0YXR1cy1iYW5uZXJfX3RpdGxlIj57e2Jhbm5lci50aXRsZX19PC90ZXh0PgogICAgICAgIDx0ZXh0IGNsYXNzPSJzdGF0dXMtYmFubmVyX19zdWIiIHd4OmlmPSJ7e3JlY29yZC5zdGF0dXMgIT09ICdwZW5kaW5nJ319Ij4KICAgICAgICAgIHt7cmVjb3JkLmFwcHJvdmVyTWFzayA/ICflrqHmibnkurogJyArIHJlY29yZC5hcHByb3Zlck1hc2sgKyAnIMK3ICcgOiAnJ319e3tyZWNvcmQudXBkYXRlZEF0VGV4dH19CiAgICAgICAgPC90ZXh0PgogICAgICAgIDx0ZXh0IGNsYXNzPSJzdGF0dXMtYmFubmVyX19zdWIiIHd4OmVsc2U+5o+Q5Lqk5LqOIHt7cmVjb3JkLmNyZWF0ZWRBdFRleHR9fTwvdGV4dD4KICAgICAgPC92aWV3PgogICAgPC92aWV3PgoKICAgIDwhLS0g5L+h5oGv5Y2hIC0tPgogICAgPHZpZXcgY2xhc3M9ImNhcmQgZGV0YWlsLWNhcmQiPgogICAgICA8dmlldyBjbGFzcz0iaW5mby1yb3ciPgogICAgICAgIDx0ZXh0IGNsYXNzPSJpbmZvLXJvd19fbGFiZWwiPueJqeWTgeWQjeensDwvdGV4dD4KICAgICAgICA8dGV4dCBjbGFzcz0iaW5mby1yb3dfX3ZhbHVlIGluZm8tcm93X192YWx1ZS0tc3Ryb25nIj57e3JlY29yZC5pdGVtTmFtZX19PC90ZXh0PgogICAgICA8L3ZpZXc+CiAgICAgIDx2aWV3IGNsYXNzPSJpbmZvLXJvdyI+CiAgICAgICAgPHRleHQgY2xhc3M9ImluZm8tcm93X19sYWJlbCI+5Lu35qC8PC90ZXh0PgogICAgICAgIDx0ZXh0IGNsYXNzPSJpbmZvLXJvd19fdmFsdWUgaW5mby1yb3dfX3ZhbHVlLS1zdHJvbmciPsKle3tyZWNvcmQucHJpY2VUZXh0fX08L3RleHQ+CiAgICAgIDwvdmlldz4KICAgICAgPHZpZXcgY2xhc3M9ImluZm8tcm93IiB3eDppZj0ie3tyZWNvcmQucHJvZHVjdFVybH19Ij4KICAgICAgICA8dGV4dCBjbGFzcz0iaW5mby1yb3dfX2xhYmVsIj7llYblk4Hpk77mjqU8L3RleHQ+CiAgICAgICAgPHRleHQgY2xhc3M9ImluZm8tcm93X192YWx1ZSBpbmZvLXJvd19fdmFsdWUtLWxpbmsiIGJpbmR0YXA9ImNvcHlVcmwiPueCueWHu+WkjeWItumTvuaOpTwvdGV4dD4KICAgICAgPC92aWV3PgogICAgICA8dmlldyBjbGFzcz0iaW5mby1yb3cgaW5mby1yb3ctLXN0YWNrIj4KICAgICAgICA8dGV4dCBjbGFzcz0iaW5mby1yb3dfX2xhYmVsIj7nlLPor7fnkIbnlLE8L3RleHQ+CiAgICAgICAgPHZpZXcgY2xhc3M9ImluZm8tcm93X192YWx1ZSBpbmZvLXJvd19fdmFsdWUtLW11bHRpbGluZSI+e3tyZWNvcmQucmVhc29ufX08L3ZpZXc+CiAgICAgIDwvdmlldz4KICAgICAgPHZpZXcgY2xhc3M9ImluZm8tcm93Ij4KICAgICAgICA8dGV4dCBjbGFzcz0iaW5mby1yb3dfX2xhYmVsIj7mj5DkuqTml7bpl7Q8L3RleHQ+CiAgICAgICAgPHRleHQgY2xhc3M9ImluZm8tcm93X192YWx1ZSI+e3tyZWNvcmQuY3JlYXRlZEF0VGV4dH19PC90ZXh0PgogICAgICA8L3ZpZXc+CiAgICA8L3ZpZXc+CgogICAgPCEtLSDllYblk4HmiKrlm74gLS0+CiAgICA8dmlldyBjbGFzcz0idGh1bWItd3JhcCIgd3g6aWY9Int7aW1hZ2VVcmx9fSI+CiAgICAgIDx0ZXh0IGNsYXNzPSJmaWVsZF9fbGFiZWwiPuWVhuWTgeaIquWbvjwvdGV4dD4KICAgICAgPGltYWdlIGNsYXNzPSJ0aHVtYiIgc3JjPSJ7e2ltYWdlVXJsfX0iIG1vZGU9ImFzcGVjdEZpbGwiIGJpbmR0YXA9InByZXZpZXdJbWFnZSIgLz4KICAgIDwvdmlldz4KCiAgICA8IS0tIOWuoeaJueWkh+azqCAtLT4KICAgIDx2aWV3CiAgICAgIHd4OmlmPSJ7e2hhc05vdGV9fSIKICAgICAgY2xhc3M9Im5vdGUge3tyZWNvcmQuc3RhdHVzID09PSAncmVqZWN0ZWQnID8gJ25vdGUtLXJlamVjdGVkJyA6ICdub3RlLS1hcHByb3ZlZCd9fSIKICAgID4KICAgICAgPHRleHQgY2xhc3M9Im5vdGVfX2xhYmVsIj7lrqHmibnlpIfms6g8L3RleHQ+CiAgICAgIDx0ZXh0IGNsYXNzPSJub3RlX190ZXh0Ij57e3JlY29yZC5hcHByb3ZlTm90ZX19PC90ZXh0PgogICAgPC92aWV3PgogIDwvYmxvY2s+CgogIDwhLS0g6KKr5ouS5ZCO6YeN5paw5o+Q5LqkIC0tPgogIDx2aWV3IGNsYXNzPSJmb290ZXItYmFyIiB3eDppZj0ie3tzaG93UmVzdWJtaXR9fSI+CiAgICA8YnV0dG9uIGNsYXNzPSJidG4gYnRuLS1wcmltYXJ5IiBiaW5kdGFwPSJvblJlc3VibWl0Ij7kv67mlLnlubbph43mlrDmj5DkuqQ8L2J1dHRvbj4KICA8L3ZpZXc+Cjwvdmlldz4K
+<view class="page page--gap-bottom">
+  <view class="page-header">
+    <view class="back" bindtap="onBack">‹</view>
+    <text class="page-title">申请详情</text>
+    <view class="back back--ghost"></view>
+  </view>
+
+  <skeleton wx:if="{{state === 'loading'}}" count="2" />
+
+  <error-tip wx:elif="{{state === 'error'}}" text="{{errorText}}" bind:retry="onRetry" />
+
+  <block wx:else>
+    <!-- 状态横幅 -->
+    <view class="status-banner {{banner.cls}}">
+      <text class="status-banner__icon">{{banner.icon}}</text>
+      <view class="status-banner__body">
+        <text class="status-banner__title">{{banner.title}}</text>
+        <text class="status-banner__sub" wx:if="{{record.status !== 'pending'}}">
+          {{record.approverMask ? '审批人 ' + record.approverMask + ' · ' : ''}}{{record.updatedAtText}}
+        </text>
+        <text class="status-banner__sub" wx:else>提交于 {{record.createdAtText}}</text>
+      </view>
+    </view>
+
+    <!-- 信息卡 -->
+    <view class="card detail-card">
+      <view class="info-row">
+        <text class="info-row__label">物品名称</text>
+        <text class="info-row__value info-row__value--strong">{{record.itemName}}</text>
+      </view>
+      <view class="info-row">
+        <text class="info-row__label">价格</text>
+        <text class="info-row__value info-row__value--strong">¥{{record.priceText}}</text>
+      </view>
+      <view class="info-row" wx:if="{{record.productUrl}}">
+        <text class="info-row__label">商品链接</text>
+        <text class="info-row__value info-row__value--link" bindtap="copyUrl">点击复制链接</text>
+      </view>
+      <view class="info-row info-row--stack">
+        <text class="info-row__label">申请理由</text>
+        <view class="info-row__value info-row__value--multiline">{{record.reason}}</view>
+      </view>
+      <view class="info-row">
+        <text class="info-row__label">提交时间</text>
+        <text class="info-row__value">{{record.createdAtText}}</text>
+      </view>
+    </view>
+
+    <!-- 商品截图 -->
+    <view class="thumb-wrap" wx:if="{{imageUrl}}">
+      <text class="field__label">商品截图</text>
+      <image class="thumb" src="{{imageUrl}}" mode="aspectFill" bindtap="previewImage" />
+    </view>
+
+    <!-- 审批备注 -->
+    <view
+      wx:if="{{hasNote}}"
+      class="note {{record.status === 'rejected' ? 'note--rejected' : 'note--approved'}}"
+    >
+      <text class="note__label">审批备注</text>
+      <text class="note__text">{{record.approveNote}}</text>
+    </view>
+  </block>
+
+  <!-- 被拒后重新提交 -->
+  <view class="footer-bar" wx:if="{{showResubmit}}">
+    <button class="btn btn--primary" bindtap="onResubmit">修改并重新提交</button>
+  </view>
+</view>

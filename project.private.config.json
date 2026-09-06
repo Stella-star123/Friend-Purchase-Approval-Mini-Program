@@ -1,1 +1,22 @@
-ew0KICAibGliVmVyc2lvbiI6ICIzLjE3LjIiLA0KICAicHJvamVjdG5hbWUiOiAiJUU3JTlDJTlGJUU3JTlBJTg0JUU5JTlDJTgwJUU4JUE2JTgxJUU1JTkwJTk3JUVGJUJDJTlGIiwNCiAgImNvbmRpdGlvbiI6IHt9LA0KICAic2V0dGluZyI6IHsNCiAgICAidXJsQ2hlY2siOiB0cnVlLA0KICAgICJjb3ZlclZpZXciOiB0cnVlLA0KICAgICJsYXp5bG9hZFBsYWNlaG9sZGVyRW5hYmxlIjogZmFsc2UsDQogICAgInNreWxpbmVSZW5kZXJFbmFibGUiOiBmYWxzZSwNCiAgICAicHJlbG9hZEJhY2tncm91bmREYXRhIjogZmFsc2UsDQogICAgImF1dG9BdWRpdHMiOiBmYWxzZSwNCiAgICAidXNlQXBpSG9vayI6IHRydWUsDQogICAgInNob3dTaGFkb3dSb290SW5XeG1sUGFuZWwiOiB0cnVlLA0KICAgICJ1c2VTdGF0aWNTZXJ2ZXIiOiBmYWxzZSwNCiAgICAidXNlTGFuRGVidWciOiBmYWxzZSwNCiAgICAic2hvd0VTNkNvbXBpbGVPcHRpb24iOiBmYWxzZSwNCiAgICAiY29tcGlsZUhvdFJlTG9hZCI6IHRydWUsDQogICAgImNoZWNrSW52YWxpZEtleSI6IHRydWUsDQogICAgImlnbm9yZURldlVudXNlZEZpbGVzIjogdHJ1ZSwNCiAgICAiYmlnUGFja2FnZVNpemVTdXBwb3J0IjogZmFsc2UNCiAgfQ0KfQ==
+{
+  "libVersion": "3.17.2",
+  "projectname": "%E7%9C%9F%E7%9A%84%E9%9C%80%E8%A6%81%E5%90%97%EF%BC%9F",
+  "condition": {},
+  "setting": {
+    "urlCheck": true,
+    "coverView": true,
+    "lazyloadPlaceholderEnable": false,
+    "skylineRenderEnable": false,
+    "preloadBackgroundData": false,
+    "autoAudits": false,
+    "useApiHook": true,
+    "showShadowRootInWxmlPanel": true,
+    "useStaticServer": false,
+    "useLanDebug": false,
+    "showES6CompileOption": false,
+    "compileHotReLoad": true,
+    "checkInvalidKey": true,
+    "ignoreDevUnusedFiles": true,
+    "bigPackageSizeSupport": false
+  }
+}
