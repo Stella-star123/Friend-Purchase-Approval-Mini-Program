@@ -107,7 +107,7 @@ async function sendToUser(openid, templateId, scene, record) {
       touser: openid,
       templateId,
       page: PAGE_MAP[scene](record),
-      miniprogramState: 'formal', // 体验版/开发版联调时改成 'trial' / 'developer'
+      miniprogramState: 'trial', // 体验版：trial；正式发布后改回 'formal'
       lang: 'zh_CN',
       data,
     });
